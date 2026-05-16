@@ -18,6 +18,12 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Install dev dependencies
+        run: pip install -r requirements-dev.txt
+
+      - name: Run tests
+        run: pytest
+
       - name: Validate main dataset
         run: python3 scripts/validate_dataset.py
 
@@ -33,3 +39,9 @@ jobs:
             fi
           done
           exit $failed
+
+      - name: Build contribution dataset
+        run: python3 scripts/build_dataset.py
+
+      - name: Validate generated dataset
+        run: python3 scripts/validate_dataset.py --file datasets/build/saudi-contract-risk-dataset.generated.csv
