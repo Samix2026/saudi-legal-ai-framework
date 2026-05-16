@@ -28,3 +28,6 @@ desktop.ini
 # Environment
 .env
 .env.local
+
+# Generated dataset build output — run build_dataset.py to regenerate locally
+datasets/build/*.generated.csv
