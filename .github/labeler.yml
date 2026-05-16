@@ -1,0 +1,18 @@
+dataset:
+  - datasets/**
+
+saudi-law:
+  - sources/**
+
+ai-workflow:
+  - skills/**
+  - prompts/**
+  - examples/**
+
+enhancement:
+  - scripts/**
+  - .github/**
+
+documentation:
+  - "*.md"
+  - docs/**

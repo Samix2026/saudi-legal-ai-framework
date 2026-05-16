@@ -223,8 +223,12 @@ The project will not pursue automated legal advice at any stage. The goal is to 
 
 Contributions are welcome from legal professionals, researchers, and developers.
 
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contribution guide, including dataset standards, citation formats, anonymization requirements, and the pre-submission checklist.
+
+Please read [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) before contributing. To report a security issue (e.g. non-anonymized client data), see [SECURITY.md](SECURITY.md).
+
 ### Before you contribute
-- Read [CLAUDE.md](CLAUDE.md) for content standards and legal accuracy requirements
+- Read [CONTRIBUTING.md](CONTRIBUTING.md) for content standards, enum rules, and legal accuracy requirements
 - Review [ROADMAP.md](ROADMAP.md) to see what is planned and what is in progress
 - Open an **Issue** to discuss any significant addition before submitting a Pull Request
 
@@ -270,6 +274,9 @@ Contributions are welcome from legal professionals, researchers, and developers.
 | [README.md](README.md) | Project overview — start here |
 | [ROADMAP.md](ROADMAP.md) | Phase plan, task tracking, versioning |
 | [CLAUDE.md](CLAUDE.md) | Standards and guidance for Claude Code users |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | Contribution guide — datasets, citations, PRs |
+| [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) | Community standards and expected behaviour |
+| [SECURITY.md](SECURITY.md) | How to report security issues and data incidents |
 
 ---
 
