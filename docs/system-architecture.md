@@ -3,8 +3,8 @@
 
 **Saudi Legal AI Framework** — التوثيق المعماري الكامل
 
-**الإصدار / Version:** 2.0
-**يعكس / Reflects:** المرحلة الحالية v0.2 — Phase 1 مكتملة، Phase 2 قيد العمل
+**الإصدار / Version:** 2.1
+**يعكس / Reflects:** v0.3 قيد العمل — Phase 2 متقدمة · Phase 3 أساس مُنشأ · Phase 4 بحث وتخطيط مبكر
 
 ---
 
@@ -23,27 +23,75 @@ Each layer is independent — it draws from the layer below without replacing it
 
 ---
 
-## 2. خريطة طبقات النظام الكاملة / Full System Layer Map
+## 2. مستوى نضج المشروع الحالي / Current Project Maturity
+
+هذا المشروع انتقل من مستودع منظَّم إلى بنية تحتية معرفية قانونية مُصانة.
+
+This project has evolved from a structured repository into a maintained legal knowledge infrastructure.
+
+### من / From → إلى / To
+
+```
+مستودع منظَّم (Structured Repository)       بنية تحتية معرفية (Knowledge Infrastructure)
+──────────────────────────────────────  →   ──────────────────────────────────────────────
+· هيكل ملفات + governance                   · 8 طبقات معمارية متكاملة
+· 5 مهارات · 5 مصادر · 3 قوالب              · مجموعة أحكام قضائية (14 PDF مُحوَّل ضوئياً)
+· dataset أساسي                             · إطار فهرسة + إطار استخراج (13 + 19 حقلًا)
+                                            · دورة حياة تحقق كاملة (6 حالات)
+                                            · CI/CD + 43 اختباراً آلياً
+                                            · توثيق معماري + خرائط مرجعية
+                                            · خطة تكامل MCP/RAG موثَّقة
+```
+
+### مؤشرات النضج / Maturity Indicators
+
+| المؤشر | الوضع |
+|--------|-------|
+| هيكل المشروع وحوكمته | ✅ مكتمل — Phase 1 |
+| المصادر التشريعية (sources/) | ✅ 5 أنظمة موثَّقة بمراجع رسمية |
+| المجموعة القضائية | ✅ 14 PDF مُحوَّل ضوئياً، فهرسة جزئية |
+| إطار الاستخراج القضائي | ✅ جاهز — 19 حقلًا + دليل + مثال |
+| مجموعات البيانات | ✅ 16 عموداً · تحقق آلي · بناء آلي |
+| دورة حياة التحقق | ✅ 6 حالات · انتقالات موثَّقة |
+| مهارات الذكاء الاصطناعي | ✅ 5 مهارات · هيكل 11 قسماً موحَّداً |
+| تكاملات MCP/RAG المستقبلية | 🔍 خطة موثَّقة — لا تطبيق بعد |
+| واجهة المستخدم (Product) | ⬜ مخطَّط — Phase 5 |
+
+### ما لم يتغيَّر / What Has Not Changed
+
+المشروع لا يزال:
+- **إطارًا توثيقيًا** — لا تطبيقًا قابلًا للتشغيل
+- **مساعدًا** — لا بديلًا عن المختص القانوني
+- **في التطوير المستمر** — المحتوى يحتاج مراجعة قانونية متخصصة قبل الاعتماد عليه
+
+---
+
+## 3. خريطة طبقات النظام الكاملة / Full System Layer Map
 
 ```
 ┌──────────────────────────────────────────────────────────────────┐
 │                                                                  │
-│   LAYER 7 — Future Agents          [مخطَّط / Planned]           │
+│   LAYER 8 — Future Agents          [مخطَّط / Planned]           │
 │   Multi-step legal reasoning · orchestrated workflows           │
 │                                                                  │
 ├──────────────────────────────────────────────────────────────────┤
 │                                                                  │
-│   LAYER 6 — Future RAG             [مخطَّط / Planned]           │
+│   LAYER 7 — Future RAG             [مخطَّط / Planned]           │
 │   Retrieval-Augmented Generation from verified sources          │
 │                                                                  │
 ├──────────────────────────────────────────────────────────────────┤
 │                                                                  │
-│   LAYER 5 — AI Workflows           [أساس مبكر / Early Found.]  │
+│   LAYER 6 — Future MCP / Retrieval [بحث مبكر / Early Research] │
+│   MCP servers · official source APIs · semantic search          │
+│                                                                  │
+├──────────────────────────────────────────────────────────────────┤
+│                                                                  │
+│   LAYER 5 — AI Workflows           [أساس مُنشأ / Found. Est.]  │
 │   skills/ · prompts/ · examples/                                │
 │                                                                  │
 ├──────────────────────────────────────────────────────────────────┤
 │                                                                  │
-│   LAYER 4 — Structured Datasets    [قيد العمل / In Progress]   │
+│   LAYER 4 — Structured Datasets    [متقدم / Advanced]          │
 │   datasets/saudi-contract-risk-dataset.csv                      │
 │   datasets/examples/ · datasets/contributions/                  │
 │   datasets/judicial-reasoning/                                  │
@@ -51,8 +99,7 @@ Each layer is independent — it draws from the layer below without replacing it
 ├──────────────────────────────────────────────────────────────────┤
 │                                                                  │
 │   LAYER 3 — Indexing & Extraction  [قيد العمل / In Progress]   │
-│   datasets/judicial-index/                                      │
-│   datasets/judicial-reasoning/                                  │
+│   datasets/judicial-index/ · datasets/judicial-reasoning/       │
 │                                                                  │
 ├──────────────────────────────────────────────────────────────────┤
 │                                                                  │
@@ -70,7 +117,7 @@ Each layer is independent — it draws from the layer below without replacing it
 
 ---
 
-## 3. دورة حياة البيانات الكاملة / Full Data Lifecycle
+## 4. دورة حياة البيانات الكاملة / Full Data Lifecycle
 
 ```
 ┌─────────────────────┐
@@ -120,16 +167,28 @@ Each layer is independent — it draws from the layer below without replacing it
 │   Ready-to-use      │     3 قوالب مطالبات · أمثلة تطبيقية
 └────────┬────────────┘
          │
-         ▼ [Future: Agent Layer]
+         ▼ [Future: MCP / Retrieval Layer — Phase 4]
 ┌─────────────────────┐
-│   Future Agents     │  ← Phase 4-5
-│   Orchestrated LLM  │     MCP servers · RAG · multi-step reasoning
+│   MCP / Retrieval   │  ← Phase 4
+│   Live data access  │     MCP servers · official APIs · semantic search
+└────────┬────────────┘
+         │
+         ▼ [Future: RAG Layer — Phase 4]
+┌─────────────────────┐
+│   Future RAG        │  ← Phase 4
+│   Grounded answers  │     vector search · verified sources · citations
+└────────┬────────────┘
+         │
+         ▼ [Future: Agent Layer — Phase 5]
+┌─────────────────────┐
+│   Future Agents     │  ← Phase 5
+│   Orchestrated LLM  │     multi-step reasoning · document workflows
 └─────────────────────┘
 ```
 
 ---
 
-## 4. الفرق بين الطبقات / Layer Distinctions
+## 5. الفرق بين الطبقات / Layer Distinctions
 
 ### Sources — المصادر التشريعية
 **ما هي:** ملخصات مرجعية للأنظمة السعودية الرسمية.
@@ -222,7 +281,7 @@ Each layer is independent — it draws from the layer below without replacing it
 
 ---
 
-## 5. تدفق التحقق / Verification Flow
+## 6. تدفق التحقق / Verification Flow
 
 ```
 مساهم يُضيف محتوى
@@ -249,7 +308,7 @@ verification_status = draft  (الافتراضي دائماً)
 
 ---
 
-## 6. تدفق المساهمة / Contribution Flow
+## 7. تدفق المساهمة / Contribution Flow
 
 ```
 مساهم يفتح Issue لمناقشة الإضافة
@@ -286,7 +345,7 @@ verification_status = draft  (الافتراضي دائماً)
 
 ---
 
-## 7. الطبقات المستقبلية / Future Layers
+## 8. الطبقات المستقبلية / Future Layers
 
 ### Future OCR Layer — طبقة التعرف الضوئي على النص
 
@@ -374,7 +433,7 @@ Human Review Gate (مراجعة بشرية إلزامية)
 
 ---
 
-## 8. هيكل الملفات الحالي / Current File Structure
+## 9. هيكل الملفات الحالي / Current File Structure
 
 ```
 saudi-legal-ai-framework/
@@ -457,7 +516,7 @@ saudi-legal-ai-framework/
 
 ---
 
-## 9. الروابط المرجعية / Reference Links
+## 10. الروابط المرجعية / Reference Links
 
 | الملف | الدور المعماري |
 |-------|---------------|

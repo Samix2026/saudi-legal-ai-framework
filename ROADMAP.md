@@ -33,9 +33,9 @@
 
 ```
 Phase 1 — Foundation      ██████████   Complete
-Phase 2 — Knowledge Base  ██████░░░░   In Progress
-Phase 3 — AI Workflows    ███░░░░░░░   Early Foundation
-Phase 4 — MCP Integration ░░░░░░░░░░   Planned
+Phase 2 — Knowledge Base  ███████░░░   Advanced In Progress
+Phase 3 — AI Workflows    ████░░░░░░   Foundation Established
+Phase 4 — MCP Integration █░░░░░░░░░   Research / Early Planning
 Phase 5 — Product Layer   ░░░░░░░░░░   Planned
 ```
 
@@ -73,7 +73,7 @@ repository architecture · governance · validation pipeline · CI/CD · contrib
 
 ## Phase 2: Saudi Legal Knowledge Base
 **الهدف:** بناء قاعدة معرفية شاملة ودقيقة للأنظمة السعودية الرئيسية
-**الحالة / Status:** ⚙️ In Progress
+**الحالة / Status:** ⚙️ Advanced In Progress
 
 ### يشمل / Includes
 
@@ -82,6 +82,12 @@ repository architecture · governance · validation pipeline · CI/CD · contrib
 - [x] نظام enums موحَّد (`datasets/enums/` — مستويات الخطر، أنواع العقود، تصنيفات البنود، القطاعات، حالات التحقق)
 - [x] مراجع قانونية سعودية موثقة في جميع البنود
 - [x] سيناريوهات تطبيقية (عقود عمل، SaaS، إنشاء — 13 بندًا في datasets/examples/)
+- [x] مجموعة الأحكام القضائية (`sources/judicial-decisions/1435/` — 14 ملف PDF للأحكام السعودية)
+- [x] إطار فهرسة المجموعة القضائية (`datasets/judicial-index/` — 13 حقلًا · خريطة مستوى الأقسام)
+- [x] إطار استخراج الاستدلال القضائي (`datasets/judicial-reasoning/` — 19 حقلًا · دليل الاستخراج · مثال تطبيقي)
+- [x] دورة حياة التحقق القانوني (`docs/legal-verification-lifecycle.md` — 6 حالات · قواعد الانتقال)
+- [x] توثيق البيانات المفتوحة السعودية (`sources/open-data-judicial-sources.md`)
+- [x] سجل APIs الحكومية المستقبلية (`docs/official-api-sources.md`)
 
 ### المتبقي / Remaining
 
@@ -100,10 +106,11 @@ repository architecture · governance · validation pipeline · CI/CD · contrib
 - [ ] ترقية بنود dataset من `draft` إلى `verified`
 - [ ] قائمة تحقق امتثال PDPL للشركات بأحجام مختلفة
 
-**judicial reasoning — استدلال قضائي**
+**judicial corpus population — ملء المجموعة القضائية**
+- [ ] إكمال فهرسة الأقسام من جميع الـ 14 ملف PDF
+- [ ] استخراج أولي من الأقسام ذات الأولوية `high`
 - [ ] إضافة دليل إجراءات المحكمة العمالية خطوة بخطوة
 - [ ] توثيق إجراءات التنفيذ والحجز التحفظي
-- [ ] توثيق إجراءات الاعتراف بالأحكام الأجنبية
 
 **larger datasets — مجموعات بيانات أكبر**
 - [ ] توسيع dataset ليشمل قطاعات: عقارات، تقنية، رعاية صحية، تجزئة
@@ -114,13 +121,15 @@ repository architecture · governance · validation pipeline · CI/CD · contrib
 
 ## Phase 3: AI Workflows
 **الهدف:** بناء سير عمل ذكاء اصطناعي متكاملة لأكثر المهام القانونية شيوعًا
-**الحالة / Status:** 🔷 Early Foundation
+**الحالة / Status:** 🔷 Foundation Established
 
 ### يشمل / Includes
 
 - [x] مهارات قانونية موحَّدة (5 ملفات skills/ بهيكل 11 قسمًا موحَّد: contract-review, labor-law-analysis, commercial-dispute, compliance-check, legal-drafting)
 - [x] تنسيقات مخرجات موحَّدة (محددة في كل ملف skill)
 - [x] قوالب سير عمل (`prompts/` — مراجعة العقد، صياغة الإشعار، تحليل المخاطر)
+- [x] بنى بيانات موجَّهة للاستدلال (`datasets/judicial-reasoning/schema.md` — تتضمن judicial_reasoning و legal_principle)
+- [x] توثيق معمارية سير العمل (`docs/system-architecture.md` — خريطة 7 طبقات + دورة حياة البيانات الكاملة)
 
 ### المتبقي / Remaining
 
@@ -149,6 +158,14 @@ repository architecture · governance · validation pipeline · CI/CD · contrib
 
 ## Phase 4: MCP Integration
 **الهدف:** ربط الإطار بمصادر المعلومات الرسمية السعودية عبر MCP Servers
+**الحالة / Status:** 🔍 Research / Early Planning
+
+### يشمل حتى الآن / Early Planning Includes
+
+- [x] استراتيجية OCR موثَّقة (`docs/system-architecture.md` — Future OCR Layer مع مكونات مقترحة)
+- [x] خطوط أنابيب الاستيعاب المستقبلية (`docs/system-architecture.md` — Full Data Lifecycle)
+- [x] تكاملات API حكومية مستقبلية (`docs/official-api-sources.md` — 5 حالات استخدام مقترحة)
+- [x] معمارية الاسترجاع المستقبلية (`docs/system-architecture.md` — Future RAG Layer)
 
 ### المهام / Tasks
 
@@ -238,7 +255,7 @@ repository architecture · governance · validation pipeline · CI/CD · contrib
 |---------|-------|-------|
 | v0.1 | الهيكل الأساسي — skills, sources, prompts, examples | ✅ منشور |
 | v0.2 | Phase 1 مكتملة — governance, CI/CD, testing, verification lifecycle, scalable datasets | ✅ منشور |
-| v0.3 | إكمال Phase 2 — Knowledge Base (تغطية أوسع، مراجع مُتحقَّقة، datasets أكبر) | قيد العمل |
+| v0.3 | Phase 2 متقدمة — judicial corpus + indexing + extraction framework + verification lifecycle + open data | قيد العمل |
 | v1.0 | إكمال Phase 1-3 — إطار وثائقي وسير عمل متكامل | مخطَّط |
 | v2.0 | إكمال Phase 4 — MCP Integration | مخطَّط |
 | v3.0 | إكمال Phase 5 — Product Layer | مخطَّط |

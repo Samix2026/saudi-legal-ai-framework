@@ -69,19 +69,21 @@ When an AI assistant defaults to Western legal reasoning in a Saudi context, it 
 
 ```
 Phase 1 — Foundation        ██████████   Complete
-Phase 2 — Knowledge Base    ██████░░░░   In Progress
-Phase 3 — AI Workflows      ███░░░░░░░   Early Foundation
-Phase 4 — MCP Integration   ░░░░░░░░░░   Planned
+Phase 2 — Knowledge Base    ███████░░░   Advanced In Progress
+Phase 3 — AI Workflows      ████░░░░░░   Foundation Established
+Phase 4 — MCP Integration   █░░░░░░░░░   Research / Early Planning
 Phase 5 — Product Layer     ░░░░░░░░░░   Planned
 ```
 
 **Phase 1 includes:** repository architecture · governance · validation pipeline · CI/CD · contributor workflows · automated testing · verification lifecycle · scalable dataset structure
 
-**Phase 2 includes:** regulation registry · datasets · enums · legal references · Saudi legal sources · example scenarios
-**Phase 2 remaining:** broader coverage · verified references · judicial reasoning · larger datasets
+**Phase 2 includes:** regulation registry · datasets · enums · legal references · Saudi legal sources · example scenarios · judicial corpus · judicial indexing framework · reasoning extraction framework · verification lifecycle · open-data sources
+**Phase 2 remaining:** broader coverage · verified references · larger datasets
 
-**Phase 3 includes:** standardized legal skills · unified output formats · workflow templates
+**Phase 3 includes:** standardized legal skills · unified output formats · workflow templates · reasoning-oriented data structures · system architecture documentation
 **Phase 3 remaining:** orchestration · evaluations · reasoning chains · agent workflows
+
+**Phase 4 early planning includes:** OCR strategy · future ingestion pipelines · future API integrations · future retrieval architecture
 
 See [ROADMAP.md](ROADMAP.md) for the full plan and task breakdown.
 
