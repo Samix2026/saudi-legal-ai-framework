@@ -3,6 +3,7 @@
 
 **Skill used:** `skills/contract-review.md`
 **Prompt used:** `prompts/review-contract.md`
+**Report format:** 9-section template defined in `skills/contract-review.md §8` — the authoritative source
 **Type:** Professional services + cloud/SaaS agreement
 
 ---

@@ -257,6 +257,12 @@ These considerations do not appear in Western contracts and are typically missed
 
 ## 8. Output Format Template / قالب المخرجات
 
+> **هذا القسم هو المصدر الرسمي الوحيد لهيكل تقرير مراجعة العقود في هذا الإطار.**
+> يشير إليه `prompts/review-contract.md` ويُطبّقه `examples/saudi-contract-review-demo.md`.
+>
+> **This section is the single authoritative source for the contract review report structure in this framework.**
+> Referenced by `prompts/review-contract.md` and implemented in `examples/saudi-contract-review-demo.md`.
+
 استخدم هذا الهيكل الثابت في كل مراجعة:
 
 Use this fixed structure for every review:
