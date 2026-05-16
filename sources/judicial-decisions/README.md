@@ -158,3 +158,6 @@ Remove all identifying data, add a file header with: court name, Hijri year, cas
 | [`sources/open-data-judicial-sources.md`](../open-data-judicial-sources.md) | مصدر البيانات المفتوحة التكميلي |
 | [`docs/legal-verification-lifecycle.md`](../../docs/legal-verification-lifecycle.md) | معيار `verification_status` |
 | [`docs/official-api-sources.md`](../../docs/official-api-sources.md) | التصور المعماري لاستيعاب البيانات مستقبلًا |
+| [`datasets/judicial-reasoning/schema.md`](../../datasets/judicial-reasoning/schema.md) | مخطط الاستخراج المنظَّم (19 حقلاً) |
+| [`datasets/judicial-reasoning/extraction-guidelines.md`](../../datasets/judicial-reasoning/extraction-guidelines.md) | دليل الاستخراج والإخفاء |
+| [`datasets/judicial-reasoning/example-extraction.md`](../../datasets/judicial-reasoning/example-extraction.md) | مثال تعليمي افتراضي |
