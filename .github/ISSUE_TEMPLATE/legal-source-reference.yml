@@ -1,0 +1,121 @@
+name: "Legal Source Reference / مصدر قانوني"
+description: "إضافة أو تعديل أو تصحيح مرجع نظام سعودي — Add, update, or fix a Saudi regulation reference"
+title: "[Source]: "
+labels: ["legal-source"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## مصدر قانوني / Legal Source Reference
+
+        استخدم هذا النموذج لإضافة نظام جديد لـ `sources/`، أو تحديث نظام موجود، أو تصحيح استشهاد غير دقيق.
+        راجع [sources/regulation-index.md](../sources/regulation-index.md) للصيغ الرسمية المعتمدة.
+
+        Use this form to add a new regulation to `sources/`, update an existing one, or fix an inaccurate citation.
+        See [sources/regulation-index.md](../sources/regulation-index.md) for approved citation formats.
+
+        ---
+        > ⚠️ المصادر المقبولة فقط: **boe.gov.sa** و **uqn.gov.sa** والمنصات الحكومية الرسمية.
+        > Only accepted sources: **boe.gov.sa**, **uqn.gov.sa**, and official government platforms.
+
+  - type: dropdown
+    id: request-type
+    attributes:
+      label: "نوع الطلب / Request Type"
+      options:
+        - "إضافة source جديد / Add new source file"
+        - "تحديث source موجود / Update existing source file"
+        - "تصحيح استشهاد / Fix a citation"
+        - "إضافة نظام لـ regulation-index.md / Add regulation to regulation-index.md"
+        - "تحديث نظام بعد تعديل تشريعي / Update regulation after an amendment"
+    validations:
+      required: true
+
+  - type: input
+    id: regulation-arabic
+    attributes:
+      label: "الاسم العربي للنظام / Arabic Regulation Name"
+      placeholder: "نظام العمل"
+    validations:
+      required: true
+
+  - type: input
+    id: regulation-english
+    attributes:
+      label: "الاسم الإنجليزي / English Regulation Name"
+      placeholder: "Saudi Labor Law"
+    validations:
+      required: true
+
+  - type: input
+    id: royal-decree
+    attributes:
+      label: "رقم المرسوم الملكي / Royal Decree Reference"
+      description: "الصيغة: م/XX لعام XXXXهـ / Format: M/XX XXXXH"
+      placeholder: "م/51 لعام 1426هـ"
+    validations:
+      required: true
+
+  - type: input
+    id: official-url
+    attributes:
+      label: "رابط المصدر الرسمي / Official Source URL"
+      description: "رابط مباشر من boe.gov.sa أو uqn.gov.sa / Direct link from boe.gov.sa or uqn.gov.sa"
+      placeholder: "https://boe.gov.sa/..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: affected-files
+    attributes:
+      label: "الملفات المتأثرة / Affected Files"
+      description: "أي ملفات في المشروع تحتاج تحديثًا؟ / Which project files need updating?"
+      placeholder: |
+        - sources/labor-law.md
+        - datasets/examples/employment-contracts.csv (related_regulation column)
+    validations:
+      required: false
+
+  - type: textarea
+    id: change-description
+    attributes:
+      label: "وصف التغيير / Description of Change"
+      description: "ماذا تُضيف أو تُعدّل ولماذا؟ / What are you adding or changing and why?"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: amendment
+    attributes:
+      label: "هل هذا تعديل على نظام موجود؟ / Is this an amendment to an existing regulation?"
+      options:
+        - "لا — نظام جديد لم يُشمَل / No — new regulation not yet covered"
+        - "نعم — تعديل رسمي صدر / Yes — an official amendment was issued"
+        - "تصحيح — المعلومة الحالية غير دقيقة / Correction — current information is inaccurate"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: to-verify
+    attributes:
+      label: "هل توجد معلومات غير مؤكدة؟ / Is any information unverified?"
+      options:
+        - "لا — جميع المعلومات موثَّقة من مصادر رسمية / No — all information is from official sources"
+        - "نعم — المعلومات غير المؤكدة مُعلَّمة بـ TO VERIFY / Yes — unverified info marked with TO VERIFY"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: pre-submission
+    attributes:
+      label: "Checklist قبل الإرسال / Pre-Submission Checklist"
+      options:
+        - label: "تحققت من النص الرسمي على boe.gov.sa أو uqn.gov.sa / Verified official text on boe.gov.sa or uqn.gov.sa"
+          required: true
+        - label: "صيغة الاستشهاد تتطابق مع regulation-index.md / Citation format matches regulation-index.md"
+          required: true
+        - label: "لم أنسخ النص القانوني الرسمي كاملًا — أشرت للمادة فقط / Did not copy full legal text — referenced article only"
+          required: true
+        - label: "قرأت CONTRIBUTING.md#معايير-الاستشهاد / Read CONTRIBUTING.md citation standards"
+          required: true

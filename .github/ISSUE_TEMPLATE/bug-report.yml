@@ -1,0 +1,121 @@
+name: "Bug Report / الإبلاغ عن مشكلة"
+description: "الإبلاغ عن معلومة قانونية غير دقيقة، خطأ في التنسيق، أو مشكلة في validation — Report inaccurate legal information, formatting error, or validation issue"
+title: "[Bug]: "
+labels: ["bug"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## الإبلاغ عن مشكلة / Bug Report
+
+        استخدم هذا النموذج للإبلاغ عن:
+        - معلومة قانونية غير دقيقة أو مُضلِّلة
+        - استشهاد بنظام خاطئ أو مادة غير موجودة
+        - خطأ في validation السكربت
+        - رابط معطوب أو ملف مفقود
+        - أي تعارض بين ملفين في المشروع
+
+        Use this form to report:
+        - Inaccurate or misleading legal information
+        - Incorrect regulation citation or non-existent article
+        - Validation script error
+        - Broken link or missing file
+        - Any conflict between two project files
+
+        ---
+        > 🔴 للأخطاء القانونية الحرجة، اجعل العنوان يبدأ بـ `[CRITICAL]`
+        > For critical legal errors, start the title with `[CRITICAL]`
+
+  - type: dropdown
+    id: bug-type
+    attributes:
+      label: "نوع المشكلة / Bug Type"
+      options:
+        - "معلومة قانونية غير دقيقة / Inaccurate legal information"
+        - "استشهاد خاطئ بنظام أو مادة / Incorrect regulation or article citation"
+        - "خطأ في سكربت validate_dataset.py / validate_dataset.py script error"
+        - "قيمة enum غير صحيحة في dataset / Incorrect enum value in dataset"
+        - "رابط معطوب أو ملف مفقود / Broken link or missing file"
+        - "تعارض بين ملفين / Conflict between two files"
+        - "مشكلة في التنسيق / Formatting issue"
+        - "أخرى / Other"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: "الخطورة / Severity"
+      description: "ما مدى تأثير هذه المشكلة؟ / How impactful is this issue?"
+      options:
+        - "🔴 حرج — معلومة قانونية خاطئة قد تُضلِّل المستخدم / Critical — wrong legal info that may mislead"
+        - "🟠 مرتفع — يؤثر على سلامة المحتوى / High — affects content integrity"
+        - "🟡 متوسط — مشكلة وظيفية لكن غير حرجة / Medium — functional issue but not critical"
+        - "🟢 منخفض — تنسيق أو جماليات / Low — formatting or cosmetic"
+    validations:
+      required: true
+
+  - type: input
+    id: affected-file
+    attributes:
+      label: "الملف المتأثر / Affected File"
+      description: "المسار الكامل للملف / Full file path"
+      placeholder: "sources/labor-law.md"
+    validations:
+      required: true
+
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: "وصف المشكلة / Bug Description"
+      description: "اشرح المشكلة بوضوح / Describe the issue clearly"
+    validations:
+      required: true
+
+  - type: textarea
+    id: current-vs-expected
+    attributes:
+      label: "الحالة الحالية مقابل المتوقعة / Current vs Expected"
+      description: "ما الذي يقوله الملف حاليًا، وما الذي يجب أن يقوله؟ / What does the file say now, and what should it say?"
+      placeholder: |
+        الحالي / Current:
+        "فترة التجربة لا تتجاوز 90 يومًا"
+
+        المتوقع / Expected:
+        "فترة التجربة لا تتجاوز 180 يومًا باتفاق كتابي — المادة 53 نظام العمل"
+    validations:
+      required: true
+
+  - type: textarea
+    id: official-source
+    attributes:
+      label: "المصدر الرسمي الداعم (للأخطاء القانونية) / Supporting Official Source (for legal errors)"
+      description: "أرفق رابطًا من boe.gov.sa أو uqn.gov.sa يدعم التصحيح / Attach a link from boe.gov.sa or uqn.gov.sa supporting the correction"
+      placeholder: "https://boe.gov.sa/..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: reproduction-steps
+    attributes:
+      label: "خطوات إعادة الإنتاج (للأخطاء البرمجية) / Reproduction Steps (for script errors)"
+      description: "للأخطاء في validate_dataset.py فقط / For validate_dataset.py errors only"
+      placeholder: |
+        1. شغّل: python3 scripts/validate_dataset.py --file datasets/examples/X.csv
+        2. الخطأ الذي ظهر: ...
+      render: shell
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: pre-submission
+    attributes:
+      label: "Checklist قبل الإرسال / Pre-Submission Checklist"
+      options:
+        - label: "تحققت أن هذه المشكلة لم تُفتح لها Issue مسبقًا / Verified no existing Issue covers this bug"
+          required: true
+        - label: "للأخطاء القانونية: لديّ مصدر رسمي يدعم التصحيح / For legal errors: I have an official source supporting the fix"
+          required: false
+        - label: "قرأت CONTRIBUTING.md / Read CONTRIBUTING.md"
+          required: true

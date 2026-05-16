@@ -1,0 +1,140 @@
+name: "Dataset Contribution / مساهمة في الـ Dataset"
+description: "إضافة أو تعديل بنود في ملفات الـ dataset — Add or update clauses in dataset files"
+title: "[Dataset]: "
+labels: ["dataset"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## مساهمة في الـ Dataset / Dataset Contribution
+
+        شكرًا لمساهمتك. يرجى إكمال هذا النموذج بعناية قبل فتح الـ Issue.
+        اقرأ [قواعد Dataset في CONTRIBUTING.md](../CONTRIBUTING.md#قواعد-إضافة-datasets--dataset-contribution-rules) أولًا.
+
+        Thank you for contributing. Please complete this form carefully before opening the Issue.
+        Read the [Dataset Rules in CONTRIBUTING.md](../CONTRIBUTING.md#قواعد-إضافة-datasets--dataset-contribution-rules) first.
+
+        ---
+        > ⚠️ **تحذير / Warning:** يُحظر تمامًا إضافة بيانات حقيقية أو غير مُخفاة.
+        > Adding real or non-anonymized data is strictly prohibited.
+
+  - type: dropdown
+    id: contribution-type
+    attributes:
+      label: "نوع المساهمة / Contribution Type"
+      description: "ما الذي تُضيفه أو تعدّله؟ / What are you adding or changing?"
+      options:
+        - "إضافة صفوف جديدة للملف الرئيسي / Add rows to main dataset"
+        - "إضافة ملف مثال جديد / Add new example file"
+        - "تصحيح صف موجود / Fix an existing row"
+        - "تحديث قيمة enum / Update an enum value"
+    validations:
+      required: true
+
+  - type: input
+    id: contract-types
+    attributes:
+      label: "أنواع العقود المشمولة / Contract Types Covered"
+      description: "من datasets/enums/contract-types.md — استخدم القيم المعتمدة فقط / Use only approved values"
+      placeholder: "Employment Contract, SaaS Agreement, ..."
+    validations:
+      required: true
+
+  - type: input
+    id: industry
+    attributes:
+      label: "القطاع / Industry"
+      description: "من datasets/enums/industries.md / From datasets/enums/industries.md"
+      placeholder: "Technology, Construction, Healthcare, ..."
+    validations:
+      required: true
+
+  - type: input
+    id: row-count
+    attributes:
+      label: "عدد الصفوف المُضافة / Number of Rows Added"
+      placeholder: "5"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: source-type
+    attributes:
+      label: "نوع مصدر البنود / Clause Source Type"
+      description: "من `source_type` في مخطط الـ dataset / From the dataset schema `source_type` field"
+      options:
+        - "hypothetical — افتراضي بالكامل"
+        - "abstracted — مُجرَّد من نمط حقيقي مع إخفاء كامل"
+        - "published_case — مستند لحكم أو قضية منشورة"
+        - "standard_form — مستخلص من نموذج قياسي معروف"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: to-verify
+    attributes:
+      label: "هل توجد علامات TO VERIFY؟ / Are there TO VERIFY markers?"
+      description: "هل أضفت علامة TO VERIFY على أي معلومة غير مؤكدة؟ / Did you mark any unverified information?"
+      options:
+        - "لا — جميع المعلومات مؤكدة بمصادر رسمية / No — all information is sourced"
+        - "نعم — المعلومات غير المؤكدة مُعلَّمة / Yes — unverified info is marked"
+    validations:
+      required: true
+
+  - type: textarea
+    id: official-sources
+    attributes:
+      label: "المصادر الرسمية المستخدمة / Official Sources Used"
+      description: "أذكر المصادر من boe.gov.sa أو uqn.gov.sa أو غيرها من المنصات الرسمية / List sources from official platforms"
+      placeholder: |
+        - Saudi Labor Law (Royal Decree M/51 1426H) — boe.gov.sa
+        - PDPL (Royal Decree M/19 1443H) Arts. 29-30 — sdaia.gov.sa
+    validations:
+      required: false
+
+  - type: textarea
+    id: validation-output
+    attributes:
+      label: "نتيجة validation / Validation Output"
+      description: "الصق نتيجة تشغيل: python3 scripts/validate_dataset.py --file <your-file.csv>"
+      placeholder: "✅ Validation PASSED — dataset is ready to commit."
+      render: shell
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "وصف إضافي / Additional Description"
+      description: "أي سياق إضافي يساعد في المراجعة / Any additional context that helps review"
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: anonymization
+    attributes:
+      label: "تأكيد Anonymization / Anonymization Confirmation"
+      options:
+        - label: "لا يوجد اسم شركة أو فرد حقيقي / No real company or individual names"
+          required: true
+        - label: "لا يوجد رقم عقد أو سجل تجاري حقيقي / No real contract or registration numbers"
+          required: true
+        - label: "لا يوجد مبلغ مالي مرتبط بعقد حقيقي بعينه / No real financial amount tied to a specific contract"
+          required: true
+        - label: "كل نص clause_text افتراضي أو مُجرَّد بالكامل / Every clause_text is hypothetical or fully abstracted"
+          required: true
+
+  - type: checkboxes
+    id: pre-submission
+    attributes:
+      label: "Checklist قبل الإرسال / Pre-Submission Checklist"
+      options:
+        - label: "شغّلت validate_dataset.py وأجاز / Ran validate_dataset.py and it passed"
+          required: true
+        - label: "القيم في contract_type، clause_category، industry من الـ enums المعتمدة / Values are from approved enums"
+          required: true
+        - label: "الاستشهادات تتبع صيغ sources/regulation-index.md / Citations follow sources/regulation-index.md formats"
+          required: true
+        - label: "قرأت CONTRIBUTING.md / Read CONTRIBUTING.md"
+          required: true

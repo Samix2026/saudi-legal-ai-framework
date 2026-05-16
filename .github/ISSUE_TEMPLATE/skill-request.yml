@@ -1,0 +1,116 @@
+name: "Skill / Workflow Request / اقتراح Skill أو Workflow"
+description: "اقتراح skill جديدة أو workflow أو تحسين skill موجودة — Propose a new skill, workflow, or improve an existing skill"
+title: "[Skill]: "
+labels: ["skill-request"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## اقتراح Skill أو Workflow / Skill or Workflow Request
+
+        ملفات `skills/` تُوجّه الذكاء الاصطناعي لكيفية التفكير في مجال قانوني سعودي محدد.
+        هذا النموذج لاقتراح skill جديدة أو workflow أو تحسين skill موجودة.
+
+        `skills/` files guide AI on how to reason in a specific Saudi legal domain.
+        Use this form to propose a new skill, workflow, or improvement to an existing skill.
+
+        ---
+        راجع [CONTRIBUTING.md — اقتراح Skills](../CONTRIBUTING.md#اقتراح-skills-أو-sources-جديدة--proposing-new-skills-or-sources) للمزيد.
+        See [CONTRIBUTING.md — Proposing Skills](../CONTRIBUTING.md#اقتراح-skills-أو-sources-جديدة--proposing-new-skills-or-sources) for details.
+
+  - type: dropdown
+    id: request-type
+    attributes:
+      label: "نوع الطلب / Request Type"
+      options:
+        - "Skill جديدة — مجال قانوني لم يُغطَّ / New skill — legal domain not yet covered"
+        - "تحسين skill موجودة / Enhance existing skill"
+        - "Workflow جديد / New workflow"
+        - "قالب مطالبة جديد (prompts/) / New prompt template"
+    validations:
+      required: true
+
+  - type: input
+    id: domain-name
+    attributes:
+      label: "المجال القانوني / Legal Domain"
+      description: "اسم الـ skill أو المجال القانوني المقترح / Name of the proposed skill or legal domain"
+      placeholder: "Real Estate Contracts / عقود العقارات"
+    validations:
+      required: true
+
+  - type: input
+    id: existing-skill
+    attributes:
+      label: "الـ Skill الموجودة (إن كان طلب تحسين) / Existing Skill (if enhancement)"
+      description: "اترك فارغًا إذا كانت skill جديدة / Leave empty if it is a new skill"
+      placeholder: "skills/contract-review.md"
+    validations:
+      required: false
+
+  - type: textarea
+    id: gap-description
+    attributes:
+      label: "الفجوة التي يسدّها هذا الطلب / Gap Being Addressed"
+      description: "ما الذي لا يستطيع الإطار الحالي معالجته؟ / What can the current framework not handle?"
+      placeholder: "لا يوجد حاليًا توجيه للذكاء الاصطناعي حول عقود الإيجار العقاري السعودية ومتطلبات إيجار..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: related-regulations
+    attributes:
+      label: "الأنظمة السعودية ذات الصلة / Related Saudi Regulations"
+      description: "استخدم الصيغ من sources/regulation-index.md / Use formats from sources/regulation-index.md"
+      placeholder: |
+        - Saudi Civil Transactions Law (Royal Decree M/191 1443H)
+        - نظام الإيجار — يُشار للمرجع الرسمي
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed-structure
+    attributes:
+      label: "الهيكل المقترح / Proposed Structure"
+      description: "اذكر الأقسام الرئيسية التي تقترحها / List the main sections you propose"
+      placeholder: |
+        1. Scope
+        2. Supported Contract Types
+        3. Saudi-Specific Considerations (Ejar registration, etc.)
+        4. Red Flags Checklist
+        5. Escalation Rules
+        ...
+    validations:
+      required: false
+
+  - type: textarea
+    id: supporting-examples
+    attributes:
+      label: "أمثلة داعمة / Supporting Examples"
+      description: "هل لديك أمثلة تطبيقية أو سيناريوهات توضيحية؟ / Do you have practical examples or illustrative scenarios?"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: reviewer-expertise
+    attributes:
+      label: "هل تملك خبرة في هذا المجال؟ / Do you have expertise in this domain?"
+      options:
+        - "نعم — محامٍ أو مستشار قانوني متخصص / Yes — specialist attorney or legal advisor"
+        - "نعم — خبرة عملية في هذا القطاع / Yes — practical experience in this sector"
+        - "لا — اقتراح فقط / No — suggestion only"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: pre-submission
+    attributes:
+      label: "Checklist قبل الإرسال / Pre-Submission Checklist"
+      options:
+        - label: "تحققت أن هذا المجال غير مُغطَّى في skills/ الحالية / Verified this domain is not covered in current skills/"
+          required: true
+        - label: "الأنظمة المذكورة موجودة في sources/regulation-index.md أو ستُفتح Issue لإضافتها / Referenced regulations are in regulation-index.md or an Issue will be opened"
+          required: true
+        - label: "قرأت CONTRIBUTING.md / Read CONTRIBUTING.md"
+          required: true
