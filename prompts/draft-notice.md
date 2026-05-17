@@ -8,9 +8,9 @@
 
 ## ⚠️ تحذير / Warning
 
-> **تحذير:** الإشعارات القانونية المُنتجة بالذكاء الاصطناعي هي مسودات أولية للمراجعة فقط. لا تُرسَل في أي معاملة رسمية دون مراجعة وتوقيع محامٍ مرخّص في المملكة العربية السعودية.
+> **تحذير:** هذا تحليل أولي بمساعدة الذكاء الاصطناعي ولا يعد استشارة قانونية. يجب مراجعة مختص قانوني مرخص في المملكة العربية السعودية قبل اتخاذ أي إجراء.
 >
-> **Warning:** AI-generated legal notices are preliminary drafts for review only. Do not send in any official transaction without review and sign-off from a licensed attorney in the Kingdom of Saudi Arabia.
+> **Warning:** This is a preliminary AI-assisted analysis and does not constitute legal advice. A licensed legal professional in the Kingdom of Saudi Arabia must be consulted before taking any action.
 
 ---
 

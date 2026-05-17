@@ -9,9 +9,9 @@
 
 ## ⚠️ تحذير / Warning
 
-> هذا تحليل أولي بمساعدة الذكاء الاصطناعي ولا يُعدّ استشارة قانونية. يجب مراجعة مختص قانوني مرخّص في المملكة العربية السعودية قبل اتخاذ أي إجراء.
+> **تحذير:** هذا تحليل أولي بمساعدة الذكاء الاصطناعي ولا يعد استشارة قانونية. يجب مراجعة مختص قانوني مرخص في المملكة العربية السعودية قبل اتخاذ أي إجراء.
 >
-> This is a preliminary AI-assisted analysis and does not constitute legal advice. A licensed legal professional in the Kingdom of Saudi Arabia must be consulted before taking any action.
+> **Warning:** This is a preliminary AI-assisted analysis and does not constitute legal advice. A licensed legal professional in the Kingdom of Saudi Arabia must be consulted before taking any action.
 
 ---
 
