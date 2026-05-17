@@ -3,7 +3,7 @@
 
 **Saudi Legal AI Framework** — استراتيجية استخراج النص من ملفات PDF القضائية المُحوَّلة ضوئياً
 
-**الحالة / Status:** 📋 موثَّق — لم يُشغَّل OCR بعد / Documented — OCR not yet executed
+**الحالة / Status:** 🔧 سكربت الإنتاج متاح — `scripts/ocr_pdf_pages.py` / Production script available — `scripts/ocr_pdf_pages.py`
 **آخر تحديث / Last updated:** 2026-05-17
 
 ---
@@ -18,6 +18,7 @@
 
 ## جدول المحتويات / Table of Contents
 
+- [سكربت الإنتاج](#0-سكربت-الإنتاج--production-script)
 - [لماذا نحتاج OCR](#1-لماذا-نحتاج-ocr--why-we-need-ocr)
 - [طبيعة ملفات PDF القضائية](#2-طبيعة-ملفات-pdf-القضائية--nature-of-judicial-pdf-files)
 - [مخاطر OCR في السياق القانوني](#3-مخاطر-ocr-في-السياق-القانوني--ocr-risks-in-legal-context)
@@ -26,6 +27,101 @@
 - [خطة الاختبار الصغيرة](#6-خطة-الاختبار-الصغيرة--small-test-plan)
 - [حالة مخرجات OCR](#7-حالة-مخرجات-ocr--ocr-output-status)
 - [الملفات المرتبطة](#8-الملفات-المرتبطة--related-files)
+
+---
+
+## 0. سكربت الإنتاج / Production Script
+
+**الملف / File:** [`scripts/ocr_pdf_pages.py`](../scripts/ocr_pdf_pages.py)
+
+### المتطلبات / Requirements
+
+```bash
+# macOS (Homebrew)
+brew install poppler tesseract tesseract-lang
+```
+
+تحقق من التثبيت:
+
+```bash
+pdftoppm -v   # Poppler pdftoppm
+tesseract --version
+tesseract --list-langs   # يجب أن يظهر 'ara'
+```
+
+### صيغة الأمر / Command Syntax
+
+```bash
+python3 scripts/ocr_pdf_pages.py \
+    --pdf   <مسار ملف PDF> \
+    --pages <نطاق الصفحات> \
+    --out   <مجلد المخرجات> \
+    --lang  ara \
+    --dpi   300
+```
+
+### أمثلة / Examples
+
+```bash
+# صفحات متتالية / Consecutive pages
+python3 scripts/ocr_pdf_pages.py \
+    --pdf sources/judicial-decisions/1435/1.pdf \
+    --pages 18-20 \
+    --out experiments/ocr-production-test/1pdf-pages-18-20/
+
+# صفحات غير متتالية / Non-consecutive pages
+python3 scripts/ocr_pdf_pages.py \
+    --pdf sources/judicial-decisions/1435/3.pdf \
+    --pages 5,12,17 \
+    --out experiments/ocr-production-test/3pdf-pages-5-12-17/
+
+# صيغة مختلطة / Mixed format
+python3 scripts/ocr_pdf_pages.py \
+    --pdf sources/judicial-decisions/1435/1.pdf \
+    --pages 18-19,22 \
+    --out experiments/ocr-production-test/1pdf-mixed/ \
+    --dpi 400
+```
+
+### هيكل المخرجات / Output Structure
+
+```
+<out>/
+├── images/
+│   ├── page-018.png        ← صورة الصفحة بالدقة المحددة
+│   └── page-019.png
+├── text/
+│   ├── page-018.txt        ← نص OCR خام (ocr_draft)
+│   └── page-019.txt
+└── metadata.json           ← المصدر، الصفحات، الأدوات، الحالة
+```
+
+### محتوى metadata.json
+
+```json
+{
+  "source_pdf": "sources/judicial-decisions/1435/1.pdf",
+  "pages": [18, 19],
+  "lang": "ara",
+  "dpi": 300,
+  "tool_versions": {
+    "pdftoppm": "pdftoppm version 26.04.0",
+    "tesseract": "tesseract 5.5.2"
+  },
+  "output_status": "ocr_draft",
+  "timestamp_utc": "2026-05-17T...",
+  "output_files": [...]
+}
+```
+
+### تحذيرات الاستخدام / Usage Warnings
+
+```
+⚠️  المخرج خام (ocr_draft) — لا تنظيف، لا تعديل
+⚠️  لا تُضمِّن النص مباشرةً في dataset أو skill أو prompt
+⚠️  راجع كل صفحة بشريًا مقابل الصورة الأصلية قبل الاستخراج
+⚠️  لا تعتمد على OCR وحده لإخفاء أسماء الأطراف
+```
 
 ---
 

@@ -1,0 +1,27 @@
+{
+  "source_pdf": "sources/judicial-decisions/1435/1.pdf",
+  "pages": [
+    18,
+    19
+  ],
+  "lang": "ara",
+  "dpi": 300,
+  "tool_versions": {
+    "pdftoppm": "pdftoppm version 26.04.0",
+    "tesseract": "tesseract 5.5.2"
+  },
+  "output_status": "ocr_draft",
+  "timestamp_utc": "2026-05-17T13:40:01.916867+00:00",
+  "output_files": [
+    {
+      "page": 18,
+      "image": "images/page-018.png",
+      "text": "text/page-018.txt"
+    },
+    {
+      "page": 19,
+      "image": "images/page-019.png",
+      "text": "text/page-019.txt"
+    }
+  ]
+}
