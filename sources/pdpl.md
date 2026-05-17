@@ -149,3 +149,184 @@
 - **منصة حماية البيانات الشخصية:** [pdp.sdaia.gov.sa](https://pdp.sdaia.gov.sa)
 - **هيئة الخبراء بمجلس الوزراء:** [boe.gov.sa](https://boe.gov.sa)
 - **الجريدة الرسمية (أم القرى):** [uqn.gov.sa](https://uqn.gov.sa)
+
+---
+
+## Mandatory Non-Waivable Provisions / الأحكام الإلزامية غير قابلة التنازل
+
+> نظام PDPL (م/19 1443هـ) يُقرِّر حقوقًا لأصحاب البيانات والتزامات على الجهات المعالِجة لا يجوز الاتفاق تعاقديًا على إسقاطها أو تخفيفها. السياسات الداخلية وعقود المعالجة لا تستطيع خفض هذه الضمانات.
+>
+> PDPL (Royal Decree M/19 1443H) establishes rights for data subjects and obligations on controllers that cannot be contractually waived or reduced. Internal policies and processing contracts cannot lower these protections.
+
+---
+
+### 1. الإبلاغ عن الاختراقات خلال 72 ساعة / 72-Hour Breach Notification
+
+| الحقل | القيمة |
+|-------|-------|
+| **الوصف** | يجب إخطار سدايا باختراق البيانات الشخصية خلال 72 ساعة من اكتشافه |
+| **Description** | Controllers must notify SDAIA of a personal data breach within 72 hours of discovery |
+| **سبب الإلزام** | التزام نظامي إلزامي وفق اللائحة التنفيذية لنظام PDPL — لا يجوز الاتفاق على تجاوز هذه المدة أو إسقاط الإلزام |
+| **المادة** | <!-- TODO: يحتاج تحقق من رقم المادة في اللائحة التنفيذية لنظام PDPL — المبدأ موثق في ملخص المصدر --> |
+| **المرسوم الملكي** | م/19 1443هـ (نظام PDPL) + اللائحة التنفيذية |
+| **الجهة النظامية** | سدايا (SDAIA) |
+| **الرابط الرسمي** | https://pdp.sdaia.gov.sa |
+| **حالة التحقق** | to_verify — المبدأ وارد في الملخص التعليمي؛ رقم المادة في اللائحة يحتاج تحقق |
+
+```
+verification_metadata:
+  verification_status: to_verify
+  source_type: official_regulation_summary
+  official_reference: PDPL (Royal Decree M/19 1443H) and Implementing Regulations
+  last_verified: 2026-05-17
+  review_priority: high
+```
+
+**Practical Risk Note / ملاحظة عملية:**
+عقود الخدمات السحابية والبرمجيات (SaaS) الواردة من خارج المملكة كثيرًا ما تمنح المزود فترة إبلاغ أطول من 72 ساعة — هذا البند لا يُغيِّر الالتزام النظامي للعميل تجاه سدايا.
+
+Cloud and SaaS agreements from non-Saudi vendors often grant providers longer notification windows. Such terms do not change the customer's own statutory 72-hour obligation to SDAIA.
+
+**Related Sources / مصادر ذات صلة:**
+- `skills/compliance-check.md §12`
+- `datasets/examples/saas-agreements.csv`
+
+---
+
+### 2. الرد على طلبات أصحاب البيانات خلال 30 يومًا / 30-Day Data Subject Request Response
+
+| الحقل | القيمة |
+|-------|-------|
+| **الوصف** | يجب الرد على طلبات أصحاب البيانات (اطلاع، تصحيح، حذف، سحب موافقة) خلال 30 يومًا من الاستلام |
+| **Description** | Data subject requests (access, correction, deletion, consent withdrawal) must be addressed within 30 days of receipt |
+| **سبب الإلزام** | حق مُقرَّر لصاحب البيانات بموجب نظام PDPL لا يُسقطه العقد أو سياسة الجهة |
+| **المادة** | <!-- TODO: يحتاج تحقق من رقم المادة المحددة في نظام PDPL --> |
+| **المرسوم الملكي** | م/19 1443هـ |
+| **الجهة النظامية** | سدايا (SDAIA) |
+| **الرابط الرسمي** | https://pdp.sdaia.gov.sa |
+| **حالة التحقق** | to_verify — المدة 30 يومًا مُصرَّح بها في الملخص التعليمي؛ رقم المادة يحتاج تحقق |
+
+```
+verification_metadata:
+  verification_status: to_verify
+  source_type: official_regulation_summary
+  official_reference: PDPL (Royal Decree M/19 1443H)
+  last_verified: 2026-05-17
+  review_priority: high
+```
+
+**Practical Risk Note / ملاحظة عملية:**
+سياسات الخصوصية التي لا تذكر مدة للرد أو تمدِّدها أعلى من 30 يومًا دون إشعار مُسبَّب تستحق مراجعة دقيقة.
+
+Privacy policies that omit response timelines or extend them beyond 30 days without justified prior notice require careful review.
+
+---
+
+### 3. الاشتراطات الإلزامية لنقل البيانات خارج المملكة / Mandatory Cross-Border Transfer Conditions
+
+| الحقل | القيمة |
+|-------|-------|
+| **الوصف** | نقل البيانات الشخصية خارج المملكة مشروط بأحد أسس ثلاثة: (1) الدولة المستقبِلة توفر حماية مناسبة، أو (2) موافقة سدايا، أو (3) مبررات تعاقدية أو قانونية معتمدة |
+| **Description** | Cross-border transfer requires: adequate protection in the receiving country, SDAIA approval, or recognized contractual/legal justification |
+| **سبب الإلزام** | حماية البيانات الشخصية لمواطنين ومقيمين داخل المملكة — الاتفاق بين الطرفين وحده لا يُجيز النقل |
+| **المادة** | المواد 29–30 من نظام PDPL (وفق سجل الأنظمة في هذا الإطار — يحتاج تحقق) |
+| **المرسوم الملكي** | م/19 1443هـ |
+| **الجهة النظامية** | سدايا (SDAIA) |
+| **الرابط الرسمي** | https://pdp.sdaia.gov.sa |
+| **حالة التحقق** | to_verify — المواد 29–30 مذكورة في regulation-index.md؛ تحتاج تحقق من النص الرسمي |
+
+```
+verification_metadata:
+  verification_status: to_verify
+  source_type: official_regulation_summary + regulation_index_reference
+  official_reference: PDPL (Royal Decree M/19 1443H), Arts. 29–30
+  last_verified: 2026-05-17
+  review_priority: high
+```
+
+**Practical Risk Note / ملاحظة عملية:**
+عقود SaaS والخدمات السحابية التي تُشغِّل خوادم خارج المملكة تتضمن نقلًا للبيانات بالضرورة. البند التعاقدي الذي يسمح بالنقل دون استيفاء أحد الأسس الثلاثة لا يُنفَّذ قضائيًا وقد يُنشئ مسؤولية نظامية.
+
+SaaS and cloud contracts using servers outside Saudi Arabia inherently involve data transfers. A contractual permission to transfer without satisfying one of the three bases is legally unenforceable and may create regulatory liability.
+
+**Related Sources:**
+- `skills/compliance-check.md §12`
+- `datasets/examples/saas-agreements.csv`
+- Cross-border: `sources/regulation-index.md §5`
+
+---
+
+### 4. الموافقة الصريحة على البيانات الحساسة / Explicit Consent for Sensitive Data
+
+| الحقل | القيمة |
+|-------|-------|
+| **الوصف** | معالجة البيانات الحساسة (صحة، بيومترية، عرق، دين، آراء سياسية، جرائم) تستلزم موافقة صريحة ومحددة من صاحبها أو ضرورة مرتبطة بالصحة أو التزام قانوني |
+| **Description** | Processing sensitive data requires explicit and specific consent from the data subject, a health necessity, or a legal obligation |
+| **سبب الإلزام** | الطابع الخاص والحساس للبيانات يستوجب حماية مشددة لا تُخفَّف بالاتفاق |
+| **المادة** | <!-- TODO: يحتاج تحقق من رقم المادة المحددة في نظام PDPL --> |
+| **المرسوم الملكي** | م/19 1443هـ |
+| **الجهة النظامية** | سدايا (SDAIA) |
+| **الرابط الرسمي** | https://pdp.sdaia.gov.sa |
+| **حالة التحقق** | to_verify |
+
+```
+verification_metadata:
+  verification_status: to_verify
+  source_type: official_regulation_summary
+  official_reference: PDPL (Royal Decree M/19 1443H)
+  last_verified: 2026-05-17
+  review_priority: high
+```
+
+**Practical Risk Note / ملاحظة عملية:**
+الموافقة العامة ضمن سياسة الخصوصية لا تُعادل الموافقة الصريحة والمحددة المطلوبة للبيانات الحساسة. جهات تجميع بيانات صحية أو بيومترية دون موافقة صريحة مُعرَّضة لأشد عقوبات نظام PDPL.
+
+A general privacy policy consent does not constitute the explicit and specific consent required for sensitive data. Entities collecting health or biometric data without explicit consent face PDPL's most severe penalties.
+
+---
+
+### 5. حق سحب الموافقة في أي وقت / Right to Withdraw Consent
+
+| الحقل | القيمة |
+|-------|-------|
+| **الوصف** | لصاحب البيانات الحق في سحب موافقته على المعالجة في أي وقت — ولا يؤثر السحب على مشروعية المعالجة السابقة |
+| **Description** | Data subjects may withdraw consent at any time; withdrawal does not affect the lawfulness of prior processing |
+| **سبب الإلزام** | حق أصيل لصاحب البيانات لا يجوز تعاقديًا إسقاطه أو تقييده بفترة قابلة للتمديد بقرار الجهة المعالِجة |
+| **المادة** | <!-- TODO: يحتاج تحقق من رقم المادة المحددة في نظام PDPL --> |
+| **المرسوم الملكي** | م/19 1443هـ |
+| **الجهة النظامية** | سدايا (SDAIA) |
+| **الرابط الرسمي** | https://pdp.sdaia.gov.sa |
+| **حالة التحقق** | to_verify |
+
+```
+verification_metadata:
+  verification_status: to_verify
+  source_type: official_regulation_summary
+  official_reference: PDPL (Royal Decree M/19 1443H)
+  last_verified: 2026-05-17
+  review_priority: medium
+```
+
+**Practical Risk Note / ملاحظة عملية:**
+بعض العقود تشترط على المستخدم الاحتفاظ بالموافقة طوال مدة العقد كشرط للاستمرار في الخدمة — هذا البند يتعارض مع حق السحب في أي وقت ويستحق مراجعة دقيقة.
+
+Some service agreements require users to maintain consent as a condition of continued service. Such clauses conflict with the unconditional right of withdrawal and require careful review.
+
+---
+
+## Human Legal Review Required / يجب مراجعة قانونية بشرية
+
+### TODOs وبنود تحتاج تحقق
+
+| الموضوع | الإشكالية | أولوية المراجعة |
+|---------|----------|----------------|
+| أرقام المواد لجميع الأحكام أعلاه | الملخص التعليمي لم يُحدد أرقام المواد — تحتاج تحقق من النص الرسمي عبر sdaia.gov.sa | عالية |
+| اللائحة التنفيذية لنظام PDPL | تُضيف تفاصيل جوهرية — أحكام اللائحة تحتاج مراجعة مستقلة عن متطلبات النظام الأصلي | عالية |
+| مسؤول حماية البيانات (DPO) — متى يكون إلزاميًا؟ | "الجهات التي تعالج كميات كبيرة أو بيانات حساسة" — المعايير الدقيقة للإلزام تحتاج تحقق من اللائحة | عالية |
+| مدة الاحتفاظ بالبيانات | "وفق الغرض" مذكورة — هل توجد مدد قصوى نظامية لفئات معينة؟ تحتاج تحقق | متوسطة |
+| مرحلة التطبيق التدريجي لنظام PDPL | هل اكتملت جميع مراحل التطبيق؟ تحتاج تحقق من آخر إعلانات سدايا | عالية |
+| سجل المعالجة — الشكل والمحتوى الإلزامي | السجل مذكور لكن محتواه الدقيق ومتطلباته تحتاج تحقق من اللائحة | متوسطة |
+
+<!-- TODO: يحتاج تحقق من النص النظامي الرسمي — أرقام المواد لجميع الأحكام الإلزامية في نظام PDPL م/19 1443هـ -->
+<!-- TODO: يحتاج تحقق — المعايير الدقيقة لإلزامية تعيين مسؤول حماية البيانات (DPO) -->
+<!-- TODO: يحتاج تحقق — التزامات الإفصاح للمعالجين من الباطن (sub-processors) ومتطلبات عقود المعالجة -->

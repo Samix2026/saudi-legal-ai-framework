@@ -153,3 +153,241 @@
 - **الجريدة الرسمية (أم القرى):** [uqn.gov.sa](https://uqn.gov.sa)
 - **منصة قوى:** [qiwa.com.sa](https://www.qiwa.com.sa)
 - **وزارة الموارد البشرية:** [hrsd.gov.sa](https://www.hrsd.gov.sa)
+
+---
+
+## Mandatory Non-Waivable Provisions / الأحكام الإلزامية غير قابلة التنازل
+
+> أحكام نظام العمل آمرة — البنود التعاقدية المخالفة تقع باطلة ويُطبَّق النظام بدلاً منها. هذا المبدأ مُقرَّر صراحةً في نظام العمل (م/51 1426هـ).
+>
+> Saudi Labor Law provisions are mandatory — contractual clauses that deviate from them are void; the statutory rule applies instead. This principle is expressly established in the Labor Law (Royal Decree M/51 1426H).
+
+---
+
+### 1. الحد الأدنى للإجازة السنوية / Minimum Annual Leave
+
+| الحقل | القيمة |
+|-------|-------|
+| **الوصف** | لا يجوز تعاقديًا منح إجازة سنوية أقل من 21 يومًا لمن خدمته أقل من خمس سنوات، أو أقل من 30 يومًا لمن خدمته خمس سنوات فأكثر |
+| **Description** | Annual leave below 21 days (under 5 years of service) or 30 days (5 years or more) cannot be contractually reduced |
+| **سبب الإلزام** | الأحكام الآمرة لنظام العمل — حماية العامل من الانتقاص من حقوقه الأساسية |
+| **المادة** | ضمن المواد 109–122 من نظام العمل — رقم المادة المحدد يحتاج تحقق <!-- TODO: يحتاج تحقق من النص النظامي الرسمي --> |
+| **المرسوم الملكي** | م/51 1426هـ |
+| **الجهة النظامية** | وزارة الموارد البشرية والتنمية الاجتماعية — المحكمة العمالية |
+| **الرابط الرسمي** | https://www.boe.gov.sa |
+| **حالة التحقق** | to_verify |
+
+```
+verification_metadata:
+  verification_status: to_verify
+  source_type: official_regulation_summary
+  official_reference: Saudi Labor Law (Royal Decree M/51 1426H), Arts. 109–122
+  last_verified: 2026-05-17
+  review_priority: high
+```
+
+**Practical Risk Note / ملاحظة عملية:**
+هذا البند يظهر بكثرة في عقود العمل الأجنبية التي تمنح إجازات أقل من 21 يومًا. البند باطل في السياق السعودي ويُطبَّق الحد الأدنى النظامي بصرف النظر عن موافقة العامل الكتابية.
+
+Clauses granting less than 21 days are void; the statutory minimum applies regardless of the worker's written agreement.
+
+**Related Sources / مصادر ذات صلة:**
+- `skills/labor-law-analysis.md`
+- `examples/employment-contract-review.md`
+
+---
+
+### 2. مكافأة نهاية الخدمة / End-of-Service Gratuity (EOSB)
+
+| الحقل | القيمة |
+|-------|-------|
+| **الوصف** | لا يجوز الاتفاق على حرمان العامل من مكافأة نهاية الخدمة أو إنقاصها عما يستحقه نظامًا |
+| **Description** | EOSB cannot be contractually eliminated or reduced below the statutory entitlement |
+| **سبب الإلزام** | الأحكام الآمرة لنظام العمل — حق مُقرَّر بنص النظام لا يُسقط بالاتفاق |
+| **المادة** | المادة 84 من نظام العمل |
+| **المرسوم الملكي** | م/51 1426هـ |
+| **الجهة النظامية** | وزارة الموارد البشرية والتنمية الاجتماعية — المحكمة العمالية |
+| **الرابط الرسمي** | https://www.boe.gov.sa |
+| **حالة التحقق** | to_verify — المادة 84 مصدرها الملخص التعليمي؛ يُوصى بالتحقق من النص الرسمي |
+
+```
+verification_metadata:
+  verification_status: to_verify
+  source_type: official_regulation_summary
+  official_reference: Saudi Labor Law (Royal Decree M/51 1426H), Art. 84
+  last_verified: 2026-05-17
+  review_priority: high
+```
+
+**Practical Risk Note / ملاحظة عملية:**
+عقود كثيرة تحتسب EOSB على إجمالي الأجر بما فيه البدلات. وفق الاجتهاد القضائي السائد تُحتسب على الأجر الأساسي فقط — هذه المسألة موضع خلاف قضائي يحتاج تأكيدًا من محامٍ مرخَّص.
+
+Many contracts calculate EOSB on total compensation including allowances. Prevailing judicial practice computes it on base salary only — a contested point requiring lawyer confirmation.
+
+**Related Sources:**
+- `skills/labor-law-analysis.md §12`
+- `datasets/examples/employment-contracts.csv`
+
+---
+
+### 3. الحد الأقصى لفترة التجربة / Maximum Probation Period
+
+| الحقل | القيمة |
+|-------|-------|
+| **الوصف** | لا يجوز تمديد فترة التجربة تعاقديًا فوق 90 يومًا (أو 180 يومًا باتفاق كتابي)؛ ولا تُكرَّر مع نفس العامل على العمل ذاته |
+| **Description** | Probation cannot exceed 90 days (or 180 with written agreement); cannot be repeated for the same worker in the same role |
+| **سبب الإلزام** | حماية استقرار العلاقة العمالية ومنع التحايل على الحماية النظامية |
+| **المادة** | ضمن المواد 51–65 — رقم المادة المحدد يحتاج تحقق <!-- TODO: يحتاج تحقق من النص النظامي الرسمي --> |
+| **المرسوم الملكي** | م/51 1426هـ |
+| **الجهة النظامية** | وزارة الموارد البشرية والتنمية الاجتماعية — المحكمة العمالية |
+| **الرابط الرسمي** | https://www.boe.gov.sa |
+| **حالة التحقق** | to_verify |
+
+```
+verification_metadata:
+  verification_status: to_verify
+  source_type: official_regulation_summary
+  official_reference: Saudi Labor Law (Royal Decree M/51 1426H), Arts. 51–65
+  last_verified: 2026-05-17
+  review_priority: medium
+```
+
+**Practical Risk Note / ملاحظة عملية:**
+بعض العقود الأجنبية تنص على فترات تجربة مفتوحة أو قابلة للتمديد بقرار صاحب العمل منفردًا. هذه الشروط باطلة في السياق السعودي.
+
+Foreign templates sometimes include open-ended or employer-extensible probation clauses. These are void under Saudi law.
+
+---
+
+### 4. أجر العمل الإضافي / Overtime Pay Rate
+
+| الحقل | القيمة |
+|-------|-------|
+| **الوصف** | أجر ساعات العمل الإضافية لا يقل عن 150% من الأجر العادي؛ لا يجوز الاتفاق على معدل أدنى |
+| **Description** | Overtime must be paid at no less than 150% of the ordinary rate; no contractual reduction is permitted |
+| **سبب الإلزام** | الأحكام الآمرة لنظام العمل في باب الأجور |
+| **المادة** | ضمن المواد 88–108 — رقم المادة المحدد يحتاج تحقق <!-- TODO: يحتاج تحقق من النص النظامي الرسمي --> |
+| **المرسوم الملكي** | م/51 1426هـ |
+| **الجهة النظامية** | وزارة الموارد البشرية والتنمية الاجتماعية |
+| **الرابط الرسمي** | https://www.boe.gov.sa |
+| **حالة التحقق** | to_verify |
+
+```
+verification_metadata:
+  verification_status: to_verify
+  source_type: official_regulation_summary
+  official_reference: Saudi Labor Law (Royal Decree M/51 1426H), Arts. 88–108
+  last_verified: 2026-05-17
+  review_priority: high
+```
+
+**Practical Risk Note / ملاحظة عملية:**
+عقود تُدمج الأجر الإضافي في "بدل شامل" أو تُوجِب العمل الإضافي دون نص على معدل صريح تستحق مراجعة دقيقة — البدل الشامل لا يُعفي من الالتزام النظامي إذا لم يكن كافيًا.
+
+Contracts bundling overtime into a lump "inclusive allowance" require careful review; an inclusive allowance does not discharge the statutory obligation unless it demonstrably covers the required rate.
+
+---
+
+### 5. حد الخصم من الأجر / Wage Deduction Ceiling
+
+| الحقل | القيمة |
+|-------|-------|
+| **الوصف** | لا يجوز خصم أكثر من 50% من أجر العامل الشهري في دفعة واحدة لأي سبب كان |
+| **Description** | No more than 50% of the worker's monthly wage may be withheld in a single deduction |
+| **سبب الإلزام** | حماية كفاية الدخل المعيشي للعامل |
+| **المادة** | ضمن المواد 88–108 — رقم المادة المحدد يحتاج تحقق <!-- TODO: يحتاج تحقق من النص النظامي الرسمي --> |
+| **المرسوم الملكي** | م/51 1426هـ |
+| **الجهة النظامية** | وزارة الموارد البشرية والتنمية الاجتماعية |
+| **الرابط الرسمي** | https://www.boe.gov.sa |
+| **حالة التحقق** | to_verify |
+
+```
+verification_metadata:
+  verification_status: to_verify
+  source_type: official_regulation_summary
+  official_reference: Saudi Labor Law (Royal Decree M/51 1426H), Arts. 88–108
+  last_verified: 2026-05-17
+  review_priority: medium
+```
+
+**Practical Risk Note / ملاحظة عملية:**
+قيود الخصم تسري حتى لو وافق العامل كتابيًا على خصوم أعلى. الاتفاق المخالف لا يُلزم المحكمة العمالية.
+
+Deduction limits apply even where the worker contractually agreed to higher deductions. Labor courts are not bound by such agreements.
+
+---
+
+### 6. إشعار إنهاء العقد / Termination Notice Minimum
+
+| الحقل | القيمة |
+|-------|-------|
+| **الوصف** | إنهاء العقد غير محدد المدة يستلزم إشعارًا مسبقًا مكتوبًا لا يقل عن 60 يومًا للعامل الذي يتقاضى أجرًا شهريًا |
+| **Description** | Termination of open-term contracts requires written advance notice of at least 60 days for monthly-paid workers |
+| **سبب الإلزام** | حماية استقرار الدخل وإتاحة وقت كافٍ للبحث عن عمل بديل |
+| **المادة** | ضمن المواد 74–87 — رقم المادة المحدد يحتاج تحقق <!-- TODO: يحتاج تحقق من النص النظامي الرسمي --> |
+| **المرسوم الملكي** | م/51 1426هـ |
+| **الجهة النظامية** | المحكمة العمالية |
+| **الرابط الرسمي** | https://www.boe.gov.sa |
+| **حالة التحقق** | to_verify |
+
+```
+verification_metadata:
+  verification_status: to_verify
+  source_type: official_regulation_summary
+  official_reference: Saudi Labor Law (Royal Decree M/51 1426H), Arts. 74–87
+  last_verified: 2026-05-17
+  review_priority: high
+```
+
+**Practical Risk Note / ملاحظة عملية:**
+عقود عديدة تشترط مدد إشعار أقصر. الإنهاء دون إشعار كافٍ يُوجب دفع بدل إشعار يعادل أجر المدة المتبقية. لا يجوز تعاقديًا خفض هذا الحد.
+
+Contracts specifying shorter notice periods cannot reduce the statutory minimum. Termination without adequate notice triggers a statutory notice-pay obligation equal to the wages for the remaining notice period.
+
+---
+
+### 7. التعويض عن الإنهاء التعسفي / Wrongful Dismissal Minimum Compensation
+
+| الحقل | القيمة |
+|-------|-------|
+| **الوصف** | إذا أنهى صاحب العمل العقد دون سبب مشروع، يحق للعامل تعويضًا لا يقل عن أجر 15 يومًا عن كل سنة خدمة |
+| **Description** | Where an employer terminates without valid cause, the worker is entitled to minimum compensation of 15 days' pay per year of service |
+| **سبب الإلزام** | ردع الإنهاء التعسفي وحماية العامل |
+| **المادة** | ضمن المواد 74–87 — رقم المادة المحدد يحتاج تحقق <!-- TODO: يحتاج تحقق من النص النظامي الرسمي --> |
+| **المرسوم الملكي** | م/51 1426هـ |
+| **الجهة النظامية** | المحكمة العمالية |
+| **الرابط الرسمي** | https://www.boe.gov.sa |
+| **حالة التحقق** | to_verify |
+
+```
+verification_metadata:
+  verification_status: to_verify
+  source_type: official_regulation_summary
+  official_reference: Saudi Labor Law (Royal Decree M/51 1426H), Arts. 74–87
+  last_verified: 2026-05-17
+  review_priority: high
+```
+
+**Practical Risk Note / ملاحظة عملية:**
+15 يومًا عن كل سنة خدمة هو الحد الأدنى لا الأقصى — المحكمة العمالية قد تحكم بتعويض أعلى. لا يجوز تعاقديًا تحديد سقف أقل من هذا الحد.
+
+The 15-day-per-year figure is a statutory floor, not a cap. Labor courts may award higher compensation. No contractual ceiling below this floor is enforceable.
+
+---
+
+## Human Legal Review Required / يجب مراجعة قانونية بشرية
+
+### TODOs وبنود تحتاج تحقق
+
+| الموضوع | الإشكالية | أولوية المراجعة |
+|---------|----------|----------------|
+| أرقام المواد المحددة لكل حكم إلزامي | جميع الأحكام أعلاه مستمدة من ملخص تعليمي — أرقام المواد تحتاج تحقق من النص الرسمي عبر boe.gov.sa | عالية |
+| احتساب EOSB على البدلات الثابتة | خلاف قضائي: هل البدلات الثابتة تدخل في الأساس؟ يحتاج تأكيد من محامٍ مرخَّص | عالية |
+| إجازة الأمومة — رقم المادة المحدد | المدة 10 أسابيع موثقة في المصدر؛ رقم المادة ضمن 109–122 يحتاج تحقق | متوسطة |
+| تعديلات نظام العمل اللاحقة لـ 1426هـ | النظام مُعدَّل مرات عدة — جميع الأحكام تحتاج مراجعة مقابل آخر إصدار رسمي | عالية |
+| نطاقات — النسب الحالية للسعودة | النسب تتغير دوريًا — تحتاج مراجعة من منصة قوى الرسمية | متوسطة |
+| نظام حماية الأجور (WPS) — الأساس التشريعي | يحتاج تأكيد: هل صادر بمرسوم ملكي مستقل أم قرار وزاري؟ | منخفضة |
+
+<!-- TODO: يحتاج تحقق من النص النظامي الرسمي — أرقام المواد الدقيقة لجميع الأحكام الإلزامية أعلاه -->
+<!-- TODO: يحتاج تحقق — مدة إشعار الإنهاء للعمال غير ذوي الأجر الشهري -->
+<!-- TODO: يحتاج تحقق — البنود الإلزامية التي أضافتها تعديلات نظام العمل بعد 1426هـ -->

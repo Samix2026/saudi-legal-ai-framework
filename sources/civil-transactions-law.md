@@ -374,6 +374,158 @@ Short test scenarios for evaluating AI outputs. These are for testing, not legal
 
 ---
 
+## Mandatory Non-Waivable Provisions / الأحكام الإلزامية غير قابلة التنازل
+
+> نظام المعاملات المدنية (م/191 1443هـ) يُقرِّر أحكامًا آمرة يُصرَّح فيها بعدم جواز الاتفاق على مخالفتها، وأخرى تتعلق بالنظام العام لا تقبل الإسقاط. البنود التعاقدية المخالفة لهذه الأحكام تقع باطلة.
+>
+> The Saudi Civil Transactions Law (Royal Decree M/191 1443H) establishes mandatory rules that expressly cannot be contractually deviated from, and public-policy rules that are non-waivable by nature. Contractual clauses that contravene these rules are void.
+
+---
+
+### 1. تعديل الشرط الجزائي من قِبل المحكمة / Judicial Reduction of Agreed Compensation
+
+| الحقل | القيمة |
+|-------|-------|
+| **الوصف** | للمحكمة تخفيض مبلغ الشرط الجزائي المتفق عليه إذا أثبت المدين أن الدائن لم يتضرر أو أن المبلغ مبالغ فيه — ولا يجوز الاتفاق مسبقًا على إسقاط هذه السلطة القضائية |
+| **Description** | Courts may reduce agreed compensation (الشرط الجزائي) where the debtor proves no harm occurred or the amount is excessive; parties cannot prospectively waive this judicial power |
+| **سبب الإلزام** | سلطة قضائية مُقرَّرة بنص النظام لحماية المدين من الشروط الجزائية المجحفة — لا يجوز الاتفاق المسبق على إلزام المحكمة بالمبلغ المتفق عليه في جميع الأحوال |
+| **المادة** | المادة 179 (مُرتبطة بالمادتين 178 و180) — مُتحقَّق منها في ملف المصدر |
+| **المرسوم الملكي** | م/191 1443هـ |
+| **الجهة النظامية** | المحاكم التجارية — المحاكم العامة (بحسب طبيعة النزاع) |
+| **الرابط الرسمي** | https://laws.boe.gov.sa |
+| **حالة التحقق** | to_verify — المادة 179 مُدرَجة في الجدول المرجعي لهذا الملف وموثقة في المصادر الثانوية؛ تحتاج تحقق من النص الرسمي |
+
+```
+verification_metadata:
+  verification_status: to_verify
+  source_type: official_regulation_summary_crosschecked_secondary
+  official_reference: Saudi Civil Transactions Law (Royal Decree M/191 1443H), Art. 179
+  last_verified: 2026-05-17
+  review_priority: high
+```
+
+**Practical Risk Note / ملاحظة عملية:**
+بنود العقود الأجنبية كثيرًا ما تنص على أن مبلغ الشرط الجزائي "نهائي وغير قابل للتعديل". هذا النص لا يُسقط سلطة المحكمة السعودية في التخفيض بموجب المادة 179. تسمية "penalty clause" في العقود الإنجليزية مضللة — فعليًا هي تعويض اتفاقي خاضع للتخفيض القضائي.
+
+Foreign contract clauses stating the agreed amount is "final and non-adjustable" cannot override the Saudi court's power under Article 179. The English term "penalty clause" is misleading — functionally this is agreed / liquidated damages subject to judicial reduction.
+
+**Related Sources / مصادر ذات صلة:**
+- `skills/contract-review.md §13`
+- `skills/commercial-dispute.md §12`
+
+---
+
+### 2. الأداء بحسن النية / Good-Faith Performance
+
+| الحقل | القيمة |
+|-------|-------|
+| **الوصف** | يجب تنفيذ العقد بحسن النية وفقًا لما توجبه طبيعته والعرف والنظام — لا يجوز الاتفاق على إسقاط هذا الالتزام |
+| **Description** | Contracts must be performed in good faith, including what the law, custom, and the contract's nature require by implication; this obligation cannot be contractually waived |
+| **سبب الإلزام** | حكم آمر ذو أساس في النظام العام — الطبيعة الإلزامية للأداء بحسن النية لا تقبل الإسقاط التعاقدي |
+| **المادة** | المادة 95 — مُدرَجة في الجدول المرجعي لهذا الملف |
+| **المرسوم الملكي** | م/191 1443هـ |
+| **الجهة النظامية** | المحاكم التجارية — المحاكم العامة |
+| **الرابط الرسمي** | https://laws.boe.gov.sa |
+| **حالة التحقق** | to_verify — المادة 95 مُدرَجة ومُتقاطَعة في المصادر الثانوية؛ تحتاج تحقق من النص الرسمي |
+
+```
+verification_metadata:
+  verification_status: to_verify
+  source_type: official_regulation_summary_crosschecked_secondary
+  official_reference: Saudi Civil Transactions Law (Royal Decree M/191 1443H), Art. 95
+  last_verified: 2026-05-17
+  review_priority: medium
+```
+
+**Practical Risk Note / ملاحظة عملية:**
+عقود "zero-sum" أو "full disclaimer" التي تُلغي جميع الالتزامات الضمنية تستحق مراجعة دقيقة — المادة 95 تستحضر الالتزامات الضمنية التي تفرضها طبيعة العقد والعرف بغض النظر عن النص.
+
+"Zero-sum" or blanket-disclaimer contracts that purport to eliminate all implied obligations warrant careful review — Article 95 imports obligations implied by the contract's nature and custom regardless of express terms.
+
+---
+
+### 3. حق المدين في التفاوض عند الظروف الطارئة / Debtor's Renegotiation Right (Hardship)
+
+| الحقل | القيمة |
+|-------|-------|
+| **الوصف** | عند ظروف استثنائية عامة غير متوقعة تُثقل الأداء إثقالًا مرهقًا، يحق للمدين دعوة الدائن للتفاوض — هذا الحق مُقرَّر بالنظام |
+| **Description** | When exceptional general unforeseeable circumstances make performance burdensome, the debtor has a right to call the other party to negotiate; this right is granted by statute |
+| **سبب الإلزام** | المادة 96 تُقرِّر هذا الحق — وإن كان قابلية إسقاطه التعاقدي تحتاج تأكيد من نص رسمي <!-- TODO: يحتاج تحقق — هل يجوز تعاقديًا إسقاط حق التفاوض عند الظروف الطارئة؟ --> |
+| **المادة** | المادة 96 — مُدرَجة في الجدول المرجعي لهذا الملف |
+| **المرسوم الملكي** | م/191 1443هـ |
+| **الجهة النظامية** | المحاكم التجارية — المحاكم العامة |
+| **الرابط الرسمي** | https://laws.boe.gov.sa |
+| **حالة التحقق** | to_verify |
+
+```
+verification_metadata:
+  verification_status: to_verify
+  source_type: official_regulation_summary_crosschecked_secondary
+  official_reference: Saudi Civil Transactions Law (Royal Decree M/191 1443H), Art. 96
+  last_verified: 2026-05-17
+  review_priority: medium
+```
+
+**Practical Risk Note / ملاحظة عملية:**
+بنود "force majeure" الغربية لا تُعادل بالضرورة ما تُقرِّره المادة 96 — تعريف "الظروف الطارئة" والأثر القانوني قد يختلفان عما يستوجبه القانون الإنجليزي أو القانون الأمريكي. لا تُستعار تعريفات القانون الغربي.
+
+Western "force majeure" clauses do not necessarily mirror what Article 96 establishes — the definition of exceptional circumstances and the legal effect may differ from English or U.S. law. Western-law definitions must not be imported.
+
+---
+
+### 4. مدة التقادم العامة — 10 سنوات / General Limitation Period — 10 Years
+
+| الحقل | القيمة |
+|-------|-------|
+| **الوصف** | قاعدة عدم سماع الدعوى العامة 10 سنوات على المنكر — لا يجوز الاتفاق على مدة أقصر بالاتفاق التعاقدي <!-- TODO: يحتاج تحقق — هل تجوز شروط التقادم الاتفاقية في نظام المعاملات المدنية السعودي؟ --> |
+| **Description** | General non-hearing period: 10 years on the defendant's denial — contractual shortening requires verification as to whether it is permissible |
+| **سبب الإلزام** | مدد التقادم في أغلب الأنظمة المدنية تتعلق بالنظام العام — الإسقاط التعاقدي يحتاج تأكيد من النص |
+| **المادة** | المادة 295 (قاعدة عامة) + 296 (5 سنوات للمهن الحرة) + 297 (سنة واحدة لبعض الحالات) + 298 (10 سنوات بسند كتابي) |
+| **المرسوم الملكي** | م/191 1443هـ |
+| **الجهة النظامية** | المحاكم التجارية — المحاكم العامة |
+| **الرابط الرسمي** | https://laws.boe.gov.sa |
+| **حالة التحقق** | to_verify — المواد 295–298 مُدرَجة في الجدول المرجعي؛ تحتاج تحقق من النص الرسمي |
+
+```
+verification_metadata:
+  verification_status: to_verify
+  source_type: official_regulation_summary_crosschecked_secondary
+  official_reference: Saudi Civil Transactions Law (Royal Decree M/191 1443H), Arts. 295–298
+  last_verified: 2026-05-17
+  review_priority: high
+```
+
+**Practical Risk Note / ملاحظة عملية:**
+لا تُستعار مدة التقادم من القانون المصري (15 سنة) ولا من الأنظمة الغربية — القاعدة العامة السعودية 10 سنوات وفق المادة 295 مع استثناءات أقصر في المواد 296–297.
+
+Do not import the Egyptian 15-year limitation or Western periods. The Saudi general rule is 10 years (Article 295) with shorter category-specific periods in Articles 296–297.
+
+**Related Sources:**
+- `skills/commercial-dispute.md §13`
+- `skills/contract-review.md §14`
+
+---
+
+## Human Legal Review Required / يجب مراجعة قانونية بشرية
+
+> هذا القسم يجمع TODOs والبنود غير المؤكدة الخاصة بقسم الأحكام الإلزامية. للاطلاع على قائمة التحقق الشاملة لجميع الملف، انظر قسم "Draft Status / Verification Notes" أدناه.
+
+### TODOs وبنود تحتاج تحقق — الأحكام الإلزامية
+
+| الموضوع | الإشكالية | أولوية المراجعة |
+|---------|----------|----------------|
+| المادة 179 — الشرط الجزائي | الرقم موثق في مصادر ثانوية؛ تحتاج تحقق من النص الرسمي عبر laws.boe.gov.sa | عالية |
+| المادة 95 — حسن النية | نفس الملاحظة | متوسطة |
+| المادة 96 — الظروف الطارئة | هل يجوز تعاقديًا إسقاط حق التفاوض؟ تحتاج تحقق صريح من النص | عالية |
+| المواد 295–298 — التقادم | هل شروط التقادم الاتفاقية مسموح بها في النظام السعودي؟ تحتاج تحقق | عالية |
+| نطاق تطبيق "الأحكام الآمرة" في نظام المعاملات المدنية | أي مواد النظام صريحة في كونها آمرة؟ تحتاج مراجعة شاملة من محامٍ مرخَّص | عالية |
+
+<!-- TODO: يحتاج تحقق من النص النظامي الرسمي — جميع أرقام المواد الواردة في قسم الأحكام الإلزامية أعلاه -->
+<!-- TODO: يحتاج تحقق — هل تجوز شروط التقادم الاتفاقية (أقصر أو أطول) في نظام المعاملات المدنية السعودي؟ -->
+<!-- TODO: يحتاج تحقق — هل يمكن التنازل عن حق المدين في التفاوض بموجب المادة 96 بنص صريح في العقد؟ -->
+
+---
+
 ## Draft Status / Verification Notes
 
 This file is **intentionally a draft**. **This file should not be promoted from draft status until all unverified article mappings are resolved or intentionally retained in a separate verification checklist.**

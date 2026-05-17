@@ -121,3 +121,182 @@
 - **وزارة التجارة:** [mc.gov.sa](https://www.mc.gov.sa)
 - **منصة المساهم (تسجيل الشركات):** [mc.gov.sa](https://www.mc.gov.sa)
 - **هيئة السوق المالية:** [cma.org.sa](https://www.cma.org.sa)
+
+---
+
+## Mandatory Non-Waivable Provisions / الأحكام الإلزامية غير قابلة التنازل
+
+> نظام الشركات (م/132 1443هـ) يُقرَّر أحكامًا آمرة في الحوكمة والتسجيل وحقوق الشركاء لا يجوز الاتفاق تعاقديًا على مخالفتها. البنود المخالفة في النظام الأساسي أو عقد التأسيس تقع باطلة.
+>
+> The Companies Law (Royal Decree M/132 1443H) establishes mandatory provisions on governance, registration, and partners' rights that cannot be contractually waived. Contradicting clauses in articles of association or founding contracts are void.
+
+---
+
+### 1. التسجيل التجاري الإلزامي / Mandatory Commercial Registration
+
+| الحقل | القيمة |
+|-------|-------|
+| **الوصف** | يجب تسجيل الشركة في السجل التجاري لدى وزارة التجارة قبل ممارسة النشاط — الشركة غير المسجلة لا تتمتع بالشخصية الاعتبارية |
+| **Description** | A company must be registered in the Commercial Register with the Ministry of Commerce before commencing operations; an unregistered company has no legal personality |
+| **سبب الإلزام** | ممارسة النشاط التجاري بصورة قانونية — نظام الشركات يشترط الشخصية الاعتبارية للشركة |
+| **المادة** | <!-- TODO: يحتاج تحقق من النص النظامي الرسمي — رقم المادة المحددة في نظام الشركات م/132 1443هـ --> |
+| **المرسوم الملكي** | م/132 1443هـ |
+| **الجهة النظامية** | وزارة التجارة |
+| **الرابط الرسمي** | https://www.mc.gov.sa |
+| **حالة التحقق** | to_verify |
+
+```
+verification_metadata:
+  verification_status: to_verify
+  source_type: official_regulation_summary
+  official_reference: Companies Law (Royal Decree M/132 1443H)
+  last_verified: 2026-05-17
+  review_priority: high
+```
+
+**Practical Risk Note / ملاحظة عملية:**
+الشركات الأجنبية تمارس أحيانًا نشاطًا فعليًا قبل استيفاء متطلبات التسجيل — هذا النشاط يُعرِّضها لعقوبات وعدم الاعتراف بعقودها. ترخيص MISA وحده لا يُعوِّض عن التسجيل التجاري.
+
+Foreign companies sometimes operate before completing registration requirements. Such activity risks penalties and unenforceability of contracts. A MISA licence alone does not substitute for Commercial Register filing.
+
+**Related Sources / مصادر ذات صلة:**
+- `skills/compliance-check.md §12`
+- `skills/contract-review.md §12`
+
+---
+
+### 2. الاجتماع السنوي للجمعية العامة / Mandatory Annual General Meeting
+
+| الحقل | القيمة |
+|-------|-------|
+| **الوصف** | يجب عقد الجمعية العامة العادية لشركة المساهمة خلال 6 أشهر من نهاية السنة المالية |
+| **Description** | The ordinary general meeting of a joint stock company must be held within 6 months of the financial year end |
+| **سبب الإلزام** | حوكمة الشركة وحماية المساهمين — لا يجوز تعاقديًا إسقاط هذا الالتزام |
+| **المادة** | <!-- TODO: يحتاج تحقق من النص النظامي الرسمي --> |
+| **المرسوم الملكي** | م/132 1443هـ |
+| **الجهة النظامية** | وزارة التجارة — هيئة السوق المالية (للشركات المدرجة) |
+| **الرابط الرسمي** | https://www.boe.gov.sa |
+| **حالة التحقق** | to_verify |
+
+```
+verification_metadata:
+  verification_status: to_verify
+  source_type: official_regulation_summary
+  official_reference: Companies Law (Royal Decree M/132 1443H)
+  last_verified: 2026-05-17
+  review_priority: medium
+```
+
+**Practical Risk Note / ملاحظة عملية:**
+الإخلال بالاجتماع السنوي قد يُرتب مسؤولية على أعضاء مجلس الإدارة ويُعرِّض الشركة للعقوبات التنظيمية — لا سيما في الشركات المدرجة الخاضعة لرقابة CMA.
+
+Failure to hold the annual general meeting may expose board members to liability and the company to regulatory penalties — especially listed companies under CMA oversight.
+
+---
+
+### 3. حد أعضاء مجلس الإدارة / Board Size Constraints (Joint Stock)
+
+| الحقل | القيمة |
+|-------|-------|
+| **الوصف** | في شركة المساهمة: مجلس الإدارة لا يقل عن 3 أعضاء ولا يزيد عن 11 عضوًا |
+| **Description** | In a joint stock company: the board must have no fewer than 3 and no more than 11 members |
+| **سبب الإلزام** | متطلب حوكمة إلزامي لا يجوز للنظام الأساسي أن يخالفه |
+| **المادة** | <!-- TODO: يحتاج تحقق من النص النظامي الرسمي --> |
+| **المرسوم الملكي** | م/132 1443هـ |
+| **الجهة النظامية** | وزارة التجارة — هيئة السوق المالية (للمدرجة) |
+| **الرابط الرسمي** | https://www.boe.gov.sa |
+| **حالة التحقق** | to_verify |
+
+```
+verification_metadata:
+  verification_status: to_verify
+  source_type: official_regulation_summary
+  official_reference: Companies Law (Royal Decree M/132 1443H)
+  last_verified: 2026-05-17
+  review_priority: medium
+```
+
+**Practical Risk Note / ملاحظة عملية:**
+النظم الأساسية المُعدَّة وفق نظام الشركات القديم (م/3 1437هـ) قد تحتوي على نصوص تخالف النظام الجديد — تحتاج مراجعة وتحديث.
+
+Articles of association prepared under the previous Companies Law (M/3 1437H) may contain provisions inconsistent with the new law and need review.
+
+---
+
+### 4. حماية الدائنين عند التصفية / Creditor Protection on Dissolution
+
+| الحقل | القيمة |
+|-------|-------|
+| **الوصف** | عند تصفية الشركة، تُسدَّد ديون الدائنين كاملةً قبل توزيع أي مبالغ على الشركاء أو المساهمين |
+| **Description** | On dissolution, all creditor debts must be fully settled before any distribution to partners or shareholders |
+| **سبب الإلزام** | حماية حقوق الدائنين — مبدأ أصيل في نظام الشركات لا يقبل الإسقاط التعاقدي |
+| **المادة** | <!-- TODO: يحتاج تحقق من النص النظامي الرسمي --> |
+| **المرسوم الملكي** | م/132 1443هـ |
+| **الجهة النظامية** | وزارة التجارة — المحكمة التجارية |
+| **الرابط الرسمي** | https://www.boe.gov.sa |
+| **حالة التحقق** | to_verify |
+
+```
+verification_metadata:
+  verification_status: to_verify
+  source_type: official_regulation_summary
+  official_reference: Companies Law (Royal Decree M/132 1443H)
+  last_verified: 2026-05-17
+  review_priority: high
+```
+
+**Practical Risk Note / ملاحظة عملية:**
+اتفاقيات المساهمين التي تعطي الشركاء الأفضلية على الدائنين عند التصفية لا تُنفَّذ قضائيًا في السياق السعودي.
+
+Shareholder agreements that purport to give partners priority over creditors on dissolution are unenforceable under Saudi law.
+
+**Related Sources:**
+- `skills/commercial-dispute.md §12`
+- `sources/commercial-courts.md`
+
+---
+
+### 5. اشتراطات رأس المال — شركة الشخص الواحد / Single-Person Company Capital Requirements
+
+| الحقل | القيمة |
+|-------|-------|
+| **الوصف** | شركة الشخص الواحد تُتيح الفصل بين الذمة المالية الشخصية والتجارية — غير أن الالتزامات النظامية للتسجيل والإفصاح إلزامية |
+| **Description** | Single-person companies provide personal-commercial asset separation, but mandatory registration and disclosure obligations cannot be waived |
+| **سبب الإلزام** | شرط نظامي للحصول على الحماية القانونية للشخصية الاعتبارية المستقلة |
+| **المادة** | <!-- TODO: يحتاج تحقق من النص النظامي الرسمي --> |
+| **المرسوم الملكي** | م/132 1443هـ |
+| **الجهة النظامية** | وزارة التجارة |
+| **الرابط الرسمي** | https://www.mc.gov.sa |
+| **حالة التحقق** | to_verify |
+
+```
+verification_metadata:
+  verification_status: to_verify
+  source_type: official_regulation_summary
+  official_reference: Companies Law (Royal Decree M/132 1443H)
+  last_verified: 2026-05-17
+  review_priority: medium
+```
+
+**Practical Risk Note / ملاحظة عملية:**
+شركة الشخص الواحد مستحدثة في النظام الجديد — الممارسة القضائية والتنظيمية في تطبيقها لا تزال تتشكل. استشارة مختص قانوني قبل تأسيسها توصية عملية.
+
+The single-person company form is new under the 2022 Companies Law; judicial and regulatory practice in applying it is still developing.
+
+---
+
+## Human Legal Review Required / يجب مراجعة قانونية بشرية
+
+### TODOs وبنود تحتاج تحقق
+
+| الموضوع | الإشكالية | أولوية المراجعة |
+|---------|----------|----------------|
+| أرقام المواد لجميع الأحكام أعلاه | ملف المصدر لا يُحدد أرقام المواد في نظام الشركات م/132 1443هـ — تحتاج تحقق من boe.gov.sa | عالية |
+| أحكام النظام الجديد مقابل النظام السابق م/3 1437هـ | بعض الشركات لا تزال تعمل بنظام أساسي صادر في ظل النظام القديم — يحتاج تقييم التوافق | عالية |
+| متطلبات الحوكمة للشركات غير المدرجة | لوائح CMA تنطبق على المدرجة — ما الالتزامات الإلزامية للمحدودة؟ يحتاج تحقق | متوسطة |
+| مسؤولية المدير الشخصية | حدود ووقائع مسؤولية المدير في نظام الشركات الجديد تحتاج تحقق دقيق | عالية |
+| نظام الإفلاس م/50 1439هـ — التقاطع مع التصفية | التنسيق بين نظام الشركات ونظام الإفلاس في حالات الإعسار يحتاج تأكيد متخصص | عالية |
+
+<!-- TODO: يحتاج تحقق من النص النظامي الرسمي — أرقام المواد الدقيقة لجميع الأحكام الإلزامية في نظام الشركات م/132 1443هـ -->
+<!-- TODO: يحتاج تحقق — هل الحد الأدنى لرأس المال لشركة المساهمة محدد في النظام أم مترك للنظام الأساسي؟ -->
+<!-- TODO: يحتاج تحقق — اشتراطات الأعضاء المستقلين في مجلس إدارة الشركات المحدودة غير المدرجة -->
