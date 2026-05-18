@@ -95,6 +95,8 @@ The Saudi legal system has a distinct foundation that most AI models handle poor
 | **مصادر موثقة** | كل ادعاء قانوني يشير الى مصدر سعودي رسمي | Every legal claim points to an official Saudi source |
 | **اخلاء مسؤولية دائم** | كل قالب مخرجات يتضمن نص اخلاء المسؤولية القانوني | Every output template includes mandatory legal disclaimer language |
 | **لا يحتاج برمجة** | توثيق خالص، قابل للاستخدام دون اي اعداد تقني | Pure documentation, usable without any technical setup |
+| **التحكيم التجاري** | تحليل اتفاقيات التحكيم وإجراءات SCCA ومدد الطعن في الأحكام وفق نظام التحكيم م/34 | Arbitration agreement analysis, SCCA procedures, and award challenge timelines under Saudi law |
+| **عقود العقارات والإيجار** | مراجعة عقود الإيجار التجاري والسكني والتحقق من الالتزامات النظامية ومنصة إيجار | Commercial and residential lease review, statutory obligations, and Ejar platform compliance |
 
 ---
 
@@ -102,7 +104,7 @@ The Saudi legal system has a distinct foundation that most AI models handle poor
 
 | المرحلة | الحالة | Phase | Status |
 |---------|--------|-------|--------|
-| المرحلة 1: الاساس | مكتملة | Phase 1: Foundation | Complete |
+| المرحلة 1: الاساس | مكتملة — 90% (skills/ 7 ملفات) | Phase 1: Foundation | Complete — 90% (skills/ 7 files) |
 | المرحلة 2: قاعدة المعرفة | جارية، متقدمة | Phase 2: Knowledge Base | Advanced, In Progress |
 | المرحلة 3: سير عمل الذكاء الاصطناعي | جارية، مرحلة اولية | Phase 3: AI Workflows | Foundation Established |
 | المرحلة 4: تكامل MCP | تخطيط مبكر | Phase 4: MCP Integration | Research / Early Planning |
