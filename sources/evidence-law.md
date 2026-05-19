@@ -35,25 +35,29 @@ This file is designed for legal workflow mapping, AI evaluation, litigation-docu
 
 ### Disclaimer / إخلاء مسؤولية
 
-> **Warning:** This is a preliminary AI-assisted educational reference and does not constitute legal advice. A licensed legal professional in the Kingdom of Saudi Arabia must be consulted before taking any action.
+> **Warning:** This file is an educational/reference draft only. It is not legal advice. Review the official Arabic text and applicable procedural rules before making litigation, evidence, contracting, or compliance decisions.
 >
-> **تحذير:** هذا تحليل أولي بمساعدة الذكاء الاصطناعي ولا يُعدّ استشارة قانونية. يجب مراجعة مختص قانوني مرخّص في المملكة العربية السعودية قبل اتخاذ أي إجراء.
+> **تحذير:** هذا الملف مسودة تعليمية/مرجعية فقط، ولا يُعد استشارة قانونية. يجب مراجعة النص العربي الرسمي والقواعد الإجرائية ذات الصلة قبل اتخاذ أي قرار يتعلق بالتقاضي أو الإثبات أو التعاقد أو الامتثال.
 
 ---
 
 ## Scope / النطاق
 
-- The Law concerns evidentiary rules applicable in legal disputes.
-- It is directly relevant to litigation and court-facing workflows.
+This draft focuses on civil and commercial transactions, consistent with Article 1. Criminal procedure is outside the scope of this file unless a specific official cross-reference is verified.
+
+تركز هذه المسودة على المعاملات المدنية والتجارية وفقًا للمادة الأولى. ولا تتناول الإجراءات الجزائية إلا إذا ثبت وجود إحالة نظامية خاصة.
+
+- The Law concerns evidentiary rules applicable in civil and commercial disputes.
+- It is directly relevant to civil and commercial litigation and court-facing workflows.
 - It may affect how facts are proven, disputed, admitted, documented, or challenged.
 - It is relevant to written evidence, digital evidence, witness testimony, expert reports, presumptions, admissions, and oaths.
 - It should be read together with applicable procedural laws and court rules where relevant.
-- It should not be treated as a substitute for the Civil Procedure Law, Criminal Procedure Law, Commercial Courts Law, or other special procedural regimes.
+- It should not be treated as a substitute for the Civil Procedure Law, the Commercial Courts Law, or other special procedural regimes. Other procedural regimes may have separate evidentiary rules or special requirements and should be checked independently.
 
 **Applicability should always be checked based on:**
 
-- Type of dispute
-- Court or tribunal (commercial, civil, labor, administrative, criminal, personal status)
+- Type of dispute (civil or commercial)
+- Court or tribunal (commercial, civil, labor, administrative, personal status)
 - Procedural posture (pre-suit, pleading stage, hearing, appeal, enforcement)
 - Document type (official, private, electronic)
 - Evidentiary burden (who must prove what, and to what standard)
@@ -129,21 +133,33 @@ Includes (as workflow examples only, not as legal definitions):
 - AI systems must not treat statistical correlation, pattern matching, or model inference as a legal presumption.
 - *Article mapping:* **TO VERIFY**.
 
-### 8. Expert evidence / الخبرة
+### 8. Custom / العرف
+
+- Custom may be relevant in civil or commercial evidentiary reasoning where the official text permits it.
+- AI systems should not infer custom from common practice without proof, legal relevance, and judicial acceptance.
+- *Article mapping:* **TO VERIFY**.
+
+### 9. Expert evidence / الخبرة
 
 - Courts may rely on experts (court-appointed or party-submitted) for technical, accounting, engineering, digital forensics, valuation, and similar matters.
 - An expert report informs the court but is not, by itself, automatically conclusive.
 - The court evaluates the expert's methodology, qualifications, and the report's persuasive weight under applicable rules.
 - *Article mapping:* **TO VERIFY**.
 
-### 9. Oaths / اليمين
+### 10. Inspection / المعاينة
+
+- Inspection may be relevant where the court needs to observe a place, object, condition, or technical state directly.
+- It should not be treated as a substitute for expert evidence unless the official text and court direction support that.
+- *Article mapping:* **TO VERIFY**.
+
+### 11. Oaths / اليمين
 
 - Oaths function as a defined evidentiary mechanism in specified circumstances.
 - The conditions, consequences, and limits are governed by the official text — this is a high-caution area.
 - Educational summaries must not turn the oath into generic litigation advice.
 - *Article mapping:* **TO VERIFY**.
 
-### 10. Evidence and AI workflows / الإثبات ومسارات الذكاء الاصطناعي
+### 12. Evidence and AI workflows / الإثبات ومسارات الذكاء الاصطناعي
 
 - AI must not assert facts as proven merely because a supporting document exists.
 - AI must distinguish, in sequence:
@@ -175,7 +191,9 @@ This section is a **verification scaffold**, not an article-level reference yet.
 | Electronic evidence / digital evidence | TO VERIFY | الدليل الرقمي / الإلكتروني | Electronic / digital evidence | TO VERIFY |
 | Witness testimony | TO VERIFY | الشهادة | Witness testimony | TO VERIFY |
 | Presumptions | TO VERIFY | القرائن | Presumptions | TO VERIFY |
+| Custom | TO VERIFY | العرف | Custom | TO VERIFY |
 | Expert evidence | TO VERIFY | الخبرة | Expert evidence | TO VERIFY |
+| Inspection | TO VERIFY | المعاينة | Inspection | TO VERIFY |
 | Oaths | TO VERIFY | اليمين | Oaths | TO VERIFY |
 | Final provisions / implementing rules (if present) | TO VERIFY | الأحكام الختامية / اللوائح التنفيذية (إن وُجدت) | Final provisions / implementing regulations (if any) | TO VERIFY |
 
@@ -197,10 +215,13 @@ This section is a **verification scaffold**, not an article-level reference yet.
 - Treating screenshots or chat messages as automatically sufficient evidence.
 - Ignoring metadata, context, and chain of custody for digital evidence.
 - Confusing digital evidence concepts with Electronic Transactions Law concepts.
+- Confusing inspection with expert evidence or digital evidence.
 - Treating expert reports as automatically binding on the court.
 - Relying on witness testimony without considering legal limits and conditions.
+- Assuming a business practice is legally recognized custom without proof, relevance, and acceptance under the applicable rules.
 - Treating admissions outside their legal context (e.g., informal chat as a "judicial admission").
 - Ignoring the procedural rules of the relevant court.
+- Treating criminal evidentiary assumptions as applicable to civil/commercial disputes without a verified legal basis.
 - Importing non-Saudi evidence assumptions from common-law or foreign civil-law systems.
 - Confusing educational summaries (including this file) with legal advice.
 
@@ -208,13 +229,15 @@ This section is a **verification scaffold**, not an article-level reference yet.
 
 ## Saudi-specific considerations / اعتبارات خاصة بالمملكة العربية السعودية
 
+- The Law applies to civil and commercial transactions.
+- Criminal procedure is outside the scope of this draft unless a specific official cross-reference is verified.
 - This is a Saudi codified law and should not be treated as a copy of common-law evidence rules or other Arab evidence laws.
 - The official Arabic text controls.
-- Evidence analysis frequently requires reading the Evidence Law together with the applicable procedural laws.
+- Evidence analysis may require reading the Evidence Law together with applicable civil/commercial procedural laws and court rules.
 - Digital evidence should be assessed under the Saudi Evidence Law and relevant Saudi legal frameworks — not under generic international or common-law assumptions.
-- Court type and procedural posture matter (commercial, civil, labor, administrative, criminal, personal status).
-- Commercial, civil, labor, administrative, and criminal contexts may involve different procedural implications even under the same evidentiary framework.
-- AI and legal workflows should consistently distinguish:
+- Court type and procedural posture matter (commercial, civil, labor, administrative, personal status).
+- Commercial, civil, labor, and administrative contexts may involve different procedural implications even under the same evidentiary framework.
+- AI/legal workflows should distinguish:
   - Factual allegation
   - Supporting document
   - Admissibility
@@ -244,8 +267,8 @@ This section is a **verification scaffold**, not an article-level reference yet.
 ## Draft status / verification notes — حالة المسودة وملاحظات التحقق
 
 - The file is intentionally a draft.
-- Source-backed metadata (Royal Decree number, issue dates, publication date, status, official BOE URL) is presented as verified from the official BOE source.
-- All article-level mappings are presented as `TO VERIFY` and must be checked directly against the official Arabic text before being treated as authoritative.
+- Source-backed metadata is based on the BOE law record linked in this file. Article-level mappings remain `TO VERIFY` until direct article-by-article verification against the official Arabic text.
+- تستند البيانات الأساسية إلى سجل النظام في موقع هيئة الخبراء المرفق في هذا الملف. وتبقى إحالات المواد `TO VERIFY` حتى تُراجع المواد مباشرة من النص العربي الرسمي مادةً مادة.
 
 This file should not be promoted from draft status until all unverified article mappings are resolved or intentionally retained in a separate verification checklist.
 
@@ -267,11 +290,13 @@ This draft is suitable for early maintainer review because it separates source-b
 8. Electronic / digital evidence
 9. Witness testimony
 10. Presumptions
-11. Expert evidence
-12. Oaths
-13. Final provisions / implementing rules (if present)
+11. Custom
+12. Expert evidence
+13. Inspection
+14. Oaths
+15. Final provisions / implementing rules (if present)
 
-**Remaining `TO VERIFY` items: 13.**
+**Remaining article-mapping topics to verify: 15.**
 
 ---
 
