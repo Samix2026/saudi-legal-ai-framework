@@ -289,4 +289,20 @@ Foreign arbitral awards that include riba-based interest, punitive damages, or S
 
 <!-- TODO: يحتاج تحقق من النص النظامي الرسمي — أرقام المواد في نظام المحاكم التجارية م/93 1441هـ لجميع الأحكام أعلاه -->
 <!-- TODO: يحتاج تحقق — مدى إلزامية التسوية الودية قبل رفع بعض أنواع الدعاوى التجارية -->
+
+---
+
+## البوابة القانونية — وزارة العدل / MOJ Legal Portal
+
+البوابة القانونية لوزارة العدل ([laws.moj.gov.sa/ar](https://laws.moj.gov.sa/ar)) هي المرجع الرسمي للأنظمة والأحكام القضائية الصادرة عن المحاكم التجارية.
+
+The Ministry of Justice Legal Portal is the official reference for regulations and judicial decisions issued by the Commercial Courts.
+
+| الحقل | القيمة |
+|-------|-------|
+| **الرابط** | [laws.moj.gov.sa/ar](https://laws.moj.gov.sa/ar) |
+| **الجهة** | وزارة العدل |
+| **المحتوى ذو الصلة** | أنظمة المحاكم التجارية + أحكام المحاكم التجارية + سوابق قضائية تجارية |
+| **نوع المصدر** | رسمي |
+| **الاستخدام في هذا المشروع** | فهرسة الأحكام القضائية التجارية في `datasets/judicial-decisions/commercial/` |
 <!-- TODO: يحتاج تحقق — إجراءات التنفيذ الحديثة عبر ناجز وهل تغيرت بعد 1441هـ -->
