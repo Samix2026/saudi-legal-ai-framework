@@ -57,7 +57,7 @@ This draft focuses on civil and commercial transactions, consistent with Article
 **Applicability should always be checked based on:**
 
 - Type of dispute (civil or commercial)
-- Court or tribunal (commercial, civil, labor, administrative, personal status)
+- Court or forum type (civil, commercial, and where applicable under official procedural rules: labor or personal-status contexts)
 - Procedural posture (pre-suit, pleading stage, hearing, appeal, enforcement)
 - Document type (official, private, electronic)
 - Evidentiary burden (who must prove what, and to what standard)
@@ -181,8 +181,8 @@ This section is a **verification scaffold**, not an article-level reference yet.
 
 | Topic | Article / range | Arabic note | English note | Verification status |
 |------|-----------------|-------------|--------------|--------------------|
-| Scope and general principles | TO VERIFY | النطاق والمبادئ العامة | Scope and general principles | TO VERIFY |
-| Burden of proof | TO VERIFY | عبء الإثبات | Burden of proof | TO VERIFY |
+| Scope and general principles | Article 1 | تسري أحكام النظام على المعاملات المدنية والتجارية. | The Law applies to civil and commercial transactions. | Verified from BOE |
+| Burden of proof | Article 2 | على المدعي أن يثبت ما يدعيه من حق، وللمدعى عليه نفيه. | The claimant bears the burden of proving the asserted right, and the defendant may deny it. | Verified from BOE |
 | Admission | TO VERIFY | الإقرار | Admission | TO VERIFY |
 | Interrogation of parties | TO VERIFY | استجواب الخصوم | Interrogation of parties | TO VERIFY |
 | Official documents | TO VERIFY | المحررات الرسمية | Official documents | TO VERIFY |
@@ -231,12 +231,14 @@ This section is a **verification scaffold**, not an article-level reference yet.
 
 - The Law applies to civil and commercial transactions.
 - Criminal procedure is outside the scope of this draft unless a specific official cross-reference is verified.
+- The Evidence Law's core scope is civil and commercial transactions. Labor and personal-status contexts should be treated through applicable official procedural rules and any special provisions, not by broad assumption.
+- النطاق الأساسي لنظام الإثبات هو المعاملات المدنية والتجارية. أما المنازعات العمالية ومسائل الأحوال الشخصية فتُراجع من خلال القواعد الإجرائية الرسمية والنصوص الخاصة المنطبقة، لا بمجرد افتراض عام.
 - This is a Saudi codified law and should not be treated as a copy of common-law evidence rules or other Arab evidence laws.
 - The official Arabic text controls.
 - Evidence analysis may require reading the Evidence Law together with applicable civil/commercial procedural laws and court rules.
 - Digital evidence should be assessed under the Saudi Evidence Law and relevant Saudi legal frameworks — not under generic international or common-law assumptions.
-- Court type and procedural posture matter (commercial, civil, labor, administrative, personal status).
-- Commercial, civil, labor, and administrative contexts may involve different procedural implications even under the same evidentiary framework.
+- Court type and procedural posture matter; the relevant forum type and any applicable special procedural rules should be identified before analysis.
+- Different civil/commercial contexts may involve different procedural implications even under the same evidentiary framework.
 - AI/legal workflows should distinguish:
   - Factual allegation
   - Supporting document
@@ -256,6 +258,7 @@ This section is a **verification scaffold**, not an article-level reference yet.
 
 ### Supporting References
 
+- **Procedural Evidence Rules / الأدلة الإجرائية لنظام الإثبات** — official procedural materials published in Umm Al-Qura; should be reviewed alongside the Evidence Law for procedural application. Not a replacement for the Evidence Law.
 - **Ministry of Justice / وزارة العدل** — supporting legal and judicial material; not the issuing authority of the Law.
   [moj.gov.sa](https://www.moj.gov.sa)
 - Any implementing regulations or official procedural materials should be cited only if linked from official Saudi government platforms.
@@ -280,23 +283,25 @@ This draft is suitable for early maintainer review because it separates source-b
 
 ### Remaining article mappings to verify
 
-1. Scope and general principles
-2. Burden of proof
-3. Admission
-4. Interrogation of parties
-5. Official documents
-6. Private documents
-7. Document production
-8. Electronic / digital evidence
-9. Witness testimony
-10. Presumptions
-11. Custom
-12. Expert evidence
-13. Inspection
-14. Oaths
-15. Final provisions / implementing rules (if present)
+1. Admission
+2. Interrogation of parties
+3. Official documents
+4. Private documents
+5. Document production
+6. Electronic / digital evidence
+7. Witness testimony
+8. Presumptions
+9. Custom
+10. Expert evidence
+11. Inspection
+12. Oaths
+13. Final provisions / implementing rules (if present)
 
-**Remaining article-mapping topics to verify: 15.**
+**Remaining article-mapping topics to verify: 13.**
+
+Two mappings are currently article-level mapped from BOE: Article 1 for scope and Article 2 for burden of proof. All other article mappings remain `TO VERIFY` pending direct review of the official Arabic text.
+
+تم ربط موضعين فقط بإحالات مواد من هيئة الخبراء: المادة (1) للنطاق، والمادة (2) لعبء الإثبات. وتبقى بقية إحالات المواد `TO VERIFY` إلى حين مراجعة النص العربي الرسمي مباشرة.
 
 ---
 
