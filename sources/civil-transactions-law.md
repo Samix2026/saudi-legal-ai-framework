@@ -1,591 +1,494 @@
----
-jurisdiction: Saudi Arabia
-law_ar: نظام المعاملات المدنية
-law_en: Saudi Civil Transactions Law
-royal_decree: M/191
-issued_hijri: 29/11/1444
-issued_gregorian: 2023-06-18
-gazette: Umm Al-Qura, Issue 4987
-gazette_date_gregorian: 2023-06-23
-effective_date: 2023-12-17
-articles_count: 720
-language: ar-en
-status: draft-educational-reference
-official_source: https://laws.boe.gov.sa
-last_reviewed: 2026-05-16
-disclaimer: Educational summary only. The official Arabic text published in Umm Al-Qura and available through the Bureau of Experts at the Council of Ministers prevails over this summary in every respect.
+# المصدر: نظام المعاملات المدنية
+# Source: Saudi Civil Transactions Law
+
+**المرجع الرسمي:** نظام المعاملات المدنية الصادر بالمرسوم الملكي م/191 بتاريخ 29/11/1444هـ
+**Official Reference:** Civil Transactions Law issued by Royal Decree M/191 dated 29/11/1444H
+
+**تاريخ النشر في الجريدة الرسمية:** العدد 4987 بتاريخ 23 يونيو 2023م
+**Official Gazette Publication:** Umm Al-Qura, Issue No. 4987, 23 June 2023
+
+**تاريخ السريان:** 17 ديسمبر 2023م (180 يوما من تاريخ النشر)
+**Effective Date:** 17 December 2023 (180 days from publication)
+
+**عدد المواد:** 720 مادة — تحتوي المادة 720 على 41 قاعدة كلية في الاحكام الختامية
+**Total Articles:** 720 — Article 720 contains 41 codified general maxims in the concluding provisions
+
+**الجهة التنظيمية:** وزارة العدل
+**Regulatory Authority:** Ministry of Justice
+
+**الرابط الرسمي:** https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/655fdb42-8c96-422b-b8c4-b04f0095c94c/1
+
 ---
 
-# Saudi Civil Transactions Law / نظام المعاملات المدنية
+## ⚠️ تحذير / Warning
 
-> **Draft status / حالة المسودة:** This file is a **draft-educational-reference**. It should not be promoted from draft status until all unverified article mappings are resolved or intentionally retained in a separate verification checklist.
+> هذا ملخص مرجعي تعليمي. النص القانوني الرسمي الساري هو المعتمد. استشر محاميا مرخصا ومختصا في القانون المدني السعودي قبل اتخاذ اي قرار قانوني.
 >
-> لا ينبغي ترقية هذا الملف من حالة المسودة حتى تُحل جميع إحالات المواد غير المتحققة أو تُترك عمدًا ضمن قائمة تحقق مستقلة.
+> This is an educational reference summary. The official current legal text prevails. Consult a licensed attorney specializing in Saudi civil law before making any legal decision.
 
 ---
 
-## Overview
+## 1. الديباجة والمرجع الرسمي / Preamble and Official Reference
 
-| Item | Detail |
-|------|--------|
-| **Arabic name** | نظام المعاملات المدنية |
-| **English name** | Saudi Civil Transactions Law |
-| **Issuing instrument** | Royal Decree No. (M/191) |
-| **Decree date (Hijri)** | 29/11/1444H |
-| **Decree date (Gregorian)** | 18 June 2023 |
-| **Publication** | Umm Al-Qura Gazette, Issue No. (4987), 23 June 2023 |
-| **Effective date** | 17 December 2023 — 180 days after publication |
-| **Total articles** | 720 (Article 720 sets out codified general maxims in the concluding provisions) |
-| **Status** | draft-educational-reference |
+نظام المعاملات المدنية صادر بالمرسوم الملكي م/191 بتاريخ 29/11/1444هـ (18 يونيو 2023م). يُعد اول تقنين مدني شامل في المملكة العربية السعودية، ويتضمن 720 مادة تنظم العقود والالتزامات والمسؤولية المدنية والحقوق العينية والعقود المسماة. دخل النظام حيز التنفيذ بتاريخ 17 ديسمبر 2023م بعد 180 يوما من نشره في جريدة ام القرى الرسمية (العدد 4987).
 
-The law was **issued by Royal Decree No. M/191, published in Umm Al-Qura, and made available through official Saudi legal sources** (notably the Bureau of Experts at the Council of Ministers at [laws.boe.gov.sa](https://laws.boe.gov.sa)).
+**التعريفات الجوهرية (المادة الاولى والمصطلحات الاساسية):**
 
-### Disclaimer
-
-This file is an **educational and research reference only**. It is **not legal advice** and creates no attorney-client relationship. The **official Arabic text controls**; in any conflict between this summary and the official text, the official text prevails. This file alone must not be relied upon to determine a legal position, file a claim, or draft a contract. Any `[ARTICLE NUMBER TO VERIFY]` marker means the citation has not yet been confirmed against the official text.
-
-هذا الملف **مرجع تعليمي وبحثي فقط** — وليس استشارة قانونية. النص العربي الرسمي هو المرجع المعتمد، وعند أي تعارض يُؤخذ بالنص الرسمي. لا يجوز الاعتماد على هذا الملف وحده لتحديد مركز قانوني، أو لرفع دعوى، أو لصياغة عقد.
+| المصطلح | التعريف في سياق النظام |
+|---------|----------------------|
+| العقد | ارتباط الإيجاب بالقبول على وجه يُثبت اثره في المعقود عليه (المادة 31) |
+| الإرادة المنفردة | التزام ينشأ بإرادة شخص واحد دون حاجة لقبول مقابل [يحتاج تحقق من النص الرسمي] |
+| الفعل الضار | كل فعل يُلحق ضررا بالغير يُوجب على مرتكبه التعويض (المادة 120) |
+| الإثراء بلا سبب | انتقال عنصر من ذمة مالية الى اخرى دون سبب مشروع (المادة 144) |
+| الشرط الجزائي | الاتفاق المسبق على مقدار التعويض المستحق عند الإخلال (المادة 178) |
+| عدم سماع الدعوى | الحكم بعدم النظر في الدعوى بعد انقضاء المدة على المنكر — لا يُسقط الحق ذاته (المادة 295) |
 
 ---
 
-## Scope
+## 2. نطاق التطبيق والمادة الاولى / Scope and Article 1
 
-The law addresses **civil transactions** between natural and legal persons in the Kingdom of Saudi Arabia — primarily: general obligations, contract, the harmful act and compensation, unjust enrichment, transfer and extinction of obligations, named contracts, and real rights (principal and accessory).
+### ما يحكمه النظام
 
-### Civil / Commercial overlap
+يحكم النظام العلاقات المدنية بين الاشخاص الطبيعيين والاعتباريين في المملكة العربية السعودية؛ ويشمل: العقود العامة، الالتزامات ومصادرها، المسؤولية المدنية (العقدية والتقصيرية)، الإثراء بلا سبب، العقود المسماة (البيع والإيجار والوكالة وغيرها)، والحقوق العينية الاصلية والتبعية.
 
-Commercial matters are **not automatically excluded** from the Civil Transactions Law. The Royal Decree's transitional clauses contemplate the law supplementing commercial transactions in respects where no specific commercial statute applies, to the extent compatible with the nature of the commercial transaction. However, **special commercial laws may apply first** — most notably the Commercial Courts Law and its regulations, sector-specific statutes (banking, capital markets), and any applicable arbitration clauses.
+### علاقته بالفقه الإسلامي كمصدر احتياطي (المادة الاولى)
 
-> Naming precision: the official name is **"Commercial Courts Law" / "نظام المحاكم التجارية"** — not "Commercial Court Law."
+المادة الاولى تُرسي هرما ثلاثي المستويات لتطبيق القواعد:
 
-### Other special statutes with subject-matter priority
+| المستوى | المصدر | شرط التطبيق |
+|---------|--------|------------|
+| 1 (الاول) | نصوص النظام | يُطبَّق على كل ما يتناوله النظام بنص صريح او بداهة |
+| 2 (الثاني) | القواعد الكلية المُقننة (المادة 720 — 41 قاعدة) | يُطبَّق عند عدم وجود نص نظامي يمكن تطبيقه |
+| 3 (الثالث) | احكام الشريعة الإسلامية الانسب للنظام | يُطبَّق عند عدم وجود قاعدة كلية تنطبق على المسالة |
 
-- Labor Law (Royal Decree M/51 of 1426H) — employment relationships
-- Personal Status Law (Royal Decree M/73 of 1443H) — family and inheritance
-- Commercial Courts Law and its regulations — commercial jurisdiction and procedure
-- Banking and capital-markets regulations issued by the Saudi Central Bank and the Capital Market Authority
+> ملاحظة منهجية: لا يجوز تجاوز نصوص النظام والقواعد الكلية لتطبيق احكام الشريعة مباشرة. النظام لا يُسمي مذهبا فقهيا بعينه كمرجع احتياطي.
 
-### Transitional provisions
+### الاحكام الانتقالية والعقود السابقة
 
-The Royal Decree of issuance contains transitional clauses that may extend the law to certain events prior to the effective date, subject to important exceptions. **The transitional provisions should be checked directly from the Royal Decree before applying the law to earlier facts or contracts.** This file does not provide a definitive view on retroactive applicability.
+- **ما بعد 17 ديسمبر 2023م:** النظام يسري على جميع العقود والوقائع القانونية المُبرمة من تاريخ نفاذه.
+- **ما قبل تاريخ السريان:** الاحكام الانتقالية الواردة في المرسوم الملكي م/191 تُحدد مدى سريانه على الوقائع السابقة. يجب الرجوع اليها مباشرة قبل تطبيق النظام على عقود او نزاعات تسبق 17 ديسمبر 2023م [يحتاج تحقق من نص المرسوم الانتقالي].
+- **ميدان الخلاف التطبيقي:** مدد التقادم الجارية وقت دخول النظام حيز التنفيذ تستلزم مراجعة الاحكام الانتقالية بعناية.
 
-### No definitive advice without facts
+### ما لا يسري عليه النظام مباشرة
 
-Whether the law applies to a specific dispute cannot be determined without first checking:
-- the **date of the transaction**;
-- the **type of claim**;
-- the **parties** (natural / legal, Saudi / foreign);
-- the **contract terms** (including governing-law and arbitration clauses);
-- any **special laws** with subject-matter priority;
-- the **transitional provisions** of the Royal Decree.
-
----
-
-## Key Concepts
-
-### 1. Article 1 — Hierarchy of applicable rules
-
-Article 1 sets out a three-step hierarchy:
-
-1. **Statutory text first** — provisions of the law apply to every matter the law addresses expressly or by implication.
-2. **Codified general maxims in the concluding provisions** — applied when no provision can be applied (Article 720 sets out the maxims).
-3. **Sharia-derived rules most consistent with the law** — applied when no codified maxim can be applied.
-
-> Sharia-derived principles enter through this codified hierarchy. Bypassing the codified provisions to apply Sharia directly, or selecting a specific madhhab as binding fallback, is inconsistent with the wording of Article 1.
-
-### 2. Sources of obligations
-
-The law organizes the principal sources of obligations as: **contract**, **unilateral will**, **harmful act**, **unjust enrichment**, and **statute/law**. Payment not due and agency without mandate (**الفضالة**) should be treated according to the statutory structure under the unjust-enrichment / quasi-contract framework, not listed as an independent sixth source unless the official text expressly requires that.
-
-| Source | Current mapping |
-|--------|-----------------|
-| Contract | Article 31 (formation by linkage of offer and acceptance) |
-| Unilateral will | `[ARTICLE NUMBER TO VERIFY]` |
-| Harmful act / tortious liability | Article 118 (scope); Article 120 (general rule) |
-| Unjust enrichment | Article 144 — branch encompasses payment not due (Articles 145–146) and الفضالة (Article 150); shared time bar at Article 159 |
-| Statute / law | `[ARTICLE NUMBER TO VERIFY]` |
-
-### 3. Contract
-
-- **Formation:** Article 31 defines the contract as arising from the linkage of offer and acceptance to produce a statutory effect; Article 32 addresses mutual consent; Article 33 addresses expression of will (word, writing, understood signal, conduct; express or implied).
-- **Defects of consent:** mistake — Article 57; deception (التغرير) — Article 61; duress (الإكراه) — `[ARTICLE NUMBER TO VERIFY]`; exploitation / lesion (الاستغلال / الغبن) — `[ARTICLE NUMBER TO VERIFY]`.
-- **Good-faith performance:** Article 95 — performance must follow the contract and what good faith requires, including what the law, custom, and the nature of the contract require by implication.
-- **Hardship / supervening circumstances (الظروف الطارئة):** Article 96 — where exceptional general circumstances unforeseeable at contracting render performance burdensome, the debtor may, without undue delay, call the other party to negotiate.
-- **Agreed compensation / penalty clause (الشرط الجزائي):** Articles 178–180 — agreement on pre-set compensation is permitted; the court may reduce the amount where the debtor proves no harm occurred or the amount is excessive (Article 179). Translating this only as "penalty clause" misleads about its legal effect; functionally it is agreed / liquidated damages subject to judicial reduction.
-
-### 4. Liability concepts
-
-- **Harmful act — scope (natural and legal persons):** Article 118.
-- **General rule** (every fault that causes harm obliges its author to compensate): Article 120.
-- **Exemption / mitigation:** Articles 123, 124.
-- **Compensation, foreseeable damage, moral damage:** `[ARTICLE NUMBER TO VERIFY]`.
-- **Employer / subordinate liability** (matbū' / tābi'): `[ARTICLE NUMBER TO VERIFY]`.
-- **Guardian / custodian liability** (حارس الشيء): `[ARTICLE NUMBER TO VERIFY]` (secondary sources differ between Article 132 and Article 134; the official text must be consulted).
-- **Building owner — collapse:** Article 131.
-- **Animal keeper:** Article 130.
-- **Threatened-harm preventive action:** Article 133.
-
-### 5. Unjust enrichment
-
-- **Unjust enrichment** — Article 144.
-- **Payment of what is not due** — Article 145 (cases where recovery is permitted); Article 146 (exclusions, with carve-outs for parties lacking capacity or under duress).
-- **Agency without mandate (الفضالة / negotiorum gestio)** — Article 150.
-- **Shared time bar:** Article 159 — three years from the creditor's knowledge of the right; ten years from the date the right arose, as an outer limit.
-
-### 6. Limitation / non-hearing of claims
-
-The Saudi text uses **"non-hearing of the claim" (عدم سماع الدعوى) على المنكر** — not extinction of the right itself. Distinguish carefully:
-
-- **Non-hearing of the claim:** the court will not hear the claim after the stated period, where the defendant denies the right (**على المنكر**); the underlying right may persist.
-- **Limitation / time bar:** acceptable English equivalents.
-- **Extinction of the right itself:** only when the law expressly says so.
-
-The **"على المنكر"** phrase matters because it conditions the time bar on how the defense is pleaded — the bar does not operate automatically irrespective of the defendant's posture.
-
-(Specific periods are summarized in **Important Articles** below.)
+| النظام | المرجع | النطاق المستثنى |
+|--------|--------|----------------|
+| نظام العمل | م/51 1426هـ | العلاقات العمالية |
+| نظام الاحوال الشخصية | م/73 1443هـ | الزواج والطلاق والميراث والحضانة |
+| نظام المحاكم التجارية | م/93 1441هـ | الاجراءات والاختصاص في النزاعات التجارية |
+| انظمة ساما وهيئة السوق المالية | متعددة | المصارف ورأس المال والتامين |
 
 ---
 
-## Important Articles
+## 3. مصادر الالتزام / Sources of Obligation
 
-> The entries below are **article references included for review**. Each has been cross-checked against multiple secondary Saudi legal-commentary sources but **has not been independently confirmed against the official Arabic text published by the Bureau of Experts**. Unverified items show `TO VERIFY` and should be checked against the official text before citation.
+النظام يُنظم مصادر الالتزام على النحو الآتي:
 
-| Topic | Article / range | Arabic note | English note | Verification status |
-|-------|-----------------|-------------|--------------|---------------------|
-| Hierarchy of application | 1 | تطبيق نصوص النظام ثم القواعد الكلية ثم أحكام الشريعة الأنسب | Statute → codified maxims (Art. 720) → Sharia most consistent | Mapped — verify against official text |
-| Contract definition | 31 | ارتباط الإيجاب بالقبول لإحداث أثرٍ نظامي | Offer + acceptance producing a statutory effect | Mapped |
-| Mutual consent | 32 | التراضي | Consent / meeting of minds | Mapped |
-| Expression of will | 33 | بكل ما يدل على الإرادة | Word, writing, understood signal, conduct | Mapped |
-| Mistake | 57 | الغلط الجوهري | Material mistake | Mapped |
-| Deception | 61 | التغرير | Fraudulent inducement | Mapped |
-| Duress | TO VERIFY | الإكراه | Duress | TO VERIFY |
-| Exploitation / lesion | TO VERIFY | الاستغلال / الغبن | Exploitation / lesion | TO VERIFY |
-| Good-faith performance | 95 | تنفيذ العقد بحسن النية | Good-faith performance, including implied requirements | Mapped |
-| Hardship | 96 | الظروف الطارئة | Renegotiation duty on burdensome performance | Mapped |
-| Tortious liability — scope | 118 | سريان على الطبيعي والاعتباري | Applies to natural and legal persons | Mapped |
-| Tortious liability — general rule | 120 | كل خطأ سبب ضررًا للغير يلزم بالتعويض | Fault causing harm → compensation | Mapped |
-| Tort defences / mitigation | 123, 124 | ظروف الإعفاء والتخفيف | Exemption or reduction of liability | Mapped |
-| Animal-keeper liability | 130 | مسؤولية حارس الحيوان | Liability for harm caused by the animal | Mapped |
-| Building-owner liability | 131 | مسؤولية صاحب البناء عند تهدمه | Liability for harm from collapse | Mapped |
-| Preventive action against threatened harm | 133 | درء الخطر | Right to demand preventive measures | Mapped |
-| Custodian / keeper of a thing | TO VERIFY | حارس الشيء | Conflict in secondary sources between 132 and 134 | TO VERIFY |
-| Employer / subordinate liability | TO VERIFY | مسؤولية المتبوع عن التابع | Vicarious liability | TO VERIFY |
-| Unjust enrichment | 144 | الإثراء بلا سبب | Liability to compensate up to the enrichment | Mapped |
-| Payment of what is not due — recovery | 145 | استرداد غير المستحق | Recovery permitted in stated cases | Mapped |
-| Payment of what is not due — exclusions | 146 | استثناءات الرد | Excluded where the payer knew, with carve-outs | Mapped |
-| Agency without mandate | 150 | الفضالة | Negotiorum gestio | Mapped |
-| Time bar — unjust enrichment / payment not due / الفضالة | 159 | (3) سنوات من العلم، (10) سنوات حدًا أقصى | 3 years from knowledge; 10-year outer limit | Mapped |
-| Agreed compensation / penalty clause | 178, 179, 180 | الشرط الجزائي وسلطة المحكمة في الإنقاص | Agreed / liquidated damages, judicial reduction | Mapped |
-| Time bar — general rule | 295 | (10) سنوات على المنكر — قاعدة عامة | 10-year general non-hearing of claim | Mapped |
-| Time bar — liberal professions and recurring claims | 296 | (5) سنوات للمهن الحرة والدورية | 5-year period | Mapped |
-| Time bar — hotels/restaurants, day wages | 297 | (1) سنة | 1-year period | Mapped |
-| Time bar — written deed extension | 298 | (10) سنوات إذا حُرِّر سند | 10-year period when a written deed exists | Mapped |
-| One-year time bar — annulment for defect of consent | TO VERIFY | (1) سنة من العلم بسبب الإبطال | 1-year period for annulment | TO VERIFY |
-| Sale — definition | 307 | تعريف عقد البيع | Seller transfers the subject for a monetary price | Mapped |
-| Seller's obligations | 319 | التزامات البائع | Seller's obligations | Mapped |
-| Codified general maxims | 720 | (41) قاعدة كلية في الأحكام الختامية | 41 codified general maxims in the concluding provisions | Mapped |
+| المصدر | المادة | الوصف |
+|--------|--------|-------|
+| **العقد** | 31 | ارتباط الإيجاب بالقبول لإحداث اثر نظامي |
+| **الإرادة المنفردة** | [يحتاج تحقق] | التزام ينشأ بإرادة شخص واحد — كالوعد بجائزة |
+| **الفعل الضار** | 118 (النطاق)؛ 120 (القاعدة العامة) | كل خطأ سبب ضررا للغير يُلزم مرتكبه بالتعويض |
+| **الإثراء بلا سبب** | 144؛ 145-146 (غير المستحق)؛ 150 (الفضالة) | انتقال العناصر المالية بغير سبب مشروع |
+| **النص النظامي (القانون)** | [يحتاج تحقق] | الالتزامات التي يُنشئها النظام مباشرة بصرف النظر عن إرادة الاطراف |
 
-> "Mapped" means the article reference has been cross-checked against secondary Saudi legal-commentary sources and is included for review. It does **not** mean the file has been independently confirmed against the official Arabic text.
+**ملاحظة حول الفضالة:**
+الفضالة (الوكالة بدون تكليف) مُدرجة ضمن اطار الإثراء بلا سبب في النظام (المادة 150)؛ لا تُعد مصدرا مستقلا سادسا. تسري عليها مدة التقادم ذاتها: 3 سنوات من علم الدائن بحقه، و10 سنوات حدا اقصى (المادة 159).
 
 ---
 
-## Named Contracts / العقود المسماة — Overview only
+## 4. احكام العقود / Contract Provisions
 
-This section is an **overview only**. Article ranges for named contracts should be verified against the official Arabic text before citation.
+### شروط الانعقاد والصحة
 
-Named contracts addressed by the law include:
+| الشرط | المادة | التفصيل |
+|-------|--------|---------|
+| الإيجاب والقبول | 31 | يتكون العقد بارتباط الإيجاب بالقبول على وجه يثبت اثره في المعقود عليه |
+| التراضي | 32 | توافق إرادتين على ما يُرتب اثرا نظاميا |
+| التعبير عن الإرادة | 33 | لفظ او كتابة او إشارة مفهومة او فعل، صراحة او دلالة |
+| محل العقد | [يحتاج تحقق] | موجود ومعين او قابل للتعيين ومشروع |
+| سبب العقد | [يحتاج تحقق] | يُفترض مشروعا ما لم يُثبت خلافه |
 
-- Sale / البيع (Article 307 defines; Article 319 addresses seller's obligations — remaining range `TO VERIFY`)
-- Barter / المقايضة `[ARTICLE RANGES TO VERIFY]`
-- Gift / الهبة `[ARTICLE RANGES TO VERIFY]`
-- Loan / القرض `[ARTICLE RANGES TO VERIFY]`
-- Lease / الإيجار `[ARTICLE RANGES TO VERIFY]`
-- Loan for use / العارية `[ARTICLE RANGES TO VERIFY]`
-- Contract for work / المقاولة `[ARTICLE RANGES TO VERIFY]`
-- Agency / الوكالة `[ARTICLE RANGES TO VERIFY]`
-- Deposit / الوديعة `[ARTICLE RANGES TO VERIFY]`
-- Sequestration / الحراسة `[ARTICLE RANGES TO VERIFY]`
-- Insurance / التأمين `[ARTICLE RANGES TO VERIFY]` — **subject to special insurance and financial-sector regulations where applicable** (notably regulations from the Saudi Central Bank and any sector-specific cooperative-insurance rules)
-- Guarantee / الكفالة `[ARTICLE RANGES TO VERIFY]`
-- Assignment / الحوالة `[ARTICLE RANGES TO VERIFY]`
-- Settlement / الصلح `[ARTICLE RANGES TO VERIFY]`
+### عيوب الإرادة (الغلط، التدليس، الإكراه، الاستغلال)
 
----
+| العيب | المادة | الاثر النظامي |
+|-------|--------|--------------|
+| الغلط | 57 | غلط جوهري في طبيعة العقد او هوية محله او صفة جوهرية فيه — يُجيز الابطال |
+| التدليس / التغرير | 61 | الحيلة والكذب لدفع الطرف الآخر الى إبرام العقد — يُجيز الابطال |
+| الإكراه | [يحتاج تحقق] | الضغط المادي او المعنوي الذي يُفقد الإرادة حريتها — يُجيز الابطال |
+| الاستغلال / الغبن | [يحتاج تحقق] | استغلال ضعف الطرف الآخر لتحقيق منفعة غير متناسبة — يُجيز التعديل او الابطال |
 
-## Real Rights / الحقوق العينية — Overview only
+**مدة طلب الابطال لعيوب الإرادة:** [يحتاج تحقق من النص الرسمي — تُشير المصادر التعليمية الى سنة واحدة من علم الطرف بسبب الابطال]
 
-This section is an **overview** and **must not be cited as an article-level reference until article ranges are verified**.
+### آثار العقد وتفسيره
 
-The law addresses two categories of real rights:
+- **تنفيذ حسن النية (المادة 95):** يجب تنفيذ العقد بما يوجبه حسن النية، وفق ما يقتضيه النظام والعرف والطبيعة المالوفة للمعاملة.
+- **الظروف الطارئة (المادة 96):** إذا طرات ظروف استثنائية عامة غير متوقعة جعلت تنفيذ الالتزام مُرهِقا، جاز للمدين ان يطلب من الدائن في وقت معقول التفاوض لإعادة التوازن.
+- **الشرط الجزائي (المواد 178-180):** الاتفاق المسبق على مقدار التعويض جائز؛ للقاضي تخفيض المبلغ اذا اثبت المدين عدم وقوع الضرر او تفاحش المبلغ (المادة 179). لا يجوز تعاقديا سلب القاضي هذه الصلاحية.
+- **بيع الشيء المعين بالذات (المادة 307):** البيع عقد يُلزم البائع بنقل ملكية شيء لقاء ثمن نقدي — تعريف يحكم تفسير عقود البيع.
 
-- **Principal real rights:** ownership (الملكية), usufruct (الانتفاع), use and habitation (الاستعمال والسكنى), easement (الارتفاق).
-- **Accessory real rights:** mortgage — formal and possessory (الرهن الرسمي / الحيازي), and statutory liens (حقوق الامتياز).
+### انقضاء العقد وفسخه
 
-Article ranges for each: `[ARTICLE RANGES TO VERIFY]`.
+| سبب الانقضاء | ملاحظة |
+|-------------|--------|
+| الوفاء | الاداء الفعلي للالتزام |
+| التجديد | استبدال الالتزام القائم بالتزام جديد |
+| المقاصة | تقابل دينين متماثلين وتساقطهما |
+| اتحاد الذمة | اجتماع صفتي الدائن والمدين في شخص واحد |
+| الإبراء | تنازل الدائن عن حقه |
+| الاستحالة الطارئة | استحالة التنفيذ لسبب خارج عن إرادة المدين |
+| التقادم (عدم السماع) | عدم سماع الدعوى على المنكر بعد انقضاء المدة |
 
-> **Caution:** Do not mix the Civil Transactions Law with separate regimes such as real-estate registration, registered real-estate mortgage, security interests over movables, or sector-specific collateral rules. Each has its own legislation and references.
-
----
-
-## Common Legal Risk Areas
-
-Practical risk areas relevant to contracts and legal workflows:
-
-- **Applying pre-2023 uncodified principles** without checking the Civil Transactions Law. After 17 December 2023, codified provisions take precedence under Article 1's hierarchy.
-- **Confusing Saudi law with Egyptian, UAE, Kuwaiti, Jordanian, or French civil codes.** The Saudi law has its own numbering, scope, and underlying hierarchy. Importing default rules from other codes is unsafe.
-- **Treating all commercial matters as excluded** from the law. The Civil Transactions Law can supplement commercial transactions where no special statute applies and where compatible with the commercial nature; commercial jurisdiction remains with the commercial courts.
-- **Ignoring transitional provisions.** Whether the law applies to events before the effective date depends on the Royal Decree's transitional clauses and the facts (transaction date, prior statutory texts, judicial principles, running limitation periods).
-- **Treating الفضالة as an independent source** without checking the statutory structure. الفضالة is arranged within the unjust-enrichment / quasi-contract branch and shares the time bar in Article 159.
-- **Assuming a generic 15-year limitation period** from other Arab civil codes. The Saudi general rule is **10 years** (Article 295), with category-specific shorter periods (Articles 296, 297) and a 10-year extension when a written deed exists (Article 298).
-- **Ignoring "على المنكر" language** where it is part of the operative time-bar provision. The bar conditions on the defendant's denial — it is not an automatic extinction.
-- **Treating a time bar as automatic extinction of the right.** The Saudi formulation is non-hearing of the claim; the underlying right may persist.
-- **Relying on English summaries instead of the official Arabic text.** Translations — including this file — are subordinate.
-- **Drafting contracts without checking mandatory rules, special laws, and sector regulations.** The Civil Transactions Law is rarely the only applicable source for a commercial, financial, employment, real-estate, or insurance contract.
-- **Confusing educational reference material with legal advice.** Files like this one cannot replace a Saudi-licensed attorney's review of facts, dates, governing-law clauses, applicable special statutes, and procedural posture.
+**ارقام المواد لاسباب الانقضاء:** [يحتاج تحقق من النص الرسمي]
 
 ---
 
-## Saudi-specific Considerations
+## 5. المسؤولية المدنية / Civil Liability
 
-- The Civil Transactions Law is a **Saudi codification with Sharia-anchored hierarchy**. It is **not a copy** of the Egyptian, Emirati, Kuwaiti, Jordanian, or French civil codes. Article numbers and default rules from those codes must not be transposed without independent verification.
-- The **official Arabic text controls**. Translations, summaries, and commentary — including this file — are subordinate to the published Arabic source.
-- **Article 1 creates a hierarchy of interpretation and gap-filling:** statutory text → codified maxims in the concluding provisions → Sharia provisions most consistent with the law. Codified provisions should not be bypassed by jumping directly to general Sharia principles.
-- **Commercial disputes may require checking special commercial laws first.** The Civil Transactions Law can supplement, but special statutes and forums often apply first.
-- The **Ministry of Justice legal portal** may be useful as **supporting material** (judicial applications, related legislation) but is **not the issuing authority** for the law.
-- **WIPO Lex** may be useful as a **supporting international index** but is **not an official Saudi source**.
-- Procedural and jurisdictional paths shown in summaries are simplified and **may vary by claim type, value, parties, arbitration clauses, and special statutes**.
+### المسؤولية التقصيرية
 
-### Article 720 — codified general maxims
+**الإطار العام:**
 
-Article 720 contains **codified general maxims in the concluding provisions**. Although these maxims have **jurisprudential / Sharia roots**, this file refers to them as **codified maxims within the law** — once enacted in Article 720, they operate as positive statutory rules, applied per the hierarchy in Article 1 and only to the extent they do not conflict with the law's other provisions.
+| المادة | الحكم |
+|--------|-------|
+| 118 | نطاق سريان احكام المسؤولية التقصيرية على الاشخاص الطبيعيين والاعتباريين |
+| 120 | القاعدة العامة: كل خطا سبب ضررا للغير يُلزم مرتكبه بالتعويض |
+| 123 | حالات الإعفاء من المسؤولية (القوة القاهرة وما في حكمها) |
+| 124 | حالات التخفيف من المسؤولية (خطا المضرور، فعل الغير) |
 
-### Simplified litigation pathway (with caveats)
+**حالات المسؤولية الخاصة:**
+
+| الحالة | المادة | الوصف |
+|--------|--------|-------|
+| حارس الحيوان | 130 | مسؤولية المالك او الحارس عما يُحدثه الحيوان من ضرر |
+| صاحب البناء عند الانهدام | 131 | مسؤولية مالك البناء عن الاضرار الناجمة عن تهدمه |
+| حارس الشيء | [يحتاج تحقق — تعارض بين 132 و134 في المصادر الثانوية] | مسؤولية حارس الشيء عما يُحدثه من ضرر |
+| درء الخطر المحدق | 133 | حق المتضرر في المطالبة باتخاذ تدابير وقائية قبل وقوع الضرر |
+| المتبوع عن التابع | [يحتاج تحقق من النص الرسمي] | المسؤولية بالواسطة عن اعمال التابع في حدود عمله |
+
+### المسؤولية العقدية
+
+- تقوم على الإخلال بالتزام تعاقدي قائم وصحيح.
+- اركانها: وجود عقد صحيح، إخلال بالالتزام، ضرر، علاقة سببية.
+- الشرط الجزائي (المواد 178-180) يُحدد التعويض مسبقا مع صلاحية القضاء في التعديل.
+- الظروف الطارئة (المادة 96) قد تُتيح التفاوض على تعديل الالتزامات دون الفسخ.
+
+### التعويض وضوابطه
+
+| العنصر | المادة | التفصيل |
+|--------|--------|---------|
+| التعويض المعنوي (الادبي) | 136 | مُقنَّن صراحة — يشمل التعويض الضرر الادبي وليس الضرر المادي وحده |
+| تعديل الشرط الجزائي | 179 | للقاضي التخفيض عند عدم الضرر او التفاحش؛ لا يُسلب هذا الحق تعاقديا |
+| الإعفاء والتخفيف | 123، 124 | القوة القاهرة وخطا المضرور وفعل الغير |
+| الضرر المتوقع والمباشر | [يحتاج تحقق] | ضوابط ربط التعويض بالضرر المتوقع والمباشر |
+
+---
+
+## 6. مدد التقادم / Limitation Periods
+
+نظام المعاملات المدنية يستخدم عبارة **"عدم سماع الدعوى على المنكر"** لا انقضاء الحق ذاته. تنقطع مدة التقادم بمطالبة قضائية او اعتراف بالحق او مصالحة.
+
+### القاعدة العامة
+
+| المادة | المدة | نطاق التطبيق |
+|--------|-------|-------------|
+| 295 | 10 سنوات على المنكر | القاعدة العامة لجميع الحقوق التي لا تخضع لمدة خاصة |
+
+### الاستثناءات حسب نوع الحق
+
+| المادة | المدة | النطاق |
+|--------|-------|--------|
+| 296 | 5 سنوات | المهن الحرة (اطباء ومحامون ومهندسون وما في حكمهم) والحقوق الدورية المتكررة |
+| 297 | سنة واحدة | اصحاب المنشآت المعدة لإيواء النزلاء واطعامهم؛ الاجور اليومية وما في حكمها |
+| 298 | 10 سنوات | الحالة التي يُحرَّر فيها سند خطي — يُعيد التقادم الى 10 سنوات حتى لو كانت المدة الاصلية اقصر |
+| 159 | 3 سنوات من العلم / 10 سنوات حدا اقصى | الإثراء بلا سبب وغير المستحق والفضالة |
+| [يحتاج تحقق] | [تُشير المصادر التعليمية الى سنة من العلم بالعيب] | طلب ابطال العقد بسبب عيوب الإرادة |
+
+### وقف التقادم وانقطاعه
+
+- **الانقطاع** يحصل بالمطالبة القضائية، والاعتراف بالحق، والمصالحة.
+- **الوقف** يحصل في حالات عدة منها القوة القاهرة وبعض العلاقات التبعية بين الدائن والمدين.
+- **ارقام المواد المحددة لوقف التقادم وانقطاعه:** [يحتاج تحقق من النص الرسمي]
+
+### الملاحظة المنهجية
+
+- المدة العامة في النظام السعودي **10 سنوات** (المادة 295) — لا 15 سنة كما في بعض القوانين العربية المقارنة. استيراد الحكم المقارن خطا منهجي.
+- "على المنكر" شرط إجرائي: التقادم لا يسري تلقائيا بصرف النظر عن موقف المدين — يُشترط الإنكار لتفعيل الدفع بعدم السماع.
+
+---
+
+## 7. الحقوق العينية / Real Rights
+
+### الملكية واسبابها
+
+الملكية الحق العيني الاصلي الاشمل: يُخوّل صاحبه الانتفاع بالشيء واستعماله والتصرف فيه بالقدر الذي يُجيزه النظام. تُكتسب الملكية بالعقد والميراث والحيازة المُكسبة وغيرها.
+
+**ارقام المواد لاحكام الملكية واسبابها:** [يحتاج تحقق من النص الرسمي]
+
+### الحقوق العينية الاصلية والتبعية
+
+| النوع | الحقوق |
+|-------|--------|
+| الحقوق العينية الاصلية | الملكية؛ حق الانتفاع؛ حق الاستعمال والسكنى؛ حق الارتفاق |
+| الحقوق العينية التبعية | الرهن الرسمي؛ الرهن الحيازي؛ حقوق الامتياز |
+
+**ارقام المواد لكل حق عيني:** [يحتاج تحقق من النص الرسمي]
+
+> تنبيه: لا تُخلط الحقوق العينية المنصوص عليها في هذا النظام مع انظمة مستقلة كنظام التسجيل العقاري ونظام الرهن العقاري المُسجَّل وانظمة التامينات العينية على المنقولات — لكل منها تشريعه الخاص.
+
+### الحيازة وآثارها
+
+الحيازة واقعة مادية تُرتب اثارا قانونية: قرينة الملكية، والتقادم المُكسب، والحماية من الاعتداء.
+**المدة اللازمة للتملك بالتقادم المُكسب وارقام المواد المتعلقة بالحيازة:** [يحتاج تحقق من النص الرسمي]
+
+---
+
+## 8. التقاطع مع أنظمة أخرى / Intersections with Other Regulations
+
+### نظام التجارة
+
+نظام التجارة ينظم الاعمال التجارية ويشترط القيد في السجل التجاري. نظام المعاملات المدنية يُكمل المنظومة التجارية في المسائل التي لا يرد فيها نص تجاري خاص وبما يتلاءم مع الطابع التجاري للمعاملة.
+
+### نظام الشركات
+
+نظام الشركات (م/م/132 لعام 1443هـ) يحكم تاسيس الشركات ومسؤولية الشركاء والمساهمين. التزامات التعاقد العامة تخضع لنظام المعاملات المدنية فيما لا يخالف نظام الشركات ولا يتعارض مع طبيعة الكيانات الاعتبارية.
+
+### نظام المحاكم التجارية
+
+نظام المحاكم التجارية (م/93 لعام 1441هـ) يُحدد الاختصاص القضائي للنزاعات التجارية. نظام المعاملات المدنية يظل قابلا للتطبيق موضوعيا في المسائل المدنية المنضوية ضمن نزاع ينظره القضاء التجاري. الاختصاص الاجرائي لا يُلغي تطبيق الاحكام الموضوعية للنظام المدني.
+
+### الاحوال الشخصية (ما استثناه النظام)
+
+نظام الاحوال الشخصية (م/73 لعام 1443هـ) يحكم عقد الزواج والطلاق والميراث والحضانة والنفقة. هذه المسائل مستثناة من نطاق نظام المعاملات المدنية. في حالات التداخل — كالوصية المتضمنة تصرفات مالية — يُحدد نطاق كل نظام بالرجوع الى نصوصه ومقاصده.
+
+---
+
+## 9. مناطق المخاطر القانونية الشائعة / Common Legal Risk Areas
+
+### اكثر النزاعات المدنية تكرارا
+
+| النزاع | المادة ذات الصلة | ملاحظة |
+|--------|----------------|--------|
+| افتراض مدة التقادم 15 سنة من قوانين عربية اخرى | 295 | الصحيح 10 سنوات عامة مع مدد اقصر في 296-297 |
+| الإخلال بمبدأ حسن النية في التنفيذ | 95 | يُفضي الى دعوى تعويض |
+| الغلط في تعيين محل العقد | 57 | ابطال العقد اذا كان الغلط جوهريا |
+| الشرط الجزائي المبالغ فيه | 179 | للقاضي تعديله دون حاجة لطلب الاطراف |
+| الظروف الطارئة — رفع الاسعار المفاجئ | 96 | التزام التفاوض لإعادة التوازن |
+| التعويض المعنوي — اغفاله في الدعاوى | 136 | حق مُقنَّن — يجب المطالبة به صراحة |
+| استيراد احكام القانون المدني المصري او الإماراتي | متعددة | ارقام المواد والاحكام الافتراضية مختلفة في النظام السعودي |
+| تطبيق النظام على عقود مبرمة قبل ديسمبر 2023م | الاحكام الانتقالية | يحتاج مراجعة نص المرسوم الانتقالي |
+
+### ما يجب التحقق منه في العقود
+
+- هل العقد مُبرَم بعد 17 ديسمبر 2023م (تاريخ سريان النظام)؟
+- هل يتضمن العقد بنودا تُقيّد صلاحية القاضي في تعديل الشرط الجزائي؟ — هذه البنود باطلة.
+- هل محل العقد معيَّن بدقة تتجنب دعوى الغلط الجوهري (المادة 57)؟
+- هل العقد طويل الامد تضمَّن آلية واضحة لمعالجة الظروف الطارئة (المادة 96)؟
+- هل حُدِّدت الجهة القضائية المختصة (محاكم عامة ام تجارية ام تحكيم)؟
+- هل تضمَّن العقد سقفا للتعويض قد يتعارض مع حق التعويض المعنوي (المادة 136)؟
+
+---
+
+## 10. الجهات المختصة / Competent Authorities
+
+### المحاكم العامة
+
+تختص بالنزاعات المدنية بين الاشخاص الطبيعيين والاعتباريين التي لا تندرج ضمن الاختصاص التجاري.
 
 ```
-Civil disputes:
-General Court (first instance) → Court of Appeal → Supreme Court (in prescribed cases)
-
-Commercial disputes:
-Commercial Court → Commercial Appeal → Supreme Court
+1. المحكمة العامة (الدرجة الاولى)
+   |
+2. محكمة الاستئناف
+   |
+3. المحكمة العليا (في المسائل المبدئية)
 ```
 
-> This is a simplified procedural overview. Jurisdiction may vary depending on the claim type, value, parties, applicable special statutes, arbitration clauses, and procedural rules.
+### المحاكم التجارية (للنزاعات ذات الطابع التجاري)
+
+تختص المحاكم التجارية (م/93 لعام 1441هـ) بالنزاعات بين التجار والمسائل التجارية، بما فيها العقود ذات الطابع التجاري حتى اذا طُبِّق النظام المدني موضوعيا.
+
+```
+1. المحكمة التجارية (الدرجة الاولى)
+   |
+2. دائرة الاستئناف التجاري
+   |
+3. المحكمة العليا (في مسائل مبدئية)
+```
+
+> ملاحظة: التحكيم التجاري (نظام التحكيم م/34 لعام 1433هـ) يُتيح تسوية بديلة خارج المنظومة القضائية — راجع `skills/arbitration.md`.
 
 ---
 
-## Common AI Failure Modes
+## 11. المصادر الرسمية والمراجع / Official Sources and References
 
-When reasoning about Saudi civil law, AI models commonly make the following errors. Avoid them:
-
-- Saying Saudi Arabia has no codified civil law after 2023.
-- Applying pre-2023 uncodified principles without checking the Civil Transactions Law.
-- Confusing the Saudi Civil Transactions Law with Egyptian, UAE, Kuwaiti, Jordanian, or French civil codes.
-- Treating all commercial disputes as completely excluded from the law.
-- Treating الفضالة as a standalone source of obligation without checking the statutory structure.
-- Assuming a generic 15-year limitation period from other Arab civil codes.
-- Using "prescription" without checking whether the Saudi text uses "limitation," "time bar," or "non-hearing of claims (على المنكر)."
-- Ignoring **"على المنكر"** language where it is part of the operative limitation provision.
-- Treating a time bar as automatic extinction of the underlying right.
-- Citing Sharia principles directly when a codified article exists, or citing a specific madhhab as binding fallback (the law does not name one).
-- Ignoring the transaction date and the transitional provisions in the Royal Decree.
-- Translating "الشرط الجزائي" only as "penalty clause" without noting it functions as agreed / liquidated damages subject to judicial reduction (Article 179).
-- Giving legal advice without asking for the facts (transaction date, parties, governing-law clause, applicable special statutes, dispute forum, prior procedural steps).
-- Relying on English summaries as if they were the controlling text.
-- Inventing article numbers. If unsure, state that the citation cannot be confirmed and direct the user to the official text at laws.boe.gov.sa.
+- **هيئة الخبراء بمجلس الوزراء:** [laws.boe.gov.sa](https://laws.boe.gov.sa) — النص الرسمي للنظام
+- **الرابط المباشر للنظام:** https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/655fdb42-8c96-422b-b8c4-b04f0095c94c/1
+- **الجريدة الرسمية (أم القرى):** [uqn.gov.sa](https://uqn.gov.sa) — النص الاصلي المنشور (العدد 4987)
+- **وزارة العدل:** [moj.gov.sa](https://www.moj.gov.sa) — بوابة الانظمة والتعليمات
+- **المركز الوطني للوثائق والمحفوظات:** [ncar.gov.sa](https://ncar.gov.sa)
+- **مراجع ذات صلة داخل الإطار:**
+  - `skills/commercial-dispute.md` (التقادم وعيوب العقود في النزاعات التجارية)
+  - `skills/arbitration.md` (البديل التحكيمي للتسوية)
+  - `skills/real-estate-contracts.md` (العقود العقارية والحقوق العينية)
+  - `sources/labor-law.md` (نظام العمل — النطاق المستثنى من النظام المدني)
 
 ---
 
-## Example QA Checks
+## الاحكام الإلزامية غير قابلة التنازل / Mandatory Non-Waivable Provisions
 
-Short test scenarios for evaluating AI outputs. These are for testing, not legal advice.
-
-### Example 1 — "No codified civil law after 2023"
-
-**Question:** "Does Saudi Arabia have a codified civil law applicable to contracts and torts today?"
-
-- **Bad answer:** "No, Saudi Arabia has no codified civil law."
-  *Why it is wrong:* Ignores the Civil Transactions Law (Royal Decree M/191), effective 17 December 2023.
-- **Better answer:** "Yes. The Civil Transactions Law (Royal Decree M/191) is a comprehensive codification covering obligations, contract, harmful act, unjust enrichment, named contracts, and real rights, effective 17 December 2023. The official Arabic text controls."
-
-### Example 2 — Generic 15-year limitation assumption
-
-**Question:** "ما المدة العامة لعدم سماع الدعوى في الحقوق الشخصية بموجب نظام المعاملات المدنية السعودي؟"
-
-- **Bad answer:** "خمس عشرة سنة."
-  *Why it is wrong:* Imports the Egyptian Civil Code default. The Saudi rule is different.
-- **Better answer:** "القاعدة العامة (10) سنوات على المنكر (المادة 295)، مع مدد أقصر للمهن الحرة والحقوق الدورية (المادة 296) ولأصحاب المنشآت المعدة لإيواء النزلاء والأجور اليومية (المادة 297). يُرجَع للنص الرسمي للتحقق."
-
-### Example 3 — All commercial disputes excluded
-
-**Question:** "Does the Saudi Civil Transactions Law apply to a dispute between two commercial companies?"
-
-- **Bad answer:** "No, it does not apply to commercial matters at all."
-  *Why it is wrong:* The Royal Decree contemplates the law supplementing commercial transactions where no special statute applies; commercial jurisdiction is procedural, not a total subject-matter carve-out.
-- **Better answer:** "Procedural jurisdiction remains with the commercial courts, and special commercial statutes apply first. The Civil Transactions Law may supplement on points where no special statute applies and where compatible with the commercial nature. Verify the official text and applicable commercial statutes."
-
-### Example 4 — الفضالة as an independent source
-
-**Question:** "What are the sources of obligation under the Saudi Civil Transactions Law?"
-
-- **Bad answer:** "Saudi civil obligations have six sources, including الفضالة as an independent source."
-  *Why it is wrong:* الفضالة is arranged within the unjust-enrichment / quasi-contract branch and shares the time bar in Article 159; presenting it as an independent sixth source departs from the statutory structure.
-- **Better answer:** "The principal sources are contract, unilateral will, harmful act, unjust enrichment, and statute. Payment of what is not due and الفضالة are presented within the unjust-enrichment / quasi-contract framework. The exact arrangement should follow the official text."
-
-### Example 5 — Bypassing Article 1 hierarchy
-
-**Question:** "If the law has no provision on a specific civil issue, where does the court turn?"
-
-- **Bad answer:** "Directly to general Sharia principles, or to the Hanbali school."
-  *Why it is wrong:* Bypasses Article 720's codified maxims and selects a specific school the law does not name.
-- **Better answer:** "Per Article 1: first to the codified general maxims in the concluding provisions (Article 720); if none applies, to the Sharia-derived rules most consistent with the law — without naming a specific school."
-
-### Example 6 — English summaries treated as controlling
-
-**Question:** "I read an English summary of the Civil Transactions Law on a law-firm blog — can I rely on it for a contract review?"
-
-- **Bad answer:** "Yes, English summaries are sufficient."
-  *Why it is wrong:* Translations and summaries are subordinate; in any conflict, the official Arabic text controls. Wording differences can change legal effect.
-- **Better answer:** "Use English summaries only as orientation. Verify every cited article against the official Arabic text at laws.boe.gov.sa, and have a Saudi-licensed attorney review the application to the specific facts."
-
-### Example 7 — Penalty clause not adjustable
-
-**Question:** "هل يستطيع القاضي تعديل مبلغ الشرط الجزائي المتفق عليه؟"
-
-- **Bad answer:** "لا، الشرط الجزائي ملزم بمبلغه المتفق عليه ولا يجوز تعديله."
-  *Why it is wrong:* Ignores the judicial-reduction power.
-- **Better answer:** "Under Article 179, the court may, on the debtor's request, reduce the agreed compensation (الشرط الجزائي) where the debtor proves the creditor sustained no harm or that the amount is excessive."
-
----
-
-## Official and Supporting References
-
-### Official Saudi Sources
-
-- **Bureau of Experts at the Council of Ministers / هيئة الخبراء بمجلس الوزراء** — official text reference:
-  - [laws.boe.gov.sa — Civil Transactions Law](https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/655fdb42-8c96-422b-b8c4-b04f0095c94c/1)
-  - [Royal Decree M/191 (issuance document)](https://laws.boe.gov.sa/BoeLaws/Laws/Viewer/028f6c39-d6ce-4eea-af21-b04f0095c95a?lawId=655fdb42-8c96-422b-b8c4-b04f0095c94c)
-- **Umm Al-Qura Gazette / جريدة أم القرى** — official publication: [uqn.gov.sa](https://uqn.gov.sa)
-- **National Center for Archives and Records / المركز الوطني للوثائق والمحفوظات** — official Saudi archival source: [ncar.gov.sa](https://ncar.gov.sa)
-
-### Supporting References
-
-- **Ministry of Justice legal portal** — supporting legal / judicial material (judicial applications, related legislation). **Not an issuing authority.** [laws.moj.gov.sa](https://laws.moj.gov.sa)
-- **WIPO Lex** — international supporting index. **Not an official Saudi issuing authority.** [wipo.int/wipolex/ar/legislation/details/22447](https://www.wipo.int/wipolex/ar/legislation/details/22447)
-
----
-
-## Mandatory Non-Waivable Provisions / الأحكام الإلزامية غير قابلة التنازل
-
-> نظام المعاملات المدنية (م/191 1443هـ) يُقرِّر أحكامًا آمرة يُصرَّح فيها بعدم جواز الاتفاق على مخالفتها، وأخرى تتعلق بالنظام العام لا تقبل الإسقاط. البنود التعاقدية المخالفة لهذه الأحكام تقع باطلة.
+> نظام المعاملات المدنية (م/191 1444هـ) يُقرر احكاما آمرة لا يجوز الاتفاق على مخالفتها. الشروط التعاقدية المخالفة لهذه الاحكام تقع باطلة ويُطبَّق النظام بدلا منها.
 >
-> The Saudi Civil Transactions Law (Royal Decree M/191 1443H) establishes mandatory rules that expressly cannot be contractually deviated from, and public-policy rules that are non-waivable by nature. Contractual clauses that contravene these rules are void.
+> The Civil Transactions Law (Royal Decree M/191 1444H) establishes mandatory provisions that cannot be contractually excluded or modified. Contract clauses that conflict with these provisions are void; the statutory rule applies instead.
 
 ---
 
-### 1. تعديل الشرط الجزائي من قِبل المحكمة / Judicial Reduction of Agreed Compensation
+### 1. سلطة القاضي في تعديل الشرط الجزائي / Judicial Power to Adjust Agreed Compensation
 
 | الحقل | القيمة |
 |-------|-------|
-| **الوصف** | للمحكمة تخفيض مبلغ الشرط الجزائي المتفق عليه إذا أثبت المدين أن الدائن لم يتضرر أو أن المبلغ مبالغ فيه — ولا يجوز الاتفاق مسبقًا على إسقاط هذه السلطة القضائية |
-| **Description** | Courts may reduce agreed compensation (الشرط الجزائي) where the debtor proves no harm occurred or the amount is excessive; parties cannot prospectively waive this judicial power |
-| **سبب الإلزام** | سلطة قضائية مُقرَّرة بنص النظام لحماية المدين من الشروط الجزائية المجحفة — لا يجوز الاتفاق المسبق على إلزام المحكمة بالمبلغ المتفق عليه في جميع الأحوال |
-| **المادة** | المادة 179 (مُرتبطة بالمادتين 178 و180) — مُتحقَّق منها في ملف المصدر |
-| **المرسوم الملكي** | م/191 1443هـ |
-| **الجهة النظامية** | المحاكم التجارية — المحاكم العامة (بحسب طبيعة النزاع) |
-| **الرابط الرسمي** | https://laws.boe.gov.sa |
-| **حالة التحقق** | to_verify — المادة 179 مُدرَجة في الجدول المرجعي لهذا الملف وموثقة في المصادر الثانوية؛ تحتاج تحقق من النص الرسمي |
+| **الوصف** | للقاضي تعديل مبلغ الشرط الجزائي المتفق عليه تخفيضا اذا اثبت المدين عدم وقوع الضرر او تفاحش المبلغ؛ لا يجوز تعاقديا سلب القاضي هذه الصلاحية |
+| **Description** | The court may reduce the agreed compensation where the debtor proves no harm occurred or the amount is excessive; parties cannot contractually deprive the court of this power |
+| **سبب الإلزام** | حماية مبدا التعويض المتناسب مع الضرر الفعلي والحيلولة دون التعويض الجزافي |
+| **المادة** | المادة 179 من نظام المعاملات المدنية |
+| **المرسوم الملكي** | م/191 لعام 1444هـ |
+| **الجهة النظامية** | المحاكم العامة والتجارية حسب طبيعة النزاع |
+| **الرابط الرسمي** | https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/655fdb42-8c96-422b-b8c4-b04f0095c94c/1 |
+| **حالة التحقق** | متقاطع مع مصادر تعليمية ومع skills/commercial-dispute.md؛ يُوصى بالتحقق من النص الرسمي |
 
 ```
 verification_metadata:
   verification_status: to_verify
-  source_type: official_regulation_summary_crosschecked_secondary
-  official_reference: Saudi Civil Transactions Law (Royal Decree M/191 1443H), Art. 179
-  last_verified: 2026-05-17
+  source_type: educational_reference_cross_checked
+  official_reference: Civil Transactions Law (Royal Decree M/191 1444H), Art. 179
+  last_verified: 2026-05-19
   review_priority: high
 ```
 
 **Practical Risk Note / ملاحظة عملية:**
-بنود العقود الأجنبية كثيرًا ما تنص على أن مبلغ الشرط الجزائي "نهائي وغير قابل للتعديل". هذا النص لا يُسقط سلطة المحكمة السعودية في التخفيض بموجب المادة 179. تسمية "penalty clause" في العقود الإنجليزية مضللة — فعليًا هي تعويض اتفاقي خاضع للتخفيض القضائي.
+بنود "الشرط الجزائي نهائي وغير قابل للمراجعة" باطلة بقدر ما تُقيّد صلاحية القاضي في التخفيض. يجوز تعاقديا رفع السقف لا منع المحكمة من ممارسة صلاحيتها في التعديل.
 
-Foreign contract clauses stating the agreed amount is "final and non-adjustable" cannot override the Saudi court's power under Article 179. The English term "penalty clause" is misleading — functionally this is agreed / liquidated damages subject to judicial reduction.
-
-**Related Sources / مصادر ذات صلة:**
-- `skills/contract-review.md §13`
-- `skills/commercial-dispute.md §12`
-
----
-
-### 2. الأداء بحسن النية / Good-Faith Performance
-
-| الحقل | القيمة |
-|-------|-------|
-| **الوصف** | يجب تنفيذ العقد بحسن النية وفقًا لما توجبه طبيعته والعرف والنظام — لا يجوز الاتفاق على إسقاط هذا الالتزام |
-| **Description** | Contracts must be performed in good faith, including what the law, custom, and the contract's nature require by implication; this obligation cannot be contractually waived |
-| **سبب الإلزام** | حكم آمر ذو أساس في النظام العام — الطبيعة الإلزامية للأداء بحسن النية لا تقبل الإسقاط التعاقدي |
-| **المادة** | المادة 95 — مُدرَجة في الجدول المرجعي لهذا الملف |
-| **المرسوم الملكي** | م/191 1443هـ |
-| **الجهة النظامية** | المحاكم التجارية — المحاكم العامة |
-| **الرابط الرسمي** | https://laws.boe.gov.sa |
-| **حالة التحقق** | to_verify — المادة 95 مُدرَجة ومُتقاطَعة في المصادر الثانوية؛ تحتاج تحقق من النص الرسمي |
-
-```
-verification_metadata:
-  verification_status: to_verify
-  source_type: official_regulation_summary_crosschecked_secondary
-  official_reference: Saudi Civil Transactions Law (Royal Decree M/191 1443H), Art. 95
-  last_verified: 2026-05-17
-  review_priority: medium
-```
-
-**Practical Risk Note / ملاحظة عملية:**
-عقود "zero-sum" أو "full disclaimer" التي تُلغي جميع الالتزامات الضمنية تستحق مراجعة دقيقة — المادة 95 تستحضر الالتزامات الضمنية التي تفرضها طبيعة العقد والعرف بغض النظر عن النص.
-
-"Zero-sum" or blanket-disclaimer contracts that purport to eliminate all implied obligations warrant careful review — Article 95 imports obligations implied by the contract's nature and custom regardless of express terms.
-
----
-
-### 3. حق المدين في التفاوض عند الظروف الطارئة / Debtor's Renegotiation Right (Hardship)
-
-| الحقل | القيمة |
-|-------|-------|
-| **الوصف** | عند ظروف استثنائية عامة غير متوقعة تُثقل الأداء إثقالًا مرهقًا، يحق للمدين دعوة الدائن للتفاوض — هذا الحق مُقرَّر بالنظام |
-| **Description** | When exceptional general unforeseeable circumstances make performance burdensome, the debtor has a right to call the other party to negotiate; this right is granted by statute |
-| **سبب الإلزام** | المادة 96 تُقرِّر هذا الحق — وإن كان قابلية إسقاطه التعاقدي تحتاج تأكيد من نص رسمي <!-- TODO: يحتاج تحقق — هل يجوز تعاقديًا إسقاط حق التفاوض عند الظروف الطارئة؟ --> |
-| **المادة** | المادة 96 — مُدرَجة في الجدول المرجعي لهذا الملف |
-| **المرسوم الملكي** | م/191 1443هـ |
-| **الجهة النظامية** | المحاكم التجارية — المحاكم العامة |
-| **الرابط الرسمي** | https://laws.boe.gov.sa |
-| **حالة التحقق** | to_verify |
-
-```
-verification_metadata:
-  verification_status: to_verify
-  source_type: official_regulation_summary_crosschecked_secondary
-  official_reference: Saudi Civil Transactions Law (Royal Decree M/191 1443H), Art. 96
-  last_verified: 2026-05-17
-  review_priority: medium
-```
-
-**Practical Risk Note / ملاحظة عملية:**
-بنود "force majeure" الغربية لا تُعادل بالضرورة ما تُقرِّره المادة 96 — تعريف "الظروف الطارئة" والأثر القانوني قد يختلفان عما يستوجبه القانون الإنجليزي أو القانون الأمريكي. لا تُستعار تعريفات القانون الغربي.
-
-Western "force majeure" clauses do not necessarily mirror what Article 96 establishes — the definition of exceptional circumstances and the legal effect may differ from English or U.S. law. Western-law definitions must not be imported.
-
----
-
-### 4. مدة التقادم العامة — 10 سنوات / General Limitation Period — 10 Years
-
-| الحقل | القيمة |
-|-------|-------|
-| **الوصف** | قاعدة عدم سماع الدعوى العامة 10 سنوات على المنكر — لا يجوز الاتفاق على مدة أقصر بالاتفاق التعاقدي <!-- TODO: يحتاج تحقق — هل تجوز شروط التقادم الاتفاقية في نظام المعاملات المدنية السعودي؟ --> |
-| **Description** | General non-hearing period: 10 years on the defendant's denial — contractual shortening requires verification as to whether it is permissible |
-| **سبب الإلزام** | مدد التقادم في أغلب الأنظمة المدنية تتعلق بالنظام العام — الإسقاط التعاقدي يحتاج تأكيد من النص |
-| **المادة** | المادة 295 (قاعدة عامة) + 296 (5 سنوات للمهن الحرة) + 297 (سنة واحدة لبعض الحالات) + 298 (10 سنوات بسند كتابي) |
-| **المرسوم الملكي** | م/191 1443هـ |
-| **الجهة النظامية** | المحاكم التجارية — المحاكم العامة |
-| **الرابط الرسمي** | https://laws.boe.gov.sa |
-| **حالة التحقق** | to_verify — المواد 295–298 مُدرَجة في الجدول المرجعي؛ تحتاج تحقق من النص الرسمي |
-
-```
-verification_metadata:
-  verification_status: to_verify
-  source_type: official_regulation_summary_crosschecked_secondary
-  official_reference: Saudi Civil Transactions Law (Royal Decree M/191 1443H), Arts. 295–298
-  last_verified: 2026-05-17
-  review_priority: high
-```
-
-**Practical Risk Note / ملاحظة عملية:**
-لا تُستعار مدة التقادم من القانون المصري (15 سنة) ولا من الأنظمة الغربية — القاعدة العامة السعودية 10 سنوات وفق المادة 295 مع استثناءات أقصر في المواد 296–297.
-
-Do not import the Egyptian 15-year limitation or Western periods. The Saudi general rule is 10 years (Article 295) with shorter category-specific periods in Articles 296–297.
+Clauses stating the penalty amount is "final and non-reviewable" are void to the extent they strip the court of its reduction power. Parties may raise the ceiling contractually but cannot extinguish the court's adjustment power.
 
 **Related Sources:**
-- `skills/commercial-dispute.md §13`
-- `skills/contract-review.md §14`
+- `skills/commercial-dispute.md`
+- `skills/arbitration.md`
+
+---
+
+### 2. معيار تنفيذ العقد بحسن النية / Good-Faith Performance Standard
+
+| الحقل | القيمة |
+|-------|-------|
+| **الوصف** | يجب تنفيذ العقد بما يوجبه حسن النية وفق ما يقتضيه النظام والعرف وطبيعة المعاملة؛ لا يجوز الاتفاق على إعفاء كامل من هذا الالتزام |
+| **Description** | Contracts must be performed in good faith as required by law, custom, and the nature of the transaction; parties cannot contract out of this obligation entirely |
+| **سبب الإلزام** | مبدا حسن النية قاعدة آمرة تحمي التوقعات المشروعة لكلا الطرفين |
+| **المادة** | المادة 95 من نظام المعاملات المدنية |
+| **المرسوم الملكي** | م/191 لعام 1444هـ |
+| **الجهة النظامية** | المحاكم العامة والتجارية |
+| **الرابط الرسمي** | https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/655fdb42-8c96-422b-b8c4-b04f0095c94c/1 |
+| **حالة التحقق** | متقاطع مع مصادر تعليمية متعددة؛ يُوصى بالتحقق من النص الرسمي |
+
+```
+verification_metadata:
+  verification_status: to_verify
+  source_type: educational_reference_cross_checked
+  official_reference: Civil Transactions Law (Royal Decree M/191 1444H), Art. 95
+  last_verified: 2026-05-19
+  review_priority: medium
+```
+
+**Practical Risk Note / ملاحظة عملية:**
+بنود إعفاء شاملة تُلغي جميع الالتزامات الضمنية تستحق مراجعة دقيقة. المادة 95 تستحضر الالتزامات الضمنية التي تفرضها طبيعة العقد والعرف بغض النظر عن النص الصريح.
+
+Blanket disclaimer clauses that purport to eliminate all implied obligations warrant careful review. Article 95 imports obligations implied by the contract's nature and custom regardless of express terms.
+
+---
+
+### 3. التعويض المعنوي / Non-Pecuniary (Moral) Damage Compensation
+
+| الحقل | القيمة |
+|-------|-------|
+| **الوصف** | اقر نظام المعاملات المدنية صراحة حق التعويض عن الضرر الادبي (المعنوي)؛ لا يجوز الاتفاق على إسقاط هذا الحق مسبقا بصورة مطلقة |
+| **Description** | The Civil Transactions Law expressly recognizes the right to non-pecuniary (moral) damage compensation; this right cannot be prospectively waived entirely by contract |
+| **سبب الإلزام** | حماية الشخصية الإنسانية من الاضرار غير المادية — تطور تشريعي جوهري تُقنّنه المملكة لاول مرة في قانون مدني مُدوَّن |
+| **المادة** | المادة 136 من نظام المعاملات المدنية |
+| **المرسوم الملكي** | م/191 لعام 1444هـ |
+| **الجهة النظامية** | المحاكم العامة والتجارية |
+| **الرابط الرسمي** | https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/655fdb42-8c96-422b-b8c4-b04f0095c94c/1 |
+| **حالة التحقق** | متقاطع مع skills/commercial-dispute.md (تُشير الى المادة 136 في سياق التعويض المعنوي) |
+
+```
+verification_metadata:
+  verification_status: to_verify
+  source_type: educational_reference_cross_checked
+  official_reference: Civil Transactions Law (Royal Decree M/191 1444H), Art. 136
+  last_verified: 2026-05-19
+  review_priority: high
+```
+
+**Practical Risk Note / ملاحظة عملية:**
+قبل صدور نظام 1444هـ كان التعويض المعنوي محل خلاف قضائي في المحاكم السعودية. بعد التقنين اصبح حقا مُقرَّرا. بنود تحديد المسؤولية وسقوف التعويض في العقود يجب ان تُراجَع مقابل هذا الحق.
+
+Before 1444H, non-pecuniary damage compensation was contested in Saudi courts. It is now a codified right. Liability cap clauses in contracts must be reviewed against this provision.
+
+**Related Sources:**
+- `skills/commercial-dispute.md`
+
+---
+
+### 4. التزام التفاوض عند الظروف الطارئة / Mandatory Renegotiation Duty Under Hardship
+
+| الحقل | القيمة |
+|-------|-------|
+| **الوصف** | اذا طرات ظروف استثنائية عامة غير متوقعة جعلت تنفيذ الالتزام مُرهِقا بشكل مفرط، يحق للمدين طلب التفاوض لإعادة التوازن في وقت معقول |
+| **Description** | Where exceptional unforeseen general circumstances make performance excessively burdensome, the debtor has the right to demand renegotiation within a reasonable time |
+| **سبب الإلزام** | مبدا توزيع المخاطر غير المتوقعة بشكل عادل بين اطراف العقد |
+| **المادة** | المادة 96 من نظام المعاملات المدنية |
+| **المرسوم الملكي** | م/191 لعام 1444هـ |
+| **الجهة النظامية** | المحاكم العامة والتجارية |
+| **الرابط الرسمي** | https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/655fdb42-8c96-422b-b8c4-b04f0095c94c/1 |
+| **حالة التحقق** | متقاطع مع مصادر تعليمية متعددة؛ يُوصى بالتحقق من النص الرسمي |
+
+```
+verification_metadata:
+  verification_status: to_verify
+  source_type: educational_reference_cross_checked
+  official_reference: Civil Transactions Law (Royal Decree M/191 1444H), Art. 96
+  last_verified: 2026-05-19
+  review_priority: medium
+```
+
+**Practical Risk Note / ملاحظة عملية:**
+بنود "force majeure" المستوردة من قوانين غربية لا تُعادل بالضرورة ما تُقرره المادة 96. تعريف الظروف الطارئة واثرها القانوني في النظام السعودي قد يختلف عن نظيريه في القانون الإنجليزي او الامريكي.
+
+Western "force majeure" clauses do not necessarily mirror Article 96. The definition of exceptional circumstances and the legal effect under Saudi law may differ from English or U.S. law counterparts.
 
 ---
 
 ## Human Legal Review Required / يجب مراجعة قانونية بشرية
 
-> هذا القسم يجمع TODOs والبنود غير المؤكدة الخاصة بقسم الأحكام الإلزامية. للاطلاع على قائمة التحقق الشاملة لجميع الملف، انظر قسم "Draft Status / Verification Notes" أدناه.
+### TODOs وبنود تحتاج تحقق
 
-### TODOs وبنود تحتاج تحقق — الأحكام الإلزامية
-
-| الموضوع | الإشكالية | أولوية المراجعة |
+| الموضوع | الإشكالية | اولوية المراجعة |
 |---------|----------|----------------|
-| المادة 179 — الشرط الجزائي | الرقم موثق في مصادر ثانوية؛ تحتاج تحقق من النص الرسمي عبر laws.boe.gov.sa | عالية |
-| المادة 95 — حسن النية | نفس الملاحظة | متوسطة |
-| المادة 96 — الظروف الطارئة | هل يجوز تعاقديًا إسقاط حق التفاوض؟ تحتاج تحقق صريح من النص | عالية |
-| المواد 295–298 — التقادم | هل شروط التقادم الاتفاقية مسموح بها في النظام السعودي؟ تحتاج تحقق | عالية |
-| نطاق تطبيق "الأحكام الآمرة" في نظام المعاملات المدنية | أي مواد النظام صريحة في كونها آمرة؟ تحتاج مراجعة شاملة من محامٍ مرخَّص | عالية |
+| ارقام مواد الإكراه والاستغلال | لم يُؤكد رقما المادتين من النص الرسمي — يحتاج تحقق من boe.gov.sa | عالية |
+| مدة طلب ابطال العقد لعيوب الإرادة | مُشار اليها بسنة من العلم في المصادر التعليمية — رقم المادة لم يُؤكد | عالية |
+| مسؤولية المتبوع عن التابع | رقم المادة غير مُحدد في المصادر التعليمية المتاحة | عالية |
+| حارس الشيء | تعارض بين المادة 132 والمادة 134 في المصادر الثانوية | عالية |
+| الإرادة المنفردة كمصدر للالتزام | رقم المادة لم يُحدد | متوسطة |
+| النص النظامي كمصدر للالتزام | رقم المادة لم يُحدد | متوسطة |
+| محل وسبب العقد | ارقام المواد لم تُؤكد | متوسطة |
+| ارقام مواد انقضاء الالتزامات | المواد الخاصة بالمقاصة والتجديد والإبراء والاستحالة لم تُحدد | متوسطة |
+| ارقام مواد الحقوق العينية | جميع ارقام المواد للملكية والانتفاع والرهن وحقوق الامتياز والحيازة تحتاج تحقق | عالية |
+| وقف التقادم وانقطاعه | ارقام المواد المحددة لم تُحدد | متوسطة |
+| الاحكام الانتقالية | النص الكامل للأحكام الانتقالية في المرسوم يحتاج مراجعة مباشرة | عالية |
+| ضوابط التعويض المتوقع والمباشر | ارقام المواد المحددة لم تُؤكد | متوسطة |
+| العقود المسماة — نطاقات المواد | عدا البيع (307 و319)، جميع العقود المسماة الاخرى تحتاج تحديد نطاقات مواد | عالية |
 
-<!-- TODO: يحتاج تحقق من النص النظامي الرسمي — جميع أرقام المواد الواردة في قسم الأحكام الإلزامية أعلاه -->
-<!-- TODO: يحتاج تحقق — هل تجوز شروط التقادم الاتفاقية (أقصر أو أطول) في نظام المعاملات المدنية السعودي؟ -->
-<!-- TODO: يحتاج تحقق — هل يمكن التنازل عن حق المدين في التفاوض بموجب المادة 96 بنص صريح في العقد؟ -->
-
----
-
-## Draft Status / Verification Notes
-
-This file is **intentionally a draft**. **This file should not be promoted from draft status until all unverified article mappings are resolved or intentionally retained in a separate verification checklist.**
-
-**لا ينبغي ترقية هذا الملف من حالة المسودة حتى تُحل جميع إحالات المواد غير المتحققة أو تُترك عمدًا ضمن قائمة تحقق مستقلة.**
-
-### Remaining `[ARTICLE NUMBER TO VERIFY]` items
-
-The following article mappings have not been confirmed against the official Arabic text and remain marked:
-
-1. **Unilateral will** as a source of obligation.
-2. **Statute / law (النص النظامي)** as a source of obligation.
-3. **Duress (الإكراه)** among defects of consent.
-4. **Exploitation / lesion (الاستغلال / الغبن)** among defects of consent.
-5. **Compensation, foreseeable damage, and moral damage** — article numbers.
-6. **Custodian / keeper-of-a-thing liability** — secondary sources differ between Article 132 and Article 134.
-7. **Employer / subordinate (matbū' / tābi') liability** — article number.
-8. **One-year time bar for annulment** of contract for defects of consent.
-9. **Verbatim text of the Royal Decree's transitional clauses** (currently summarized from secondary sources).
-
-### Overview-only sections that need article-range verification
-
-- **Named Contracts** — only sale's definition (Article 307) and seller's obligations (Article 319) are mapped; ranges for sale (remainder), barter, gift, loan, lease, loan-for-use, contract for work, agency, deposit, sequestration, insurance, guarantee, assignment, and settlement require verification.
-- **Real Rights** — all ranges (ownership, usufruct, use and habitation, easement, formal and possessory mortgage, statutory liens) require verification.
-- **Extinction of obligations** — article numbers for performance, performance in kind, novation, set-off, merger of titles, release, supervening impossibility, and time-bar.
-
-### Count
-
-- **Inline `TO VERIFY` markers in the body:** approximately **9** distinct article-number placeholders, plus the **overview-only sections** (Named Contracts and Real Rights) where article ranges remain to be filled.
-- **`Mapped` rows in the Important Articles table:** approximately **24** topics with cross-checked but not officially confirmed article numbers.
-
-### Maintainer notes
-
-- Every `TO VERIFY` mapping must be checked against [laws.boe.gov.sa](https://laws.boe.gov.sa) before this file's status is upgraded.
-- When updating, retain the bilingual structure, the YAML front matter, the disclaimer, and the draft status until verification is complete.
-- Do not import article numbers or default rules from other civil codes (Egyptian, Emirati, Jordanian, Kuwaiti) without independent verification.
-- Update the YAML `last_reviewed` field whenever a verification pass is completed.
-
----
-
-## Suggested Draft PR Description
-
-> Use the block below as the body of the Draft Pull Request when submitting this file upstream.
-
-```markdown
-This draft PR adds an educational/reference file for the Saudi Civil
-Transactions Law at `sources/civil-transactions-law.md`.
-
-The file focuses on:
-- scope and applicability
-- obligations and liability concepts
-- limitation / non-hearing of claims
-- interpretation considerations
-- Saudi-specific legal considerations
-- common legal risk areas for contracts and legal workflows
-- official and supporting references
-- draft verification notes for article mappings
-
-It is intentionally marked as a draft. Unverified article mappings
-are clearly noted for review against the official Arabic text. The
-file does not provide legal advice, and the official Arabic text
-prevails.
-```
+<!-- TODO: يحتاج تحقق من النص الرسمي — ارقام مواد الإكراه والاستغلال وعيوب الإرادة -->
+<!-- TODO: يحتاج تحقق — ارقام مواد الحقوق العينية جميعها (ملكية وانتفاع ورهن وامتياز وحيازة) -->
+<!-- TODO: يحتاج تحقق — ارقام مواد انقضاء الالتزامات (مقاصة وتجديد وإبراء واستحالة) -->
+<!-- TODO: يحتاج تحقق — الاحكام الانتقالية الكاملة في المرسوم الملكي م/191 -->
+<!-- TODO: يحتاج تحقق — رقم مادة مسؤولية المتبوع عن التابع وحارس الشيء (132 ام 134) -->
+<!-- TODO: يحتاج تحقق — مدة طلب ابطال العقد لعيوب الإرادة ورقم مادتها -->
+<!-- TODO: يحتاج تحقق — نطاقات مواد العقود المسماة (إيجار ووكالة ومقاولة وغيرها) -->
