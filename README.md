@@ -460,6 +460,7 @@ Long-term (v3.0): a web interface for legal professionals and organizations to u
 | هيئة السوق المالية | [cma.org.sa](https://www.cma.org.sa) | Capital Markets Authority |
 | سدايا | [sdaia.gov.sa](https://sdaia.gov.sa) | Data and AI authority — PDPL regulator |
 | منصة البيانات المفتوحة السعودية | [open.data.gov.sa](https://open.data.gov.sa) | Judicial & government open datasets — statistics, patterns, metadata (supplementary only) |
+| البوابة القانونية — وزارة العدل | [laws.moj.gov.sa](https://laws.moj.gov.sa) | أنظمة تشريعية + أحكام المحاكم + سوابق قضائية — Ministry of Justice legal portal — legislation and judicial decisions |
 
 ---
 
