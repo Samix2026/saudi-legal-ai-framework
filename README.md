@@ -97,6 +97,7 @@ The Saudi legal system has a distinct foundation that most AI models handle poor
 | **لا يحتاج برمجة** | توثيق خالص، قابل للاستخدام دون اي اعداد تقني | Pure documentation, usable without any technical setup |
 | **التحكيم التجاري** | تحليل اتفاقيات التحكيم وإجراءات SCCA ومدد الطعن في الأحكام وفق نظام التحكيم م/34 | Arbitration agreement analysis, SCCA procedures, and award challenge timelines under Saudi law |
 | **عقود العقارات والإيجار** | مراجعة عقود الإيجار التجاري والسكني والتحقق من الالتزامات النظامية ومنصة إيجار | Commercial and residential lease review, statutory obligations, and Ejar platform compliance |
+| **حماية المبلغين والشهود** | اطار تشريعي متكامل لحماية المبلغين والشهود والخبراء والضحايا وفق نظام م/148 لعام 1445هـ واللائحة التنفيذية 2026م | Comprehensive protection framework for whistleblowers, witnesses, experts and victims under Royal Decree M/148 1445H and 2026 implementing regulations |
 
 ---
 
@@ -144,7 +145,7 @@ saudi-legal-ai-framework/
 │   ├── compliance-check.md
 │   └── legal-drafting.md
 │
-├── sources/                               # ملخصات مرجعية للانظمة السعودية الرئيسية
+├── sources/                               # ملخصات مرجعية للانظمة السعودية الرئيسية (8 ملفات)
 │   ├── regulation-index.md                # سجل الاستشهادات المعتمد لجميع الانظمة
 │   ├── saudi-laws.md
 │   ├── labor-law.md
@@ -152,6 +153,8 @@ saudi-legal-ai-framework/
 │   ├── civil-transactions-law.md
 │   ├── commercial-courts.md
 │   ├── pdpl.md
+│   ├── e-commerce-law.md
+│   ├── whistleblower-protection.md        # م/148 1445هـ — نظام حماية المبلغين والشهود والخبراء والضحايا
 │   ├── open-data-judicial-sources.md      # بيانات مفتوحة سعودية، احصاءات تكميلية فقط
 │   ├── fiqh-judicial-references/          # المراجع الفقهية الكلاسيكية المستشهد بها في الاحكام
 │   │   ├── README.md                      # حدود الطبقة وقواعد الاضافة
