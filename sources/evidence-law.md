@@ -47,6 +47,8 @@ This draft focuses on civil and commercial transactions, consistent with Article
 
 تركز هذه المسودة على المعاملات المدنية والتجارية وفقًا للمادة الأولى. ولا تتناول الإجراءات الجزائية إلا إذا ثبت وجود إحالة نظامية خاصة.
 
+*Article mapping:* **Article 1 — Verified from BOE**.
+
 - The Law concerns evidentiary rules applicable in civil and commercial disputes.
 - It is directly relevant to civil and commercial litigation and court-facing workflows.
 - It may affect how facts are proven, disputed, admitted, documented, or challenged.
@@ -60,7 +62,7 @@ This draft focuses on civil and commercial transactions, consistent with Article
 - Court or forum type (civil, commercial, and where applicable under official procedural rules: labor or personal-status contexts)
 - Procedural posture (pre-suit, pleading stage, hearing, appeal, enforcement)
 - Document type (official, private, electronic)
-- Evidentiary burden (who must prove what, and to what standard)
+- Evidentiary burden and required proof under the applicable Saudi rules / عبء الإثبات وما يلزم لإثبات الواقعة وفق القواعد السعودية المنطبقة
 - Special laws governing the subject matter
 - Applicable procedural rules and court regulations
 
@@ -75,23 +77,32 @@ The following concepts are summarized at a high educational level only. Article-
 - The party asserting a fact generally bears the burden of proving it.
 - The burden may shift in defined circumstances based on the nature of the claim or defense.
 - AI workflows must distinguish between an allegation and a proven fact.
+- *Article mapping:* **Article 2 — Verified from BOE**.
+
+### 2. Agreement on evidence rules / الاتفاق على قواعد الإثبات
+
+- Parties may have evidence-related agreements or procedural positions that affect how proof is handled, subject to the official text, public order limits, and applicable procedural rules.
+- AI/legal workflows should not assume that a contractual evidence clause is automatically valid, invalid, or decisive without checking the Saudi Evidence Law and procedural rules.
+- This is especially relevant for contracts, commercial disputes, platform terms, and document-heavy workflows.
+- قد تكون لاتفاقات الخصوم أو مواقفهم الإجرائية أثر في طريقة التعامل مع الإثبات، وفقًا للنص الرسمي وحدود النظام العام والقواعد الإجرائية المنطبقة.
+- لا ينبغي افتراض أن شرطًا تعاقديًا متعلقًا بالإثبات صحيح أو باطل أو حاسم تلقائيًا دون مراجعة نظام الإثبات والقواعد الإجرائية.
 - *Article mapping:* **TO VERIFY**.
 
-### 2. Admission / الإقرار
+### 3. Admission / الإقرار
 
 - An admission by a party may operate as evidence against that party.
 - Court-facing (judicial) admissions and out-of-court admissions are treated differently.
 - Relying on informal statements (chat, email, social media) as "admissions" carries authenticity, context, and legal-effect risks.
 - *Article mapping:* **TO VERIFY**.
 
-### 3. Interrogation of parties / استجواب الخصوم
+### 4. Interrogation of parties / استجواب الخصوم
 
 - The court may question a party regarding disputed facts.
 - Interrogation is related to, but distinct from, admissions: it is a procedural mechanism for eliciting positions on factual matters.
 - The mechanism, conditions, and consequences are governed by the official text and applicable procedural rules.
 - *Article mapping:* **TO VERIFY**.
 
-### 4. Written evidence / المحررات
+### 5. Written evidence / المحررات
 
 Distinguishes between:
 
@@ -106,7 +117,7 @@ High-level concepts include:
 
 *Article mappings:* **TO VERIFY**.
 
-### 5. Electronic evidence / الدليل الرقمي
+### 6. Electronic evidence / الدليل الرقمي
 
 Includes (as workflow examples only, not as legal definitions):
 
@@ -119,55 +130,70 @@ Includes (as workflow examples only, not as legal definitions):
 
 *Article mapping:* **TO VERIFY**.
 
-### 6. Witness testimony / الشهادة
+### 7. Witness testimony / الشهادة
 
 - Testimony is one path of proof, subject to defined conditions and limits.
 - The legal sufficiency of testimony depends on the type of fact, type of dispute, and applicable rules.
 - Do not overstate when testimony alone is sufficient — this varies by context.
 - *Article mapping:* **TO VERIFY**.
 
-### 7. Presumptions / القرائن
+### 8. Presumptions / القرائن
 
 - Presumptions may be statutory (established by law) or judicial (drawn by the court from established facts).
 - A presumption shifts attention to whether and how it can be rebutted.
 - AI systems must not treat statistical correlation, pattern matching, or model inference as a legal presumption.
 - *Article mapping:* **TO VERIFY**.
 
-### 8. Custom / العرف
+### 9. Custom / العرف
 
 - Custom may be relevant in civil or commercial evidentiary reasoning where the official text permits it.
 - AI systems should not infer custom from common practice without proof, legal relevance, and judicial acceptance.
 - *Article mapping:* **TO VERIFY**.
 
-### 9. Expert evidence / الخبرة
+### 10. Expert evidence / الخبرة
 
 - Courts may rely on experts (court-appointed or party-submitted) for technical, accounting, engineering, digital forensics, valuation, and similar matters.
 - An expert report informs the court but is not, by itself, automatically conclusive.
 - The court evaluates the expert's methodology, qualifications, and the report's persuasive weight under applicable rules.
 - *Article mapping:* **TO VERIFY**.
 
-### 10. Inspection / المعاينة
+### 11. Inspection / المعاينة
 
 - Inspection may be relevant where the court needs to observe a place, object, condition, or technical state directly.
 - It should not be treated as a substitute for expert evidence unless the official text and court direction support that.
 - *Article mapping:* **TO VERIFY**.
 
-### 11. Oaths / اليمين
+### 12. Oaths / اليمين
 
 - Oaths function as a defined evidentiary mechanism in specified circumstances.
 - The conditions, consequences, and limits are governed by the official text — this is a high-caution area.
 - Educational summaries must not turn the oath into generic litigation advice.
 - *Article mapping:* **TO VERIFY**.
 
-### 12. Evidence and AI workflows / الإثبات ومسارات الذكاء الاصطناعي
+### 13. Procedural timing and applicable evidentiary law / الزمن الإجرائي والنظام الواجب التطبيق
+
+- Evidence analysis may depend on the timing of the facts, transactions, dispute, and evidentiary procedure.
+- AI/legal workflows should not assume that the current rule automatically applies to all historical facts or documents without checking the applicable transitional and procedural rules.
+- The procedural stage also matters: pre-suit review, pleadings, hearing, expert appointment, appeal, and enforcement may involve different evidentiary consequences.
+- *Article mapping:* **TO VERIFY**.
+
+### 14. Evidence and AI workflows / الإثبات ومسارات الذكاء الاصطناعي
 
 - AI must not assert facts as proven merely because a supporting document exists.
-- AI must distinguish, in sequence:
-  1. The claim or allegation
-  2. The supporting evidence
-  3. Admissibility under the applicable rules
-  4. Evidentiary weight assigned by the court
-  5. The legal conclusion
+- AI/legal workflows should separate:
+  - allegation
+  - evidentiary item
+  - authenticity
+  - admissibility or acceptance
+  - probative weight
+  - legal conclusion
+- ينبغي في مسارات الذكاء الاصطناعي القانونية التمييز بين:
+  - الادعاء
+  - الدليل أو المستند
+  - نسبة الدليل وصحته
+  - قبوله أو الاعتداد به
+  - وزنه في الإثبات
+  - النتيجة القانونية
 - AI must preserve uncertainty and flag missing information.
 - Before any legal assessment, AI should ask for: dates, document type, court/tribunal type, parties involved, and procedural stage.
 
@@ -183,6 +209,7 @@ This section is a **verification scaffold**, not an article-level reference yet.
 |------|-----------------|-------------|--------------|--------------------|
 | Scope and general principles | Article 1 | تسري أحكام النظام على المعاملات المدنية والتجارية. | The Law applies to civil and commercial transactions. | Verified from BOE |
 | Burden of proof | Article 2 | على المدعي أن يثبت ما يدعيه من حق، وللمدعى عليه نفيه. | The claimant bears the burden of proving the asserted right, and the defendant may deny it. | Verified from BOE |
+| Agreement on evidence rules | TO VERIFY | الاتفاق على قواعد الإثبات | Agreement on evidence rules | TO VERIFY |
 | Admission | TO VERIFY | الإقرار | Admission | TO VERIFY |
 | Interrogation of parties | TO VERIFY | استجواب الخصوم | Interrogation of parties | TO VERIFY |
 | Official documents | TO VERIFY | المحررات الرسمية | Official documents | TO VERIFY |
@@ -195,6 +222,7 @@ This section is a **verification scaffold**, not an article-level reference yet.
 | Expert evidence | TO VERIFY | الخبرة | Expert evidence | TO VERIFY |
 | Inspection | TO VERIFY | المعاينة | Inspection | TO VERIFY |
 | Oaths | TO VERIFY | اليمين | Oaths | TO VERIFY |
+| Procedural timing and applicable evidentiary law | TO VERIFY | الزمن الإجرائي والنظام الواجب التطبيق | Procedural timing and applicable evidentiary law | TO VERIFY |
 | Final provisions / implementing rules (if present) | TO VERIFY | الأحكام الختامية / اللوائح التنفيذية (إن وُجدت) | Final provisions / implementing regulations (if any) | TO VERIFY |
 
 **Rules for this scaffold:**
@@ -220,6 +248,8 @@ This section is a **verification scaffold**, not an article-level reference yet.
 - Relying on witness testimony without considering legal limits and conditions.
 - Assuming a business practice is legally recognized custom without proof, relevance, and acceptance under the applicable rules.
 - Treating admissions outside their legal context (e.g., informal chat as a "judicial admission").
+- Treating evidence clauses or party agreements on proof as automatically enforceable without checking the official text, public order limits, and procedural rules.
+- Ignoring the timing of the transaction, disputed facts, or evidentiary procedure when assessing which evidentiary rule applies.
 - Ignoring the procedural rules of the relevant court.
 - Treating criminal evidentiary assumptions as applicable to civil/commercial disputes without a verified legal basis.
 - Importing non-Saudi evidence assumptions from common-law or foreign civil-law systems.
@@ -283,21 +313,23 @@ This draft is suitable for early maintainer review because it separates source-b
 
 ### Remaining article mappings to verify
 
-1. Admission
-2. Interrogation of parties
-3. Official documents
-4. Private documents
-5. Document production
-6. Electronic / digital evidence
-7. Witness testimony
-8. Presumptions
-9. Custom
-10. Expert evidence
-11. Inspection
-12. Oaths
-13. Final provisions / implementing rules (if present)
+1. Agreement on evidence rules
+2. Admission
+3. Interrogation of parties
+4. Official documents
+5. Private documents
+6. Document production
+7. Electronic / digital evidence
+8. Witness testimony
+9. Presumptions
+10. Custom
+11. Expert evidence
+12. Inspection
+13. Oaths
+14. Procedural timing and applicable evidentiary law
+15. Final provisions / implementing rules (if present)
 
-**Remaining article-mapping topics to verify: 13.**
+**Remaining article-mapping topics to verify: 15.**
 
 Two mappings are currently article-level mapped from BOE: Article 1 for scope and Article 2 for burden of proof. All other article mappings remain `TO VERIFY` pending direct review of the official Arabic text.
 
@@ -319,7 +351,7 @@ These examples illustrate how AI/legal workflows should and should not reason ab
 
 - **Bad answer:** "The WhatsApp screenshot proves the agreement; the case is decided."
 - **Why it is wrong:** Screenshots are digital artifacts; authenticity, integrity, attribution, context, and admissibility must still be assessed. Existence ≠ admissibility ≠ weight ≠ legal conclusion.
-- **Better answer:** Treat the screenshot as a potential piece of electronic evidence whose admissibility and weight depend on the official Evidence Law and applicable procedural rules. Recommend preserving metadata and original sources where possible, and flag authenticity-challenge risk.
+- **Better answer:** Treat the screenshot as a potential piece of electronic evidence whose admissibility and weight depend on the official Evidence Law and applicable procedural rules. Flag the need to consider original source, metadata, context, integrity, and authenticity risks where relevant.
 
 ### Example 3 — Ignoring burden of proof
 
@@ -350,6 +382,18 @@ These examples illustrate how AI/legal workflows should and should not reason ab
 - **Bad answer:** "The Electronic Transactions Law makes any electronic record valid evidence."
 - **Why it is wrong:** This conflates two distinct frameworks. The Electronic Transactions Law and the Evidence Law address different questions (validity/effect of electronic transactions vs. evidentiary rules). Admissibility and weight of electronic evidence must still be assessed under the Evidence Law and applicable rules.
 - **Better answer:** Treat the two frameworks separately. Identify which question is being asked (is the transaction valid? is the artifact admissible? what weight does it carry?), and apply the correct framework to each question while preserving uncertainty until verified.
+
+### Example 8 — Treating evidence clauses as automatically decisive
+
+- **Bad answer:** "The contract says screenshots are conclusive evidence, so the court must accept them."
+- **Why it is wrong:** Evidence-related agreements or clauses may be relevant, but their effect depends on the official text, public order limits, procedural rules, authenticity, and the court's assessment.
+- **Better answer:** Treat the clause as a relevant issue to verify under the Saudi Evidence Law and procedural rules, while separately assessing the evidence item, authenticity, context, and evidentiary weight.
+
+### Example 9 — Ignoring timing and procedural stage
+
+- **Bad answer:** "The current evidence rule applies automatically to this old transaction."
+- **Why it is wrong:** Evidence analysis may depend on the timing of the underlying facts, transaction, dispute, and evidentiary procedure.
+- **Better answer:** Identify the date of the transaction or disputed facts, the procedural stage, and any transitional or procedural rule before making an evidence-related conclusion.
 
 ---
 
