@@ -126,6 +126,16 @@ def test_extract_skill_edges_missing_relationship_line_skips_entry():
     assert vsg._extract_skill_edges(section) == []
 
 
+def test_extract_skill_edges_invalid_relationship_token_rejected():
+    # A token with trailing punctuation is not a valid relationship type
+    section = (
+        "* [foo.md](../skills/foo.md)\n"
+        "  — relationship: escalates_to.\n"
+        "  — some rationale\n"
+    )
+    assert vsg._extract_skill_edges(section) == []
+
+
 # ── Malformed entry detection ─────────────────────────────────────────────────────
 
 def test_find_malformed_entries_clean_returns_empty():

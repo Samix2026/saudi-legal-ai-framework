@@ -79,6 +79,7 @@ def _extract_section(lines: list, heading_predicate) -> str:
 
 
 def _has_section_heading(lines: list, heading_predicate) -> bool:
+    """Return True if any line is a heading matching heading_predicate."""
     return any(
         line.startswith("#") and heading_predicate(line)
         for line in lines
@@ -115,7 +116,7 @@ def _extract_skill_edges(section_text: str) -> list:
                     j += 1
                 if j < len(lines):
                     rel_m = re.match(
-                        r'^\s*[—\-]\s*relationship:\s*(\S+)',
+                        r'^\s*[—\-]\s*relationship:\s*([A-Za-z_]+)\s*$',
                         lines[j],
                     )
                     if rel_m:
@@ -167,7 +168,7 @@ def _find_malformed_entries(section_text: str) -> list:
             while j < len(lines) and not lines[j].strip():
                 j += 1
             if j >= len(lines) or not re.match(
-                r'^\s*[—\-]\s*relationship:\s*\S+', lines[j]
+                r'^\s*[—\-]\s*relationship:\s*[A-Za-z_]+\s*$', lines[j]
             ):
                 malformed.append(stripped)
                 i += 1
