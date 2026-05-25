@@ -114,6 +114,27 @@ This map shows the relationships between project files. The goal: every contribu
 
 ---
 
+## Skill Relationship Graph
+
+> هذا الجدول مُولَّد من `## Related skills` في كل ملف `skills/*.md`.
+> يُشغَّل `scripts/validate_skill_graph.py` في كل push للتحقق منه.
+> This table is derived from `## Related skills` in each `skills/*.md` file.
+> `scripts/validate_skill_graph.py` runs on every push to verify it.
+
+| Skill | Related Skills | Relationship Types | Graph Degree | Connectivity Status |
+|---|---|---|---|---|
+| `skills/arbitration.md` | `skills/commercial-dispute.md` · `skills/legal-drafting.md` | `alternative_to` · `depends_on` | 4 (2 out, 2 in) | Connected |
+| `skills/commercial-dispute.md` | `skills/arbitration.md` · `skills/legal-drafting.md` | `alternative_to` · `precedes` | 4 (2 out, 2 in) | Connected |
+| `skills/compliance-check.md` | `skills/labor-law-analysis.md` · `skills/contract-review.md` | `cross_checks` | 5 (2 out, 3 in) | Connected |
+| `skills/contract-review.md` | `skills/commercial-dispute.md` · `skills/arbitration.md` · `skills/legal-drafting.md` · `skills/compliance-check.md` | `escalates_to` · `precedes` · `cross_checks` | 8 (4 out, 4 in) | Connected |
+| `skills/labor-law-analysis.md` | `skills/compliance-check.md` · `skills/contract-review.md` | `cross_checks` · `depends_on` | 3 (2 out, 1 in) | Connected |
+| `skills/legal-drafting.md` | `skills/contract-review.md` | `depends_on` | 4 (1 out, 3 in) | Connected |
+| `skills/real-estate-contracts.md` | `skills/contract-review.md` · `skills/compliance-check.md` | `specializes` · `depends_on` | 2 (2 out, 0 in) | Connected |
+
+**Allowed relationship types:** `escalates_to` · `alternative_to` · `cross_checks` · `depends_on` · `specializes` · `precedes` · `shares_sources_with` · `overlaps_with`
+
+---
+
 ## 4. Sources ← → Regulations / المصادر ← → الأنظمة
 
 | Source File | Regulation | Royal Decree | صيغة الاستشهاد الرسمية |
