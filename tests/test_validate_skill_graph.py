@@ -355,3 +355,21 @@ def test_run_checks_w4_map_drift(tmp_path):
     cross_ref.write_text("## Some Other Section\n", encoding="utf-8")
     _, warnings, _ = vsg.run_checks(skills_dir=skills_dir, cross_ref_map=cross_ref)
     assert any("Skill Relationship Graph" in w for w in warnings)
+
+
+def test_run_checks_w3_asymmetric(tmp_path):
+    skills_dir = tmp_path / "skills"
+    skills_dir.mkdir()
+    a = skills_dir / "a.md"
+    b = skills_dir / "b.md"
+    # a → b (escalates_to), no reverse edge from b → a
+    _write_skill_with_edges(a, [("skills/b.md", "escalates_to", "a leads to b")])
+    _write_skill_with_edges(b, [])  # b has section but no out-edges
+    cross_ref = tmp_path / "map.md"
+    cross_ref.write_text(
+        "## Skill Relationship Graph\n| `skills/a.md` |\n| `skills/b.md` |\n",
+        encoding="utf-8",
+    )
+    errors, warnings, _ = vsg.run_checks(skills_dir=skills_dir, cross_ref_map=cross_ref)
+    assert errors == []
+    assert any("asymmetric" in w for w in warnings)

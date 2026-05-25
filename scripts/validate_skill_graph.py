@@ -273,7 +273,7 @@ def format_stats(stats: dict) -> str:
         f"{t}\xd7{c}"
         for t, c in sorted(stats["type_counts"].items(), key=lambda x: -x[1])
     ) or "(none)"
-    most_conn = ", ".join(stats["most_connected"]) if stats["most_connected"] else "—"
+    most_conn = ", ".join(stats["most_connected"]) if stats["edges"] > 0 else "—"
     orphan_str = ", ".join(stats["orphans"]) if stats["orphans"] else "none"
     return "\n".join([
         "── Skill Graph Summary ───────────────────────────",
@@ -309,6 +309,7 @@ def run_checks(
     """
     errors: list = []
     warnings: list = []
+    no_section_skills: set = set()
 
     if not skills_dir.exists():
         errors.append(f"ERROR: required directory not found: {skills_dir}")
@@ -327,6 +328,7 @@ def run_checks(
             warnings.append(
                 f"WARNING: {skill_path} has no '## Related skills' section."
             )
+            no_section_skills.add(skill_path)
             graph[skill_path] = []
             continue
 
@@ -376,9 +378,10 @@ def run_checks(
 
     # W2: Orphan skills
     for orphan in stats["orphans"]:
-        warnings.append(
-            f"WARNING: {orphan} appears to be an orphan (0 in-edges and 0 out-edges)."
-        )
+        if orphan not in no_section_skills:
+            warnings.append(
+                f"WARNING: {orphan} appears to be an orphan (0 in-edges and 0 out-edges)."
+            )
 
     # W3: Asymmetric relationships (informational)
     for src, src_edges in graph.items():
