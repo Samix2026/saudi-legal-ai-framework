@@ -403,6 +403,18 @@ What AI cannot assess in this context:
 
 ---
 
+## Related skills / مهارات مرتبطة
+
+* [commercial-dispute.md](../skills/commercial-dispute.md)
+  — relationship: alternative_to
+  — Commercial Court litigation is the fallback when arbitration is excluded, waived, or fails
+
+* [legal-drafting.md](../skills/legal-drafting.md)
+  — relationship: depends_on
+  — arbitration requests, submissions, and award enforcement filings require legal drafting
+
+---
+
 ## Related examples / أمثلة مرتبطة
 
 * [examples/arbitration-example.md](../examples/arbitration-example.md) — cross-border supply dispute: enforcing a DIAC arbitration clause under Saudi law

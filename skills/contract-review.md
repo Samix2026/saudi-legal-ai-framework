@@ -453,6 +453,26 @@ What AI cannot assess in this context:
 
 ---
 
+## Related skills / مهارات مرتبطة
+
+* [commercial-dispute.md](../skills/commercial-dispute.md)
+  — relationship: escalates_to
+  — unresolved contract breach or contested clause may require Commercial Court proceedings
+
+* [arbitration.md](../skills/arbitration.md)
+  — relationship: escalates_to
+  — an arbitration clause in the contract activates this path instead of court litigation
+
+* [legal-drafting.md](../skills/legal-drafting.md)
+  — relationship: precedes
+  — review identifies gaps and red flags; legal-drafting is then used to address them
+
+* [compliance-check.md](../skills/compliance-check.md)
+  — relationship: cross_checks
+  — contracts containing PDPL clauses, Nitaqat obligations, or WPS terms need compliance verification
+
+---
+
 ## Related examples / أمثلة مرتبطة
 
 * [examples/contract-review-example.md](../examples/contract-review-example.md) — professional services contract review: foreign governing law clause, interest, IP transfer

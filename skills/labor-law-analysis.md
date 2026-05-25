@@ -412,6 +412,18 @@ What AI cannot assess in this context:
 
 ---
 
+## Related skills / مهارات مرتبطة
+
+* [compliance-check.md](../skills/compliance-check.md)
+  — relationship: cross_checks
+  — employment compliance dimensions (PDPL over HR data, Saudization quotas) cross both domains
+
+* [contract-review.md](../skills/contract-review.md)
+  — relationship: depends_on
+  — employment contracts are analysed using the contract-review methodology for clause-level risk
+
+---
+
 ## Related examples / أمثلة مرتبطة
 
 * [examples/employment-contract-review.md](../examples/employment-contract-review.md) — employment contract review: mandatory elements check under Saudi Labour Law

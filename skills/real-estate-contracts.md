@@ -407,6 +407,18 @@ What AI cannot assess in this context:
 
 ---
 
+## Related skills / مهارات مرتبطة
+
+* [contract-review.md](../skills/contract-review.md)
+  — relationship: specializes
+  — real estate contracts are a domain-scoped application of the general contract review methodology
+
+* [compliance-check.md](../skills/compliance-check.md)
+  — relationship: depends_on
+  — Ejar registration, municipal approvals, and REGA requirements are compliance obligations
+
+---
+
 ## Related examples / أمثلة مرتبطة
 
 * [examples/commercial-lease-exit-example.md](../examples/commercial-lease-exit-example.md) — early exit from commercial lease: penalty clause enforceability

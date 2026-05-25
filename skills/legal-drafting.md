@@ -404,6 +404,14 @@ What automated drafting cannot guarantee:
 
 ---
 
+## Related skills / مهارات مرتبطة
+
+* [contract-review.md](../skills/contract-review.md)
+  — relationship: depends_on
+  — quality criteria for drafted documents are grounded in contract-review red flags and mandatory clause checklists
+
+---
+
 ## Related examples / أمثلة مرتبطة
 
 * [examples/legal-drafting-example.md](../examples/legal-drafting-example.md) — software services contract drafting: milestone-linked payments, IP, PDPL clauses

@@ -415,6 +415,18 @@ What AI cannot assess in this context:
 
 ---
 
+## Related skills / مهارات مرتبطة
+
+* [arbitration.md](../skills/arbitration.md)
+  — relationship: alternative_to
+  — arbitration replaces court litigation when a valid arbitration clause exists or parties agree
+
+* [legal-drafting.md](../skills/legal-drafting.md)
+  — relationship: precedes
+  — formal demand notices must be drafted before court filing
+
+---
+
 ## Related examples / أمثلة مرتبطة
 
 * [examples/commercial-dispute-example.md](../examples/commercial-dispute-example.md) — commercial dispute analysis under Saudi commercial courts framework

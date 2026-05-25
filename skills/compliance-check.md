@@ -394,6 +394,14 @@ What AI cannot assess in this context:
 
 ---
 
+## Related skills / مهارات مرتبطة
+
+* [labor-law-analysis.md](../skills/labor-law-analysis.md)
+  — relationship: cross_checks
+  — Nitaqat (Saudization), WPS, and GOSI compliance are labor law sub-domains that require cross-verification
+
+---
+
 ## Related examples / أمثلة مرتبطة
 
 * [examples/compliance-example.md](../examples/compliance-example.md) — SaaS startup compliance assessment (PDPL, Nitaqat, WPS)
