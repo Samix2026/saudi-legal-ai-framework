@@ -423,7 +423,7 @@ What AI cannot assess in this context:
 
 * [legal-drafting.md](../skills/legal-drafting.md)
   — relationship: precedes
-  — formal demand notices must be drafted before court filing
+  — dispute analysis identifies the claim basis and parties; a formal demand letter (إنذار) must then be drafted as a procedural prerequisite before filing with the Commercial Court
 
 ---
 

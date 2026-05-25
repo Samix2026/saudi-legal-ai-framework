@@ -400,6 +400,10 @@ What AI cannot assess in this context:
   — relationship: cross_checks
   — Nitaqat (Saudization), WPS, and GOSI compliance are labor law sub-domains that require cross-verification
 
+* [contract-review.md](../skills/contract-review.md)
+  — relationship: cross_checks
+  — contracts flagged for PDPL, Nitaqat, or WPS terms must be cross-checked against the compliance assessment framework
+
 ---
 
 ## Related examples / أمثلة مرتبطة
