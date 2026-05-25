@@ -30,6 +30,9 @@ jobs:
       - name: Validate example coverage
         run: python3 scripts/validate_example_coverage.py
 
+      - name: Validate skill graph
+        run: python3 scripts/validate_skill_graph.py
+
       - name: Validate main dataset
         run: python3 scripts/validate_dataset.py
 
