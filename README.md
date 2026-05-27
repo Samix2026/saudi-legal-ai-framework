@@ -34,14 +34,18 @@ Most large AI models are trained predominantly on Western legal material. When a
 
 ---
 
-## 🌐 Website
+## الموقع الإلكتروني / Website
 
-The framework is available as a browsable website built with plain HTML/CSS/JS,
-served via GitHub Pages from the `docs/` directory:
+المنصة متاحة كموقع مرجعي يمكن تصفحه مباشرة، مبني بـ HTML/CSS/JS خالص ومُقدَّم عبر GitHub Pages من مجلد `docs/` في هذا المستودع. يتيح الوصول إلى المصادر القانونية الرسمية ومهارات الذكاء الاصطناعي وقوالب المطالبات من خلال واجهة عربية أولية مع بحث داخلي خفيف الوزن.
 
 **https://samix2026.github.io/saudi-legal-ai-framework/**
 
-Features: Arabic-first interface · official sources directory · legal AI skills browser · client-side search
+The framework is also available as a browsable reference site served directly from the `docs/` directory of this repository. It presents the same content in a structured, navigable format — no installation required.
+
+- واجهة عربية أولية (RTL) · Arabic-first RTL interface
+- دليل البوابات الحكومية المعتمدة · Official government sources directory
+- متصفح المهارات القانونية بالذكاء الاصطناعي · Legal AI skills browser
+- بحث خفيف الوزن يعمل على جانب العميل · Lightweight client-side search
 
 ---
 
