@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  saudi-legal-mcp:
+    build: .
+    volumes:
+      - /Users/samialmohaimeed/saudi-legal-ai-framework:/repo:ro
+    environment:
+      - REPO_PATH=/repo
+    stdin_open: true
+    tty: false
+    restart: unless-stopped
