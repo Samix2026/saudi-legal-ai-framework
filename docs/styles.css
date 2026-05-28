@@ -135,7 +135,8 @@ a { color: inherit; text-decoration: none; }
 body[data-page="home"]      [data-nav="home"],
 body[data-page="sources"]   [data-nav="sources"],
 body[data-page="skills"]    [data-nav="skills"],
-body[data-page="templates"] [data-nav="templates"] {
+body[data-page="templates"] [data-nav="templates"],
+body[data-page="start"]     [data-nav="start"] {
   color: rgba(255, 255, 255, .92);
 }
 
@@ -517,4 +518,345 @@ body[data-page="templates"] [data-nav="templates"] {
 /* ── Reduced motion ─────────────────────────────────────── */
 @media (prefers-reduced-motion: reduce) {
   .nav-card { transition: none; }
+}
+
+/* ═══════════════════════════════════════════════════════════
+   NEW SECTIONS — site-improvements
+   ═══════════════════════════════════════════════════════════ */
+
+/* ── Stats bar ──────────────────────────────────────────── */
+.stats-bar {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 28px var(--page-padding);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 0 32px;
+  text-align: center;
+}
+
+.stat-number {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--teal);
+  line-height: 1.1;
+}
+
+.stat-label {
+  font-size: 12px;
+  color: var(--text-muted);
+  font-weight: 400;
+  white-space: nowrap;
+}
+
+.stat-divider {
+  width: 1px;
+  height: 36px;
+  background: var(--border);
+  flex-shrink: 0;
+}
+
+/* ── How-to section ─────────────────────────────────────── */
+.how-to-section {
+  background: var(--cream-dark);
+  border-top: 1px solid var(--border-light);
+  border-bottom: 1px solid var(--border-light);
+  padding: 48px var(--page-padding);
+}
+
+.how-to-inner,
+.comparison-inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.section-heading {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--navy);
+  margin-bottom: 28px;
+  text-align: center;
+}
+
+.steps-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.step-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 22px 18px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.step-icon {
+  font-size: 26px;
+  line-height: 1;
+}
+
+.step-number {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: .08em;
+  color: var(--teal);
+}
+
+.step-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--navy);
+}
+
+.step-desc {
+  font-size: 13px;
+  color: var(--text-muted);
+  line-height: 1.65;
+  flex: 1;
+}
+
+.step-btn {
+  display: inline-block;
+  margin-top: 4px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--teal);
+  border: 1px solid rgba(46, 139, 122, .35);
+  border-radius: 6px;
+  padding: 6px 12px;
+  transition: background .15s;
+  align-self: flex-start;
+}
+
+.step-btn:hover {
+  background: rgba(46, 139, 122, .06);
+}
+
+/* ── Before/After comparison ────────────────────────────── */
+.comparison-section {
+  padding: 48px var(--page-padding) 32px;
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.comparison-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.comparison-box {
+  border-radius: 10px;
+  padding: 20px;
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.comparison-without {
+  background: #fff5f5;
+  border-color: #fca5a5;
+}
+
+.comparison-with {
+  background: #f0fdf4;
+  border-color: #86efac;
+}
+
+.comparison-label {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--navy);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.comparison-icon { font-size: 16px; }
+
+.comparison-q {
+  font-size: 12px;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.comparison-a {
+  font-size: 13px;
+  color: var(--text);
+  line-height: 1.65;
+  background: rgba(255, 255, 255, .7);
+  border-radius: 6px;
+  padding: 10px 12px;
+  border: 1px solid rgba(0, 0, 0, .06);
+}
+
+.comparison-note {
+  font-size: 11px;
+  color: #9b1c1c;
+  background: rgba(252, 165, 165, .2);
+  border-radius: 4px;
+  padding: 4px 8px;
+}
+
+.comparison-note-ok {
+  color: #166534;
+  background: rgba(134, 239, 172, .25);
+}
+
+/* ── Templates note ─────────────────────────────────────── */
+.templates-note {
+  background: rgba(46, 139, 122, .08);
+  border: 1px solid rgba(46, 139, 122, .25);
+  border-radius: 8px;
+  padding: 12px 16px;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--teal);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* ── Floating suggestion button ─────────────────────────── */
+.suggest-btn {
+  position: fixed;
+  bottom: 24px;
+  left: 24px;
+  background: var(--amber);
+  color: var(--white);
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 10px 18px;
+  border-radius: 50px;
+  box-shadow: 0 4px 16px rgba(181, 101, 29, .35);
+  z-index: 150;
+  transition: background .15s, box-shadow .15s, transform .1s;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.suggest-btn:hover {
+  background: #9a4f18;
+  box-shadow: 0 6px 20px rgba(181, 101, 29, .45);
+  transform: translateY(-1px);
+}
+
+/* ── Visitor counter ────────────────────────────────────── */
+.footer-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.visitor-label {
+  font-size: 10px;
+  color: rgba(255, 255, 255, .5);
+  letter-spacing: .06em;
+}
+
+.visitor-badge {
+  height: 20px;
+  opacity: .85;
+}
+
+/* ── Start page steps ───────────────────────────────────── */
+.start-steps {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 40px var(--page-padding) 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  list-style: none;
+}
+
+.start-step {
+  display: flex;
+  gap: 18px;
+  align-items: flex-start;
+}
+
+.step-circle {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--teal);
+  color: var(--white);
+  font-size: 18px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.start-step-body { flex: 1; }
+
+.start-step-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--navy);
+  margin-bottom: 6px;
+}
+
+.start-step-desc {
+  font-size: 14px;
+  color: var(--text-muted);
+  line-height: 1.7;
+}
+
+.start-step-desc a { color: var(--teal); text-decoration: underline; }
+
+kbd {
+  display: inline-block;
+  font-size: 12px;
+  font-family: 'Segoe UI', monospace;
+  background: var(--cream-dark);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 1px 6px;
+  color: var(--text-mid);
+}
+
+.copy-example {
+  margin-top: 10px;
+  background: var(--navy);
+  color: rgba(255, 255, 255, .88);
+  border-radius: 8px;
+  padding: 12px 16px;
+  font-size: 14px;
+  line-height: 1.6;
+  user-select: all;
+  cursor: text;
+}
+
+/* ── Responsive additions ───────────────────────────────── */
+@media (max-width: 768px) {
+  .steps-grid      { grid-template-columns: 1fr; }
+  .comparison-grid { grid-template-columns: 1fr; }
+  .stat-divider    { display: none; }
+  .stat-item       { padding: 0 16px; }
+}
+
+@media (max-width: 600px) {
+  .suggest-btn       { font-size: 12px; padding: 9px 14px; bottom: 16px; left: 16px; }
+  .how-to-section    { padding: 32px var(--page-padding); }
+  .comparison-section { padding: 32px var(--page-padding) 24px; }
+  .stats-bar         { padding: 20px var(--page-padding); flex-wrap: wrap; gap: 12px; }
+  .section-heading   { font-size: 17px; }
 }
