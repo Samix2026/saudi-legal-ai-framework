@@ -1,5 +1,5 @@
 # ── Core MCP runtime ─────────────────────────────────────────────────────────
-mcp>=1.27.2
+mcp>=1.28.0
 
 # ── Anthropic SDK (used by analyzer.py & summarizer.py) ──────────────────────
 anthropic>=0.25.0
