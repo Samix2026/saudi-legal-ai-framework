@@ -2,4 +2,4 @@
 pytest
 requests
 jsonschema
-httpx>=0.27.0
+httpx>=0.28.1
