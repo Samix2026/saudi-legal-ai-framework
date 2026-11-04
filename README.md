@@ -132,7 +132,7 @@ saudi-legal-ai-framework/
 │   ├── regulation-index.md
 │   ├── saudi-laws.md
 │   ├── open-data-judicial-sources.md
-│   └── judicial-decisions/        # ملفات PDF لأحكام 1435هـ
+│   └── judicial-decisions/        # أحكام 1435هـ (PDF عبر scripts/fetch_judicial_pdfs.sh)
 ├── datasets/                      # مجموعات بيانات قانونية منظمة
 ├── examples/                      # أمثلة تطبيقية
 ├── prompts/                       # قوالب مطالبات
