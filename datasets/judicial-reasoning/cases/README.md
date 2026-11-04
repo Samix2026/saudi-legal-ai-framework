@@ -121,7 +121,7 @@ sources/fiqh-judicial-references/citation-index.md
 | [`../schema.md`](../schema.md) | تعريف الحقول الـ 19 |
 | [`../extraction-guidelines.md`](../extraction-guidelines.md) | قواعد الاستخراج والإخفاء |
 | [`../example-extraction.md`](../example-extraction.md) | مثال تعليمي |
-| [`../../docs/legal-verification-lifecycle.md`](../../docs/legal-verification-lifecycle.md) | تفصيل دورة حياة التحقق |
-| [`../../docs/ocr-strategy.md`](../../docs/ocr-strategy.md) | استراتيجية OCR |
-| [`../../scripts/ocr_pdf_pages.py`](../../scripts/ocr_pdf_pages.py) | سكربت توليد OCR |
+| [`../../docs/legal-verification-lifecycle.md`](../../../docs/legal-verification-lifecycle.md) | تفصيل دورة حياة التحقق |
+| [`../../docs/ocr-strategy.md`](../../../docs/ocr-strategy.md) | استراتيجية OCR |
+| [`../../scripts/ocr_pdf_pages.py`](../../../scripts/ocr_pdf_pages.py) | سكربت توليد OCR |
 | [`../../../sources/fiqh-judicial-references/citation-index.md`](../../../sources/fiqh-judicial-references/citation-index.md) | فهرس المراجع الفقهية المُحال إليها في الأحكام |

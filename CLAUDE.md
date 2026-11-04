@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-**Saudi Legal AI Framework** is an open-source documentation framework for adapting AI assistants to the Saudi Arabian legal environment. The repository contains no executable code — it is composed entirely of Markdown guides, prompt templates, reference sources, and worked examples.
+**Saudi Legal AI Framework** is an open-source documentation framework for adapting AI assistants to the Saudi Arabian legal environment. Most of the repository is Markdown (skills, sources, prompts, examples, datasets). It also contains Python validators in `scripts/`, a test suite in `tests/` (run `python3 -m pytest -q`), an eval harness in `evals/`, and a FastMCP server in `mcp-server/`. Run the validators and tests before opening a PR.
 
 ## Repository Structure
 
@@ -13,6 +13,11 @@ skills/      → Guidance on how AI should approach specific legal domains under
 sources/     → Reference summaries of key Saudi regulations (not legal text substitutes)
 prompts/     → Ready-to-use prompt templates for Claude, ChatGPT, and Gemini
 examples/    → Worked analysis examples demonstrating the framework in practice
+datasets/    → Structured risk data and judicial reasoning extractions
+scripts/     → Dataset builders and cross-reference validators
+tests/       → pytest suite for scripts and MCP tools
+evals/       → Eval harness (cases, schema, source registry)
+mcp-server/  → FastMCP server exposing 3 legal tools
 ```
 
 ## Core Principles (must be followed in all interactions)
