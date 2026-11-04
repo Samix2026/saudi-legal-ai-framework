@@ -50,3 +50,6 @@ skills-lock.json
 # Eval Harness Results
 evals/results/*
 !evals/results/.gitkeep
+
+# Judicial decision PDFs live in the judicial-decisions-1435 release; fetch with scripts/fetch_judicial_pdfs.sh
+sources/judicial-decisions/*/*.pdf

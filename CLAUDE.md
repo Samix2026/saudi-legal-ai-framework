@@ -20,6 +20,8 @@ evals/       → Eval harness (cases, schema, source registry)
 mcp-server/  → FastMCP server exposing 3 legal tools
 ```
 
+Judicial decision PDFs are not stored in git. Run `scripts/fetch_judicial_pdfs.sh` to download them from the `judicial-decisions-1435` release into `sources/judicial-decisions/1435/`.
+
 ## Core Principles (must be followed in all interactions)
 
 1. **No legal advice** — All AI output is preliminary analysis only. Always include the disclaimer that a licensed Saudi attorney must review any conclusions.

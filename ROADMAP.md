@@ -82,7 +82,7 @@ repository architecture · governance · validation pipeline · CI/CD · contrib
 - [x] نظام enums موحَّد (`datasets/enums/` — مستويات الخطر، أنواع العقود، تصنيفات البنود، القطاعات، حالات التحقق)
 - [x] مراجع قانونية سعودية موثقة في جميع البنود
 - [x] سيناريوهات تطبيقية (عقود عمل، SaaS، إنشاء — 13 بندًا في datasets/examples/)
-- [x] مجموعة الأحكام القضائية (`sources/judicial-decisions/1435/` — 14 ملف PDF للأحكام السعودية)
+- [x] مجموعة الأحكام القضائية (`sources/judicial-decisions/1435/` — 14 ملف PDF للأحكام السعودية، تحمل عبر `scripts/fetch_judicial_pdfs.sh`)
 - [x] إطار فهرسة المجموعة القضائية (`datasets/judicial-index/` — 13 حقلًا · خريطة مستوى الأقسام)
 - [x] إطار استخراج الاستدلال القضائي (`datasets/judicial-reasoning/` — 19 حقلًا · دليل الاستخراج · مثال تطبيقي)
 - [x] دورة حياة التحقق القانوني (`docs/legal-verification-lifecycle.md` — 6 حالات · قواعد الانتقال)

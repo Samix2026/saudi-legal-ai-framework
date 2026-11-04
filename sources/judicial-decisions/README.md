@@ -13,6 +13,20 @@
 
 ---
 
+## تحميل الملفات / Getting the PDFs
+
+ملفات PDF غير محفوظة داخل git لتقليل حجم المستودع. حملها بالأمر التالي، وسيتحقق السكربت من سلامتها تلقائيا:
+
+The PDFs are not stored in git to keep clones small. Download and verify them with:
+
+```bash
+./scripts/fetch_judicial_pdfs.sh
+```
+
+المصدر / Source: GitHub Release `judicial-decisions-1435`. Checksums: [`1435.SHA256SUMS`](1435.SHA256SUMS).
+
+---
+
 ## 1. ما هي مجموعات الأحكام القضائية / What Are Judicial Decision Collections
 
 مجموعات الأحكام القضائية هي وثائق تحتوي على نصوص أو ملخصات لأحكام صادرة عن المحاكم السعودية (تجارية، عمالية، مدنية، إدارية). قد تكون:
