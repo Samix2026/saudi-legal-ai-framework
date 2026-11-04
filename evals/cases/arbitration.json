@@ -10,9 +10,129 @@
     "source_locator": "المادة العاشرة (الفقرة 2)",
     "source_version": "1433/05/24هـ",
     "verified_at": "2024-06-19",
-    "must_include": ["موافقة رئيس مجلس الوزراء", "نص نظامي خاص"],
-    "must_not_claim": ["المنع المطلق دون استثناء", "السماح المطلق بلا شروط"],
-    "critical_errors": ["الإشارة للمادة الخاطئة بدلاً من 10/2، أو الجزم بالمنع التام للجهات الحكومية دون ذكر استثناء موافقة رئيس مجلس الوزراء."],
+    "must_include": [
+      "موافقة رئيس مجلس الوزراء",
+      "نص نظامي خاص"
+    ],
+    "must_not_claim": [
+      "المنع المطلق دون استثناء",
+      "السماح المطلق بلا شروط"
+    ],
+    "critical_errors": [
+      "الإشارة للمادة الخاطئة بدلاً من 10/2، أو الجزم بالمنع التام للجهات الحكومية دون ذكر استثناء موافقة رئيس مجلس الوزراء."
+    ],
+    "scoring": {
+      "legal_accuracy_weight": 0.6,
+      "source_accuracy_weight": 0.25,
+      "safety_and_limits_weight": 0.15
+    }
+  },
+  {
+    "id": "ARBT-002",
+    "domain": "arbitration",
+    "status": "draft",
+    "scenario": "اتفق طرفان شفهيا على حل نزاعهما بالتحكيم. هل هذا الاتفاق صحيح؟",
+    "reference_answer": "يجب أن يكون اتفاق التحكيم مكتوبا وإلا كان باطلا. وتعد الكتابة متحققة بالمستند الموقع من الطرفين أو المراسلات المتبادلة أو البرقيات أو وسائل الاتصال الإلكترونية أو المكتوبة.",
+    "source_id": "arbitration_law",
+    "source_url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/3362a2bb-ce04-4927-aa4e-a9a700f16db1/1",
+    "source_locator": "المادة التاسعة (الفقرة 2)",
+    "verified_at": "2026-11-04",
+    "source_version": "1433/05/24هـ",
+    "must_include": [
+      "مكتوبا",
+      "وإلا كان باطلا"
+    ],
+    "must_not_claim": [
+      "الاتفاق الشفهي صحيح إذا أمكن إثباته"
+    ],
+    "critical_errors": [
+      "تصحيح اتفاق التحكيم الشفهي."
+    ],
+    "scoring": {
+      "legal_accuracy_weight": 0.6,
+      "source_accuracy_weight": 0.25,
+      "safety_and_limits_weight": 0.15
+    }
+  },
+  {
+    "id": "ARBT-003",
+    "domain": "arbitration",
+    "status": "draft",
+    "scenario": "اتفق طرفان على تشكيل هيئة تحكيم من محكمين اثنين. ما حكم ذلك؟",
+    "reference_answer": "تشكل هيئة التحكيم من محكم واحد أو أكثر، على أن يكون العدد فرديا وإلا كان التحكيم باطلا.",
+    "source_id": "arbitration_law",
+    "source_url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/3362a2bb-ce04-4927-aa4e-a9a700f16db1/1",
+    "source_locator": "المادة الثالثة عشرة",
+    "verified_at": "2026-11-04",
+    "source_version": "1433/05/24هـ",
+    "must_include": [
+      "العدد فرديا",
+      "وإلا كان التحكيم باطلا"
+    ],
+    "must_not_claim": [
+      "يجوز أي عدد يتفق عليه الطرفان"
+    ],
+    "critical_errors": [
+      "إجازة العدد الزوجي للمحكمين."
+    ],
+    "scoring": {
+      "legal_accuracy_weight": 0.6,
+      "source_accuracy_weight": 0.25,
+      "safety_and_limits_weight": 0.15
+    }
+  },
+  {
+    "id": "ARBT-004",
+    "domain": "arbitration",
+    "status": "draft",
+    "scenario": "لم يتفق طرفا التحكيم على موعد لإصدار الحكم. ما المدة النظامية؟ وماذا يحدث إذا انقضت؟",
+    "reference_answer": "على هيئة التحكيم إصدار الحكم المنهي للخصومة خلال اثني عشر شهرا من تاريخ بدء إجراءات التحكيم، ولها التمديد بما لا يزيد على ستة أشهر ما لم يتفق الطرفان على أكثر. فإذا انقضت المدة دون حكم جاز لأي من الطرفين أن يطلب من المحكمة المختصة إصدار أمر بتحديد مدة إضافية أو بإنهاء إجراءات التحكيم.",
+    "source_id": "arbitration_law",
+    "source_url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/3362a2bb-ce04-4927-aa4e-a9a700f16db1/1",
+    "source_locator": "المادة الأربعون",
+    "verified_at": "2026-11-04",
+    "source_version": "1433/05/24هـ",
+    "must_include": [
+      "اثني عشر شهرا",
+      "ستة أشهر",
+      "المحكمة المختصة"
+    ],
+    "must_not_claim": [
+      "ستة أشهر فقط",
+      "يبطل التحكيم تلقائيا"
+    ],
+    "critical_errors": [
+      "الخطأ في المدة الأصلية أو القول بالبطلان التلقائي."
+    ],
+    "scoring": {
+      "legal_accuracy_weight": 0.6,
+      "source_accuracy_weight": 0.25,
+      "safety_and_limits_weight": 0.15
+    }
+  },
+  {
+    "id": "ARBT-005",
+    "domain": "arbitration",
+    "status": "draft",
+    "scenario": "صدر حكم تحكيم ضد شركة وأبلغت به اليوم. ما المهلة لرفع دعوى بطلانه؟ وهل يمنعها تنازل سابق في العقد عن هذا الحق؟",
+    "reference_answer": "ترفع دعوى بطلان حكم التحكيم خلال الستين يوما التالية لتاريخ إبلاغ الطرف بالحكم، ولا يحول تنازل مدعي البطلان عن حقه في رفعها قبل صدور حكم التحكيم دون قبول الدعوى.",
+    "source_id": "arbitration_law",
+    "source_url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/3362a2bb-ce04-4927-aa4e-a9a700f16db1/1",
+    "source_locator": "المادة الحادية والخمسون (الفقرة 1)",
+    "verified_at": "2026-11-04",
+    "source_version": "1433/05/24هـ",
+    "must_include": [
+      "الستين يوما",
+      "من تاريخ الإبلاغ",
+      "التنازل قبل صدور الحكم لا يمنع"
+    ],
+    "must_not_claim": [
+      "ثلاثون يوما",
+      "التنازل المسبق يمنع الدعوى"
+    ],
+    "critical_errors": [
+      "الخطأ في المهلة أو إعمال التنازل المسبق."
+    ],
     "scoring": {
       "legal_accuracy_weight": 0.6,
       "source_accuracy_weight": 0.25,

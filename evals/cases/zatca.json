@@ -10,9 +10,129 @@
     "source_locator": "لائحة الفوترة الإلكترونية - المادة الثامنة (التطبيق على مراحل)",
     "source_version": "1442/04/19هـ",
     "verified_at": "2024-06-19",
-    "must_include": ["مراحل", "موجات", "منصة فاتورة", "إصدار وحفظ إلكتروني"],
-    "must_not_claim": ["الربط الفوري إلزامي لجميع الشركات حالياً دفعة واحدة"],
-    "critical_errors": ["الخلط بين الإلزام العام بالفوترة (الموجة الأولى) وبين إلزام الربط والتكامل (الموجة الثانية) الذي يتم تدريجياً."],
+    "must_include": [
+      "مراحل",
+      "موجات",
+      "منصة فاتورة",
+      "إصدار وحفظ إلكتروني"
+    ],
+    "must_not_claim": [
+      "الربط الفوري إلزامي لجميع الشركات حالياً دفعة واحدة"
+    ],
+    "critical_errors": [
+      "الخلط بين الإلزام العام بالفوترة (الموجة الأولى) وبين إلزام الربط والتكامل (الموجة الثانية) الذي يتم تدريجياً."
+    ],
+    "scoring": {
+      "legal_accuracy_weight": 0.6,
+      "source_accuracy_weight": 0.25,
+      "safety_and_limits_weight": 0.15
+    }
+  },
+  {
+    "id": "ZATC-002",
+    "domain": "zatca",
+    "status": "draft",
+    "scenario": "منشأة تكتب فواتيرها يدويا ثم تمسحها ضوئيا وتحفظها PDF. هل هذا يحقق متطلبات الفوترة الإلكترونية؟",
+    "reference_answer": "لا. الفاتورة الورقية المحولة إلى صيغة إلكترونية بالنسخ أو المسح الضوئي أو أي وسيلة أخرى لا تعد فاتورة إلكترونية، ويجب إصدار الفاتورة بوسائل إلكترونية عبر حل متوافق.",
+    "source_id": "zatca_e_invoicing_guideline",
+    "source_url": "https://zatca.gov.sa/en/E-Invoicing/Introduction/Guidelines/Documents/E-Invoicing_Detailed__Guideline.pdf",
+    "source_locator": "الدليل التفصيلي، القسمان 2.2 و4.1.1(ب)",
+    "verified_at": "2026-11-04",
+    "source_version": "2023-05",
+    "must_include": [
+      "المسح الضوئي لا يعد فاتورة إلكترونية",
+      "وسائل إلكترونية"
+    ],
+    "must_not_claim": [
+      "المسح الضوئي كاف",
+      "ملف PDF يكفي"
+    ],
+    "critical_errors": [
+      "اعتبار الفاتورة الممسوحة ضوئيا فاتورة إلكترونية."
+    ],
+    "scoring": {
+      "legal_accuracy_weight": 0.6,
+      "source_accuracy_weight": 0.25,
+      "safety_and_limits_weight": 0.15
+    }
+  },
+  {
+    "id": "ZATC-003",
+    "domain": "zatca",
+    "status": "draft",
+    "scenario": "في مرحلة الإصدار (المرحلة الأولى)، أي نوع من الفواتير يجب أن يحمل رمز الاستجابة السريعة QR؟",
+    "reference_answer": "رمز QR إلزامي في الفاتورة الضريبية المبسطة (للمستهلكين) في مرحلة الإصدار، وغير إلزامي في الفاتورة الضريبية (بين المنشآت) في هذه المرحلة.",
+    "source_id": "zatca_e_invoicing_guideline",
+    "source_url": "https://zatca.gov.sa/en/E-Invoicing/Introduction/Guidelines/Documents/E-Invoicing_Detailed__Guideline.pdf",
+    "source_locator": "الدليل التفصيلي، القسم 5.1",
+    "verified_at": "2026-11-04",
+    "source_version": "2023-05",
+    "must_include": [
+      "الفاتورة الضريبية المبسطة",
+      "غير إلزامي في الفاتورة الضريبية"
+    ],
+    "must_not_claim": [
+      "إلزامي في كل الفواتير في المرحلة الأولى"
+    ],
+    "critical_errors": [
+      "تعميم إلزام QR على الفاتورة الضريبية في مرحلة الإصدار."
+    ],
+    "scoring": {
+      "legal_accuracy_weight": 0.6,
+      "source_accuracy_weight": 0.25,
+      "safety_and_limits_weight": 0.15
+    }
+  },
+  {
+    "id": "ZATC-004",
+    "domain": "zatca",
+    "status": "draft",
+    "scenario": "أصدرت منشأة فاتورة إلكترونية فيها خطأ في المبلغ. هل يمكن تعديلها أو حذفها من النظام؟",
+    "reference_answer": "لا يجوز تعديل الفاتورة أو حذفها بعد إصدارها. يتم التصحيح بإشعار دائن يشير إلى الفاتورة الأصلية لإلغائها أو تخفيضها، أو بإشعار مدين لزيادة قيمتها، مع إصدار فاتورة جديدة عند الحاجة.",
+    "source_id": "zatca_e_invoicing_guideline",
+    "source_url": "https://zatca.gov.sa/en/E-Invoicing/Introduction/Guidelines/Documents/E-Invoicing_Detailed__Guideline.pdf",
+    "source_locator": "الدليل التفصيلي، القسمان 5.6 و4.3",
+    "verified_at": "2026-11-04",
+    "source_version": "2023-05",
+    "must_include": [
+      "لا يجوز تعديل أو حذف",
+      "إشعار دائن",
+      "إشعار مدين"
+    ],
+    "must_not_claim": [
+      "يجوز تعديلها خلال 24 ساعة",
+      "يجوز حذفها وإعادة إصدارها"
+    ],
+    "critical_errors": [
+      "إجازة تعديل الفاتورة أو حذفها."
+    ],
+    "scoring": {
+      "legal_accuracy_weight": 0.6,
+      "source_accuracy_weight": 0.25,
+      "safety_and_limits_weight": 0.15
+    }
+  },
+  {
+    "id": "ZATC-005",
+    "domain": "zatca",
+    "status": "draft",
+    "scenario": "شركة أجنبية غير مقيمة مسجلة في ضريبة القيمة المضافة بالمملكة. هل يلزمها إصدار فواتير إلكترونية؟",
+    "reference_answer": "لا. الأشخاص الخاضعون للضريبة غير المقيمين لا يلزمهم إصدار فواتير أو إشعارات إلكترونية عن توريداتهم الخاضعة للضريبة في المملكة. والنطاق يشمل الخاضع للضريبة المقيم ومن يصدر الفاتورة نيابة عنه.",
+    "source_id": "zatca_e_invoicing_guideline",
+    "source_url": "https://zatca.gov.sa/en/E-Invoicing/Introduction/Guidelines/Documents/E-Invoicing_Detailed__Guideline.pdf",
+    "source_locator": "الدليل التفصيلي، القسم 3.1",
+    "verified_at": "2026-11-04",
+    "source_version": "2023-05",
+    "must_include": [
+      "غير المقيمين غير ملزمين",
+      "المقيم"
+    ],
+    "must_not_claim": [
+      "كل مسجل في الضريبة ملزم دون استثناء"
+    ],
+    "critical_errors": [
+      "إلزام غير المقيمين بالفوترة الإلكترونية."
+    ],
     "scoring": {
       "legal_accuracy_weight": 0.6,
       "source_accuracy_weight": 0.25,

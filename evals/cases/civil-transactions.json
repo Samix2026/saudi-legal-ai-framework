@@ -1,0 +1,148 @@
+[
+  {
+    "id": "CIVL-001",
+    "domain": "civil_transactions",
+    "status": "draft",
+    "scenario": "ما المدة العامة التي لا تسمع بعدها الدعوى بالحق في نظام المعاملات المدنية السعودي؟",
+    "reference_answer": "الحق لا ينقضي بمرور الزمن، لكن لا تسمع الدعوى به على المنكر بانقضاء عشر سنوات، ما لم يرد نص نظامي خاص أو تنطبق الاستثناءات الواردة في المواد التالية.",
+    "source_id": "civil_transactions_law",
+    "source_url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/655fdb42-8c96-422b-b8c4-b04f0095c94c/1",
+    "source_locator": "المادة الخامسة والتسعون بعد المائتين",
+    "verified_at": "2026-11-04",
+    "source_version": "1444/11/29هـ",
+    "must_include": [
+      "عشر سنوات",
+      "لا تسمع الدعوى",
+      "على المنكر"
+    ],
+    "must_not_claim": [
+      "15 سنة",
+      "الحق يسقط بمرور الزمن"
+    ],
+    "critical_errors": [
+      "ذكر مدة 15 سنة المأخوذة من قوانين عربية أخرى.",
+      "القول بأن الحق نفسه يسقط بدلا من عدم سماع الدعوى."
+    ],
+    "scoring": {
+      "legal_accuracy_weight": 0.6,
+      "source_accuracy_weight": 0.25,
+      "safety_and_limits_weight": 0.15
+    }
+  },
+  {
+    "id": "CIVL-002",
+    "domain": "civil_transactions",
+    "status": "draft",
+    "scenario": "محام لم يحصل على أتعابه من موكله منذ 6 سنوات، والموكل ينكر. هل تسمع دعواه؟",
+    "reference_answer": "لا تسمع على المنكر دعوى أتعاب أصحاب المهن الحرة كالأطباء والمحامين والمهندسين والمصروفات التي أنفقوها بانقضاء خمس سنوات، ما لم يرد نص نظامي آخر. وبالتالي فالدعوى بعد 6 سنوات مع إنكار الموكل لا تسمع من حيث الأصل.",
+    "source_id": "civil_transactions_law",
+    "source_url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/655fdb42-8c96-422b-b8c4-b04f0095c94c/1",
+    "source_locator": "المادة السادسة والتسعون بعد المائتين",
+    "verified_at": "2026-11-04",
+    "source_version": "1444/11/29هـ",
+    "must_include": [
+      "خمس سنوات",
+      "أصحاب المهن الحرة",
+      "على المنكر"
+    ],
+    "must_not_claim": [
+      "عشر سنوات لأتعاب المحامين",
+      "سنة واحدة"
+    ],
+    "critical_errors": [
+      "تطبيق القاعدة العامة (عشر سنوات) على أتعاب المهن الحرة."
+    ],
+    "scoring": {
+      "legal_accuracy_weight": 0.6,
+      "source_accuracy_weight": 0.25,
+      "safety_and_limits_weight": 0.15
+    }
+  },
+  {
+    "id": "CIVL-003",
+    "domain": "civil_transactions",
+    "status": "draft",
+    "scenario": "تاجر أجهزة باع جهازا لشخص غير تاجر بالتقسيط ولم يطالبه منذ سنتين، والمشتري ينكر الدين. ما حكم سماع الدعوى؟",
+    "reference_answer": "لا تسمع على المنكر دعوى حقوق التجار عن السلع والخدمات المقدمة لأشخاص لا يتجرون فيها بانقضاء سنة واحدة. فالدعوى بعد سنتين مع الإنكار لا تسمع من حيث الأصل.",
+    "source_id": "civil_transactions_law",
+    "source_url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/655fdb42-8c96-422b-b8c4-b04f0095c94c/1",
+    "source_locator": "المادة السابعة والتسعون بعد المائتين (الفقرة أ)",
+    "verified_at": "2026-11-04",
+    "source_version": "1444/11/29هـ",
+    "must_include": [
+      "سنة واحدة",
+      "حقوق التجار",
+      "لأشخاص لا يتجرون فيها"
+    ],
+    "must_not_claim": [
+      "خمس سنوات وفق نظام المحاكم التجارية",
+      "عشر سنوات"
+    ],
+    "critical_errors": [
+      "تطبيق مدة الخمس سنوات التجارية العامة على حقوق التاجر قبل غير التاجر."
+    ],
+    "scoring": {
+      "legal_accuracy_weight": 0.6,
+      "source_accuracy_weight": 0.25,
+      "safety_and_limits_weight": 0.15
+    }
+  },
+  {
+    "id": "CIVL-004",
+    "domain": "civil_transactions",
+    "status": "draft",
+    "scenario": "عقد توريد فيه شرط جزائي بمبلغ مليون ريال عند التأخير، وتأخر المورد أسبوعا ولم يتضرر المشتري فعليا. هل يلتزم المورد بدفع المليون كاملة؟",
+    "reference_answer": "لا يكون التعويض الاتفاقي مستحقا إذا أثبت المدين أن الدائن لم يلحقه أي ضرر، وللمحكمة بطلب المدين أن تنقصه إذا أثبت أنه مبالغ فيه أو أن الالتزام الأصلي نفذ في جزء منه، ويقع باطلا كل اتفاق يخالف ذلك.",
+    "source_id": "civil_transactions_law",
+    "source_url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/655fdb42-8c96-422b-b8c4-b04f0095c94c/1",
+    "source_locator": "المادة التاسعة والسبعون بعد المائة",
+    "verified_at": "2026-11-04",
+    "source_version": "1444/11/29هـ",
+    "must_include": [
+      "إذا أثبت المدين أن الدائن لم يلحقه ضرر",
+      "للمحكمة إنقاصه",
+      "مبالغ فيه",
+      "باطل كل اتفاق يخالف"
+    ],
+    "must_not_claim": [
+      "الشرط الجزائي ملزم دائما بمبلغه الكامل",
+      "لا تملك المحكمة تعديله"
+    ],
+    "critical_errors": [
+      "القول بأن الشرط الجزائي واجب الدفع كاملا دون نظر إلى الضرر."
+    ],
+    "scoring": {
+      "legal_accuracy_weight": 0.6,
+      "source_accuracy_weight": 0.25,
+      "safety_and_limits_weight": 0.15
+    }
+  },
+  {
+    "id": "CIVL-005",
+    "domain": "civil_transactions",
+    "status": "draft",
+    "scenario": "ما الأساس النظامي للمسؤولية عن الفعل الضار في نظام المعاملات المدنية السعودي؟ وما أركانها؟",
+    "reference_answer": "كل خطأ سبب ضررا للغير يلزم من ارتكبه بالتعويض. وتقوم المسؤولية على ثلاثة أركان: الخطأ، والضرر، وعلاقة السببية بينهما.",
+    "source_id": "civil_transactions_law",
+    "source_url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/655fdb42-8c96-422b-b8c4-b04f0095c94c/1",
+    "source_locator": "المادة العشرون بعد المائة",
+    "verified_at": "2026-11-04",
+    "source_version": "1444/11/29هـ",
+    "must_include": [
+      "كل خطأ سبب ضررا للغير",
+      "التعويض",
+      "الخطأ والضرر والسببية"
+    ],
+    "must_not_claim": [
+      "المسؤولية تقوم بمجرد وقوع الضرر دون خطأ كقاعدة عامة"
+    ],
+    "critical_errors": [
+      "إغفال ركن الخطأ أو علاقة السببية."
+    ],
+    "scoring": {
+      "legal_accuracy_weight": 0.6,
+      "source_accuracy_weight": 0.25,
+      "safety_and_limits_weight": 0.15
+    }
+  }
+]

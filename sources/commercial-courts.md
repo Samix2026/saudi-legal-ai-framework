@@ -1,8 +1,8 @@
 # المصدر: المحاكم التجارية السعودية
 # Source: Saudi Commercial Courts
 
-**المرجع الرسمي:** نظام المحاكم التجارية الصادر بالمرسوم الملكي م/93 بتاريخ 15/10/1441هـ (2020م) ولائحته التنفيذية
-**Official Reference:** Commercial Courts Law issued by Royal Decree M/93 dated 15/10/1441H (2020) and its implementing regulations
+**المرجع الرسمي:** نظام المحاكم التجارية الصادر بالمرسوم الملكي م/93 بتاريخ 15/08/1441هـ (2020م) ولائحته التنفيذية
+**Official Reference:** Commercial Courts Law issued by Royal Decree M/93 dated 15/08/1441H (2020) and its implementing regulations
 
 ---
 

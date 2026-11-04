@@ -4,15 +4,134 @@
     "domain": "companies_law",
     "status": "draft",
     "scenario": "ما هو الحد الأدنى لعدد الشركاء لتأسيس شركة مساهمة وفق نظام الشركات السعودي؟",
-    "reference_answer": "استثناءً من القاعدة العامة، يجوز تأسيس الشركة المساهمة من شخص واحد، وبالتالي لا يوجد حد أدنى لعدد الشركاء.",
+    "reference_answer": "شركة المساهمة يؤسسها شخص واحد أو أكثر من ذوي الصفة الطبيعية أو الاعتبارية، فلا يوجد حد أدنى يزيد على شخص واحد. ومسؤولية المساهم محدودة بقيمة الأسهم التي اكتتب فيها.",
     "source_id": "companies_law",
     "source_url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/10d19e91-c244-41ee-abe3-aeda01083e95/1",
-    "source_locator": "المادة الخامسة والخمسون",
+    "source_locator": "المادة الثامنة والخمسون",
     "source_version": "1443/12/01هـ",
-    "verified_at": "2024-06-19",
-    "must_include": ["شخص واحد", "لا يوجد حد أدنى"],
-    "must_not_claim": ["خمسة شركاء", "شريكين"],
-    "critical_errors": ["تطبيق المادة المتعلقة بالنظام القديم الملغي باشتراط 5 شركاء."],
+    "verified_at": "2026-11-04",
+    "must_include": [
+      "شخص واحد",
+      "لا يوجد حد أدنى"
+    ],
+    "must_not_claim": [
+      "خمسة شركاء",
+      "شريكين"
+    ],
+    "critical_errors": [
+      "تطبيق المادة المتعلقة بالنظام القديم الملغي باشتراط 5 شركاء."
+    ],
+    "scoring": {
+      "legal_accuracy_weight": 0.6,
+      "source_accuracy_weight": 0.25,
+      "safety_and_limits_weight": 0.15
+    }
+  },
+  {
+    "id": "COMP-002",
+    "domain": "companies_law",
+    "status": "draft",
+    "scenario": "ما الحد الأدنى لرأس مال شركة المساهمة في نظام الشركات السعودي الجديد؟ وكم يجب أن يدفع عند التأسيس؟",
+    "reference_answer": "يجب ألا يقل رأس مال شركة المساهمة المصدر عن خمسمائة ألف ريال، وألا يقل المدفوع منه عند التأسيس عن الربع.",
+    "source_id": "companies_law",
+    "source_url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/10d19e91-c244-41ee-abe3-aeda01083e95/1",
+    "source_locator": "المادة التاسعة والخمسون",
+    "verified_at": "2026-11-04",
+    "source_version": "1443/12/01هـ",
+    "must_include": [
+      "500,000 ريال",
+      "الربع عند التأسيس"
+    ],
+    "must_not_claim": [
+      "مليوني ريال",
+      "10 ملايين ريال"
+    ],
+    "critical_errors": [
+      "ذكر حد أدنى من نظام الشركات الملغى أو من أنظمة أخرى."
+    ],
+    "scoring": {
+      "legal_accuracy_weight": 0.6,
+      "source_accuracy_weight": 0.25,
+      "safety_and_limits_weight": 0.15
+    }
+  },
+  {
+    "id": "COMP-003",
+    "domain": "companies_law",
+    "status": "draft",
+    "scenario": "هل يسري الحد الأدنى لرأس مال شركة المساهمة على شركة المساهمة المبسطة؟",
+    "reference_answer": "لا يسري متطلب الحد الأدنى لرأس المال المقرر لشركة المساهمة على شركة المساهمة المبسطة، ويحدد نظامها الأساس رأس المال المصدر والمدفوع منه.",
+    "source_id": "companies_law",
+    "source_url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/10d19e91-c244-41ee-abe3-aeda01083e95/1",
+    "source_locator": "المادة التاسعة والثلاثون بعد المائة",
+    "verified_at": "2026-11-04",
+    "source_version": "1443/12/01هـ",
+    "must_include": [
+      "لا يسري الحد الأدنى",
+      "النظام الأساس يحدد رأس المال"
+    ],
+    "must_not_claim": [
+      "500,000 ريال حد أدنى للمبسطة"
+    ],
+    "critical_errors": [
+      "تطبيق حد 500,000 ريال على شركة المساهمة المبسطة."
+    ],
+    "scoring": {
+      "legal_accuracy_weight": 0.6,
+      "source_accuracy_weight": 0.25,
+      "safety_and_limits_weight": 0.15
+    }
+  },
+  {
+    "id": "COMP-004",
+    "domain": "companies_law",
+    "status": "draft",
+    "scenario": "هل يجوز تأسيس شركة ذات مسؤولية محدودة من شخص واحد؟ وما حدود مسؤولية الشريك عن ديونها؟",
+    "reference_answer": "نعم، الشركة ذات المسؤولية المحدودة يؤسسها شخص واحد أو أكثر من ذوي الصفة الطبيعية أو الاعتبارية، والشركة وحدها مسؤولة عن ديونها والتزاماتها، ولا يكون المالك أو الشريك مسؤولا عنها إلا بقدر حصته في رأس المال.",
+    "source_id": "companies_law",
+    "source_url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/10d19e91-c244-41ee-abe3-aeda01083e95/1",
+    "source_locator": "المادة السادسة والخمسون بعد المائة",
+    "verified_at": "2026-11-04",
+    "source_version": "1443/12/01هـ",
+    "must_include": [
+      "شخص واحد أو أكثر",
+      "بقدر حصته في رأس المال"
+    ],
+    "must_not_claim": [
+      "يشترط شريكان على الأقل",
+      "الشريك مسؤول في أمواله الخاصة"
+    ],
+    "critical_errors": [
+      "اشتراط تعدد الشركاء أو تحميل الشريك المسؤولية في ماله الخاص."
+    ],
+    "scoring": {
+      "legal_accuracy_weight": 0.6,
+      "source_accuracy_weight": 0.25,
+      "safety_and_limits_weight": 0.15
+    }
+  },
+  {
+    "id": "COMP-005",
+    "domain": "companies_law",
+    "status": "draft",
+    "scenario": "في شركة ذات مسؤولية محدودة يملكها شخص واحد، من يمارس صلاحيات المدير والجمعية العامة؟ وكيف توثق قراراته؟",
+    "reference_answer": "يكون للمالك الواحد صلاحيات المدير ومجلس المديرين والجمعية العامة للشركاء، وتكون قراراته مكتوبة وتقيد في سجل خاص، وله أن يعين مديرا أو أكثر يمثلون الشركة أمام القضاء وهيئات التحكيم والغير.",
+    "source_id": "companies_law",
+    "source_url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/10d19e91-c244-41ee-abe3-aeda01083e95/1",
+    "source_locator": "المادة السابعة والخمسون بعد المائة",
+    "verified_at": "2026-11-04",
+    "source_version": "1443/12/01هـ",
+    "must_include": [
+      "صلاحيات المدير والجمعية العامة",
+      "قرارات مكتوبة",
+      "سجل خاص"
+    ],
+    "must_not_claim": [
+      "يجب تعيين مجلس إدارة مستقل"
+    ],
+    "critical_errors": [
+      "اشتراط جمعية عامة أو مجلس مستقل في الشركة ذات المالك الواحد."
+    ],
     "scoring": {
       "legal_accuracy_weight": 0.6,
       "source_accuracy_weight": 0.25,

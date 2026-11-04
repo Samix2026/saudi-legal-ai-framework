@@ -1,0 +1,148 @@
+[
+  {
+    "id": "CCRT-001",
+    "domain": "commercial_courts",
+    "status": "draft",
+    "scenario": "ما المدة التي لا تسمع بعدها الدعاوى التجارية أمام المحاكم التجارية السعودية؟ ومتى تبدأ؟",
+    "reference_answer": "فيما لم يرد فيه نص خاص، لا تسمع الدعاوى الداخلة في اختصاص المحكمة بعد مضي خمس سنوات من تاريخ نشوء الحق المدعى به، إلا إذا أقر المدعى عليه بالحق أو تقدم المدعي بعذر تقبله المحكمة.",
+    "source_id": "commercial_courts_law",
+    "source_url": "https://qadha.org.sa/files/3/%D9%85%D8%B1%D9%83%D8%B2%20%D8%A7%D9%84%D8%A8%D8%AD%D9%88%D8%AB%20%D9%88%D8%A7%D9%84%D8%AF%D8%B1%D8%A7%D8%B3%D8%A7%D8%AA/%D9%86%D8%B8%D8%A7%D9%85%20%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%83%D9%85%20%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D9%8A%D8%A9%20%D9%88%D9%84%D9%88%D8%A7%D8%A6%D8%AD%D9%87%20%D8%A7%D9%84%D8%AA%D9%86%D9%81%D9%8A%D8%B0%D9%8A%D8%A9.pdf",
+    "source_locator": "المادة الرابعة والعشرون",
+    "verified_at": "2026-11-04",
+    "source_version": "1441/08/15هـ",
+    "must_include": [
+      "خمس سنوات",
+      "من تاريخ نشوء الحق",
+      "إقرار المدعى عليه",
+      "عذر تقبله المحكمة"
+    ],
+    "must_not_claim": [
+      "ثلاث سنوات",
+      "عشر سنوات",
+      "من تاريخ رفع الدعوى"
+    ],
+    "critical_errors": [
+      "إغفال الاستثناءين (الإقرار والعذر) أو الخطأ في المدة."
+    ],
+    "scoring": {
+      "legal_accuracy_weight": 0.6,
+      "source_accuracy_weight": 0.25,
+      "safety_and_limits_weight": 0.15
+    }
+  },
+  {
+    "id": "CCRT-002",
+    "domain": "commercial_courts",
+    "status": "draft",
+    "scenario": "نزاع بين تاجرين على صفقة تجارية قيمتها 40,000 ريال. هل تختص به المحكمة التجارية، أم أن حد مائة ألف ريال يمنع ذلك؟",
+    "reference_answer": "تختص المحكمة التجارية بالمنازعات بين التجار الناشئة عن أعمالهم التجارية الأصلية أو التبعية دون حد مالي. أما حد المائة ألف ريال فيخص الدعاوى المقامة على التاجر في منازعات العقود التجارية (البند الثاني)، ولا ينطبق على النزاع بين تاجرين.",
+    "source_id": "commercial_courts_law",
+    "source_url": "https://qadha.org.sa/files/3/%D9%85%D8%B1%D9%83%D8%B2%20%D8%A7%D9%84%D8%A8%D8%AD%D9%88%D8%AB%20%D9%88%D8%A7%D9%84%D8%AF%D8%B1%D8%A7%D8%B3%D8%A7%D8%AA/%D9%86%D8%B8%D8%A7%D9%85%20%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%83%D9%85%20%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D9%8A%D8%A9%20%D9%88%D9%84%D9%88%D8%A7%D8%A6%D8%AD%D9%87%20%D8%A7%D9%84%D8%AA%D9%86%D9%81%D9%8A%D8%B0%D9%8A%D8%A9.pdf",
+    "source_locator": "المادة السادسة عشرة",
+    "verified_at": "2026-11-04",
+    "source_version": "1441/08/15هـ",
+    "must_include": [
+      "المنازعات بين التجار",
+      "حد المائة ألف لا ينطبق بين التجار"
+    ],
+    "must_not_claim": [
+      "لا تختص لأن المبلغ أقل من مائة ألف",
+      "تختص المحكمة العامة"
+    ],
+    "critical_errors": [
+      "تطبيق حد المائة ألف ريال على النزاع بين تاجرين."
+    ],
+    "scoring": {
+      "legal_accuracy_weight": 0.6,
+      "source_accuracy_weight": 0.25,
+      "safety_and_limits_weight": 0.15
+    }
+  },
+  {
+    "id": "CCRT-003",
+    "domain": "commercial_courts",
+    "status": "draft",
+    "scenario": "قبل رفع دعوى تجارية، هل يلزم المدعي إخطار المدعى عليه؟",
+    "reference_answer": "في الدعاوى التي تحددها اللائحة التنفيذية، يجب على المدعي أن يخطر المدعى عليه كتابة بالحق المدعى به قبل رفع الدعوى بخمسة عشر يوما على الأقل. ولا يشمل ذلك كل الدعاوى، بل ما تحدده اللائحة.",
+    "source_id": "commercial_courts_law",
+    "source_url": "https://qadha.org.sa/files/3/%D9%85%D8%B1%D9%83%D8%B2%20%D8%A7%D9%84%D8%A8%D8%AD%D9%88%D8%AB%20%D9%88%D8%A7%D9%84%D8%AF%D8%B1%D8%A7%D8%B3%D8%A7%D8%AA/%D9%86%D8%B8%D8%A7%D9%85%20%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%83%D9%85%20%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D9%8A%D8%A9%20%D9%88%D9%84%D9%88%D8%A7%D8%A6%D8%AD%D9%87%20%D8%A7%D9%84%D8%AA%D9%86%D9%81%D9%8A%D8%B0%D9%8A%D8%A9.pdf",
+    "source_locator": "المادة التاسعة عشرة",
+    "verified_at": "2026-11-04",
+    "source_version": "1441/08/15هـ",
+    "must_include": [
+      "كتابة",
+      "خمسة عشر يوما",
+      "الدعاوى التي تحددها اللائحة"
+    ],
+    "must_not_claim": [
+      "الإخطار واجب في جميع الدعاوى",
+      "30 يوما"
+    ],
+    "critical_errors": [
+      "تعميم شرط الإخطار على كل الدعاوى أو الخطأ في المدة."
+    ],
+    "scoring": {
+      "legal_accuracy_weight": 0.6,
+      "source_accuracy_weight": 0.25,
+      "safety_and_limits_weight": 0.15
+    }
+  },
+  {
+    "id": "CCRT-004",
+    "domain": "commercial_courts",
+    "status": "draft",
+    "scenario": "هل يمكن استئناف كل أحكام المحكمة التجارية الابتدائية؟",
+    "reference_answer": "الأصل أن أحكام الدوائر الابتدائية قابلة للاستئناف، عدا الدعاوى اليسيرة التي لا تزيد على خمسين ألف ريال وفق ما يحدده المجلس الأعلى للقضاء.",
+    "source_id": "commercial_courts_law",
+    "source_url": "https://qadha.org.sa/files/3/%D9%85%D8%B1%D9%83%D8%B2%20%D8%A7%D9%84%D8%A8%D8%AD%D9%88%D8%AB%20%D9%88%D8%A7%D9%84%D8%AF%D8%B1%D8%A7%D8%B3%D8%A7%D8%AA/%D9%86%D8%B8%D8%A7%D9%85%20%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%83%D9%85%20%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D9%8A%D8%A9%20%D9%88%D9%84%D9%88%D8%A7%D8%A6%D8%AD%D9%87%20%D8%A7%D9%84%D8%AA%D9%86%D9%81%D9%8A%D8%B0%D9%8A%D8%A9.pdf",
+    "source_locator": "المادة الثامنة والسبعون",
+    "verified_at": "2026-11-04",
+    "source_version": "1441/08/15هـ",
+    "must_include": [
+      "قابلة للاستئناف",
+      "الدعاوى اليسيرة",
+      "خمسين ألف ريال"
+    ],
+    "must_not_claim": [
+      "كل الأحكام قابلة للاستئناف دون استثناء",
+      "مائة ألف ريال"
+    ],
+    "critical_errors": [
+      "إنكار استثناء الدعاوى اليسيرة أو الخطأ في حده."
+    ],
+    "scoring": {
+      "legal_accuracy_weight": 0.6,
+      "source_accuracy_weight": 0.25,
+      "safety_and_limits_weight": 0.15
+    }
+  },
+  {
+    "id": "CCRT-005",
+    "domain": "commercial_courts",
+    "status": "draft",
+    "scenario": "ما مهلة الاستئناف على حكم المحكمة التجارية؟ وهل تختلف في القضايا المستعجلة؟",
+    "reference_answer": "مهلة الاستئناف ثلاثون يوما، وعشرة أيام للأحكام الصادرة في الاختصاص والدعاوى المستعجلة، وتبدأ من التاريخ المحدد لتسليم صورة نسخة الحكم.",
+    "source_id": "commercial_courts_law",
+    "source_url": "https://qadha.org.sa/files/3/%D9%85%D8%B1%D9%83%D8%B2%20%D8%A7%D9%84%D8%A8%D8%AD%D9%88%D8%AB%20%D9%88%D8%A7%D9%84%D8%AF%D8%B1%D8%A7%D8%B3%D8%A7%D8%AA/%D9%86%D8%B8%D8%A7%D9%85%20%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%83%D9%85%20%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D9%8A%D8%A9%20%D9%88%D9%84%D9%88%D8%A7%D8%A6%D8%AD%D9%87%20%D8%A7%D9%84%D8%AA%D9%86%D9%81%D9%8A%D8%B0%D9%8A%D8%A9.pdf",
+    "source_locator": "المادة التاسعة والسبعون",
+    "verified_at": "2026-11-04",
+    "source_version": "1441/08/15هـ",
+    "must_include": [
+      "ثلاثون يوما",
+      "عشرة أيام للمستعجلة",
+      "من تاريخ تسليم صورة الحكم"
+    ],
+    "must_not_claim": [
+      "ستون يوما",
+      "من تاريخ النطق بالحكم"
+    ],
+    "critical_errors": [
+      "الخطأ في المدة أو في بداية احتسابها."
+    ],
+    "scoring": {
+      "legal_accuracy_weight": 0.6,
+      "source_accuracy_weight": 0.25,
+      "safety_and_limits_weight": 0.15
+    }
+  }
+]
