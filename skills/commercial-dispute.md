@@ -429,6 +429,10 @@ What AI cannot assess in this context:
   — relationship: precedes
   — formal demand notices must be drafted before court filing
 
+* [sports-dispute.md](../skills/sports-dispute.md)
+  — relationship: cross_checks
+  — club sponsorship and broadcasting disputes can fall under the Commercial Courts
+
 ---
 
 ## Related examples / أمثلة مرتبطة

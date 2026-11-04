@@ -414,6 +414,10 @@ What AI cannot assess in this context:
   — relationship: depends_on
   — arbitration requests, submissions, and award enforcement filings require legal drafting
 
+* [sports-dispute.md](../skills/sports-dispute.md)
+  — relationship: cross_checks
+  — CAS and SAFF dispute bodies are the sports counterpart of commercial arbitration
+
 ---
 
 ## Related examples / أمثلة مرتبطة

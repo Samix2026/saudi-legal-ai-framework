@@ -128,7 +128,11 @@ saudi-legal-ai-framework/
 │   ├── legal-profession-law.md
 │   ├── sports-law-saff.md
 │   ├── fifa-rstp.md
-│   └── real-estate-arbitration-reac.md
+│   ├── real-estate-arbitration-reac.md
+│   ├── regulation-index.md
+│   ├── saudi-laws.md
+│   ├── open-data-judicial-sources.md
+│   └── judicial-decisions/        # ملفات PDF لأحكام 1435هـ
 ├── datasets/                      # مجموعات بيانات قانونية منظمة
 ├── examples/                      # أمثلة تطبيقية
 ├── prompts/                       # قوالب مطالبات
@@ -165,7 +169,7 @@ saudi-legal-ai-framework/
 
 **الرؤية المستقبلية:** استكمال التغطية لخمسة مجالات تشريعية رئيسية، وإضافة أمثلة في قطاعات العقار والتقنية والرعاية الصحية.
 مراجعة المحتوى من محامين سعوديين مرخصين، ثم واجهة ويب تتيح رفع المستندات وتشغيل التحليل مباشرة.
-المدى البعيد: MCP server يربط النماذج بقواعد البيانات القضائية وNصوص الأنظمة مباشرة.
+المدى البعيد: MCP server يربط النماذج بقواعد البيانات القضائية ونصوص الأنظمة مباشرة.
 
 ---
 

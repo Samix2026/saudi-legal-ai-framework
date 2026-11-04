@@ -103,3 +103,22 @@
 
 > **إخلاء مسؤولية:** هذا الـ skill للتوجيه والبحث الأولي فقط،
 > ولا يُغني عن استشارة محامٍ مرخّص متخصص في الملكية الفكرية.
+
+---
+
+## Related skills / مهارات مرتبطة
+
+* [contract-review.md](../skills/contract-review.md)
+  — relationship: cross_checks
+  — بنود الترخيص ونقل ملكية الحقوق الفكرية تراجع ضمن مراجعة العقود
+
+* [commercial-dispute.md](../skills/commercial-dispute.md)
+  — relationship: escalates_to
+  — نزاعات التعدي على العلامات وحقوق المؤلف قد تنتقل الى التقاضي التجاري
+
+---
+
+## Related examples / أمثلة مرتبطة
+
+لا توجد أمثلة تطبيقية لهذه المهارة بعد. المساهمات مرحب بها في `examples/`.
+No worked examples for this skill yet. Contributions are welcome in `examples/`.

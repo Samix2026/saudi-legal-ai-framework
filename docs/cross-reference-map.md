@@ -67,6 +67,13 @@ This map shows the relationships between project files. The goal: every contribu
 | `sources/zatca-e-invoicing.md` | `skills/compliance-check.md` | §11 | الفوترة الإلكترونية — الإصدار والربط والتكامل |
 | `sources/competition-law.md` | `skills/commercial-dispute.md` | §11 | الممارسات المخلّة بالمنافسة وإساءة الوضع المهيمن والتركز الاقتصادي |
 | `sources/intellectual-property-law.md` | `skills/intellectual-property-law.md` | الأنظمة ذات الصلة | عنقود أنظمة الملكية الفكرية تحت إشراف SAIP |
+| `sources/fifa-rstp.md` | `skills/sports-dispute.md` | المصادر الرسمية | الإطار الدولي لعقود وانتقالات اللاعبين |
+| `sources/sports-law-saff.md` | `skills/sports-dispute.md` | المصادر الرسمية | لوائح SAFF المحلية وتسوية النزاعات |
+| `sources/arbitration-law.md` | `skills/arbitration.md` | §11 | الإطار الحاكم الأساسي للتحكيم |
+| `sources/real-estate-arbitration-reac.md` | `skills/arbitration.md` | §11 | التحكيم العقاري المتخصص |
+| `sources/real-estate-arbitration-reac.md` | `skills/real-estate-contracts.md` | §11 | تسوية نزاعات العقود العقارية عبر REAC |
+| `sources/bankruptcy-law.md` | `skills/commercial-dispute.md` | §11 | إجراءات الإفلاس وأثرها على المطالبات |
+| `sources/civil-transactions-law.md` | `skills/sports-dispute.md` | المصادر الرسمية | مبادئ العقود في عقود اللاعبين والرعاية |
 
 ---
 
@@ -112,6 +119,8 @@ This map shows the relationships between project files. The goal: every contribu
 | `skills/labor-law-analysis.md` | 3 | `examples/employment-contract-review.md` · `examples/labor-dispute-job-change-example.md` · `examples/labor-law-example.md` · | Strong |
 | `skills/legal-drafting.md` | 1 | `examples/legal-drafting-example.md` | Partial |
 | `skills/real-estate-contracts.md` | 2 | `examples/commercial-lease-exit-example.md` · `examples/real-estate-example.md` | Strong |
+| `skills/sports-dispute.md` | 1 | `examples/sports-transfer-dispute.md` | Partial |
+| `skills/intellectual-property-law.md` | 0 | — | Missing |
 
 **Coverage rules:** 0 examples → Missing | 1 example → Partial | 2+ examples → Strong
 
@@ -126,13 +135,15 @@ This map shows the relationships between project files. The goal: every contribu
 
 | Skill | Related Skills | Relationship Types | Graph Degree | Connectivity Status |
 |---|---|---|---|---|
-| `skills/arbitration.md` | `skills/commercial-dispute.md` · `skills/legal-drafting.md` | `alternative_to` · `depends_on` | 4 (2 out, 2 in) | Connected |
-| `skills/commercial-dispute.md` | `skills/arbitration.md` · `skills/legal-drafting.md` | `alternative_to` · `precedes` | 4 (2 out, 2 in) | Connected |
+| `skills/arbitration.md` | `skills/commercial-dispute.md` · `skills/legal-drafting.md` · `skills/sports-dispute.md` | `alternative_to` · `depends_on` · `cross_checks` | 6 (3 out, 3 in) | Connected |
+| `skills/commercial-dispute.md` | `skills/arbitration.md` · `skills/legal-drafting.md` · `skills/sports-dispute.md` | `alternative_to` · `precedes` · `cross_checks` | 6 (3 out, 3 in) | Connected |
 | `skills/compliance-check.md` | `skills/labor-law-analysis.md` | `cross_checks` | 4 (1 out, 3 in) | Connected |
 | `skills/contract-review.md` | `skills/commercial-dispute.md` · `skills/arbitration.md` · `skills/legal-drafting.md` · `skills/compliance-check.md` | `escalates_to` · `precedes` · `cross_checks` | 7 (4 out, 3 in) | Connected |
 | `skills/labor-law-analysis.md` | `skills/compliance-check.md` · `skills/contract-review.md` | `cross_checks` · `depends_on` | 3 (2 out, 1 in) | Connected |
 | `skills/legal-drafting.md` | `skills/contract-review.md` | `depends_on` | 4 (1 out, 3 in) | Connected |
 | `skills/real-estate-contracts.md` | `skills/contract-review.md` · `skills/compliance-check.md` | `specializes` · `depends_on` | 2 (2 out, 0 in) | Connected |
+| `skills/sports-dispute.md` | `skills/arbitration.md` · `skills/commercial-dispute.md` | `cross_checks` | 4 (2 out, 2 in) | Connected |
+| `skills/intellectual-property-law.md` | `skills/contract-review.md` · `skills/commercial-dispute.md` | `cross_checks` · `escalates_to` | 2 (2 out, 0 in) | Connected |
 
 **Allowed relationship types:** `escalates_to` · `alternative_to` · `cross_checks` · `depends_on` · `specializes` · `precedes` · `shares_sources_with` · `overlaps_with`
 
